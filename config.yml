@@ -25,16 +25,16 @@ params:
     #- location
     - speakers
     - schedule
-    - sponsors
+    #- sponsors
     - partners
     #- contact
 
   # Titles which you can translate to other languages
   Titles:
-    about: "About"
+    about: "A propos"
     location: "Location"
     speakers: "Speakers"
-    schedule: "Schedule"
+    schedule: "Programme"
     sponsors: "Sponsors"
     partners: "Partners"
     contact: "Contact"
@@ -45,10 +45,6 @@ params:
     text: "Billeterie"
     link: "https://www.billetweb.fr"
 
-  # Fork me on GitHub, if you don't want this, just remove the forkButton property
-  ForkButton:
-    repository: "https://github.com/jweslley/hugo-conference/"
-
   # List of Sponsors
   Sponsors:
     - name: "Sponsor1"
@@ -57,44 +53,57 @@ params:
 
   # List of Partners
   Partners:
-    - name: "Hugo"
-      logo: "/img/hugo.jpg"
-      url: "https://gohugo.io"
-    - name: "BrazilJS"
-      logo: "/img/partner.png"
-      url: "http://braziljs.org"
+    - name: "Anticipa"
+      logo: "/img/partners/anticipa.png"
+      url: "https://www.technopole-anticipa.com/french-tech-lannion/"
+
+  Speakers:
+    - name: "Fulup Le Foll"
+      photo: "/img/speakers/fulup.jpg"
+      bio: "Fulup est diplômé de l’école supérieure de l'armement d’Arcueil. Il a commencé sa carrière comme ingénieur système pour le département de la défense au centre de recherche de l’armement à Bruz/Rennes où il travaillait sur les systèmes temps réels pour les simulateurs d’hélicoptères et d’avions. En 1990 il quitte le secteur public et prend la direction technique de « Wind River System » Europe. Professeur associé à l’Université de Bretagne Sud, il enseignait la structure interne des systèmes d’exploitation, les architectures réseaux et les systèmes embarqués. Fulup a donné de nombreuses conférences à l’international et participé de manière active comme expert technique dans divers groupes de normalisations au niveau mondial. Il participe actuellement aux consortiums GENIVI et AGL pour le compte de Renesas."
+      company: "iot.bzh"
+      link:
+        href: "https://www.linkedin.com/in/fulup"
+        text: "linkedin"
+    - name: "Clément Bénier"
+      photo: "/img/speakers/clement.jpg"
+      bio: "Clément détient un master en logiciel et système embarqué. Il a travaillé un peu plus de 3 ans en tant que Ingénieur Linux pour l'embarqué chez SMILE/Open Grande entreprise, architecte Open Source pour laquelle il travailla pour fournir des distributions personalisées Linux pour véhicules classique ainsi que militaire et smartphones. De plus, il participa à la documentation de l'Enlightenment Foundation Libraries (EFL)"
+      company: "iot.bzh"
+      link:
+        href: "https://www.linkedin.com/in/clement-benier"
+        text: "linkedin"
 
   # The entire schedule
   Schedule:
     - name: "Check-in / Breakfast"
       time: "9h00"
 
-    - name: "Alice Bob"
-      photo: "/img/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "AB fundation"
-      link:
-        href: "http://twitter.com/alicebob"
-        text: "@alicebob"
-      presentation:
-        title: "the title of alice and bob"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "10h00"
+#    - name: "Fulup Le Foll"
+#      photo: "/img/speakers/fulup.jpg"
+#      bio: "Fulup est diplômé de l’école supérieure de l'armement d’Arcueil. Il a commencé sa carrière comme ingénieur système pour le département de la défense au centre de recherche de l’armement à Bruz/Rennes où il travaillait sur les systèmes temps réels pour les simulateurs d’hélicoptères et d’avions. En 1990 il quitte le secteur public et prend la direction technique de « Wind River System » Europe. Professeur associé à l’Université de Bretagne Sud, il enseignait la structure interne des systèmes d’exploitation, les architectures réseaux et les systèmes embarqués. Fulup a donné de nombreuses conférences à l’international et participé de manière active comme expert technique dans divers groupes de normalisations au niveau mondial. Il participe actuellement aux consortiums GENIVI et AGL pour le compte de Renesas."
+#      company: "iot.bzh"
+#      link:
+#        href: "https://www.linkedin.com/in/fulup"
+#        text: "linkedin"
+#      presentation:
+#        title: "Global edge to cloud security model"
+#        description: "Industrial IOTs are facing a fundamental problem: the more connected it gets, the more cybersecurity threats it faces. On one hand data link reliability/bandwidth changes caused by cheap wireless connectivity make harder to reliably push sensor data to the cloud. On the other hand not only you have to authenticate the edge system pushing the data, but you also have to authenticate the end user in charge of the system. This talk is about implementing a reliable global Edge to Cloud scheme. It start from describing how microservices framework can be couple to a mandatory access control and transfer security attributes from the cloud to the edge. Then it explains how social identity model as OpenID connect can be use to complement Linux LSM and finally how embedded Time Series DB, can be used to securely and selectively funnel data from the target to the cloud with unstable data link.."
+#        time: "10h00"
 
-    - name: "Lunch"
+    - name: "Repas"
       time: "12h00"
 
-    - name: "FooBar"
-      photo: "/img/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "FooBar inc"
-      link:
-        href: "http://github.com/foobar"
-        text: "@foobar"
-      presentation:
-        title: "Presenting FooBar"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "14h00"
+#    - name: "FooBar"
+#      photo: "/img/speaker.jpg"
+#      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+#      company: "FooBar inc"
+#      link:
+#        href: "http://github.com/foobar"
+#        text: "@foobar"
+#      presentation:
+#        title: "Presenting FooBar"
+#        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+#        time: "14h00"
 
     - name: "Coffee-break"
       time: "15h00"
