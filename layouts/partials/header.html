@@ -4,7 +4,7 @@
   </a>
 {{ end }}
 
-<header class="header">
+<header class="header" style="background-position: center top">
   <div class="wrapper">
     <h1 class="logo-name">
       <a class="logo-link" href="#" title="{{ .name }}" itemprop="name">&nbsp;</a>
@@ -13,7 +13,7 @@
 
     <div class="call-action-area">
       {{ with .calltoaction }}
-        <a href="{{ .link }}" class="call-action-link" target="_blank" title="{{ .text }}" style="background-color: #e3506d">{{ .text }}</a>
+        <a href="{{ .link }}" class="call-action-link" target="_blank" title="{{ .text }}">{{ .text }}</a>
       {{ end }}
     </div>
   </div>
