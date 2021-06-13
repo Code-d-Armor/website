@@ -43,7 +43,7 @@ params:
   # If you don't want this, just remove the callToAction property.
   CallToAction:
     text: "Billeterie"
-    link: "https://www.billetweb.fr"
+    link: "https://www.billetweb.fr/devfest-perros"
 
   # List of Sponsors
   Sponsors:
