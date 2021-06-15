@@ -62,16 +62,16 @@ params:
       photo: "/img/speakers/fulup.jpg"
       bio: "Fulup est diplômé de l’école supérieure de l'armement d’Arcueil. Il a commencé sa carrière comme ingénieur système pour le département de la défense au centre de recherche de l’armement à Bruz/Rennes où il travaillait sur les systèmes temps réels pour les simulateurs d’hélicoptères et d’avions. En 1990 il quitte le secteur public et prend la direction technique de « Wind River System » Europe. Professeur associé à l’Université de Bretagne Sud, il enseignait la structure interne des systèmes d’exploitation, les architectures réseaux et les systèmes embarqués. Fulup a donné de nombreuses conférences à l’international et participé de manière active comme expert technique dans divers groupes de normalisations au niveau mondial. Il participe actuellement aux consortiums GENIVI et AGL pour le compte de Renesas."
       company: "iot.bzh"
-      link:
-        href: "https://www.linkedin.com/in/fulup"
-        text: "linkedin"
+#      link:
+#        href: "https://www.linkedin.com/in/fulup"
+#        text: "linkedin"
     - name: "Clément Bénier"
       photo: "/img/speakers/clement.jpg"
       bio: "Clément détient un master en logiciel et système embarqué. Il a travaillé un peu plus de 3 ans en tant que Ingénieur Linux pour l'embarqué chez SMILE/Open Grande entreprise, architecte Open Source pour laquelle il travailla pour fournir des distributions personalisées Linux pour véhicules classique ainsi que militaire et smartphones. De plus, il participa à la documentation de l'Enlightenment Foundation Libraries (EFL)"
       company: "iot.bzh"
-      link:
-        href: "https://www.linkedin.com/in/clement-benier"
-        text: "linkedin"
+#      link:
+#        href: "https://www.linkedin.com/in/clement-benier"
+#        text: "linkedin"
     - name: "Guillaume Teissier"
       photo: "/img/speakers/guillaume.jpg"
       bio: "Guillaume Teissier is a French security researcher working for Thales group. His main activities are reverse engineering and vulnerability assessment. He has given talks at famous security conferences, and responsibly disclosed vulnerabilities affecting signalling network and network virtualisation products."
