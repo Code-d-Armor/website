@@ -72,6 +72,14 @@ params:
       link:
         href: "https://www.linkedin.com/in/clement-benier"
         text: "linkedin"
+    - name: "Guillaume Teissier"
+      photo: "/img/speakers/guillaume.jpg"
+      bio: "Guillaume Teissier is a French security researcher working for Thales group. His main activities are reverse engineering and vulnerability assessment. He has given talks at famous security conferences, and responsibly disclosed vulnerabilities affecting signalling network and network virtualisation products."
+      company: "Thales"
+    - name: "Magali Denelle"
+      photo: "/img/speakers/magali.jpg"
+      bio: "Magali Denelle is a French computer science student at Epitech Paris. She is interested in privacy, Android internals and more generally everything related to cyber security.
+      company: "Thales"
 
   # The entire schedule
   Schedule:
