@@ -1,0 +1,18 @@
+<nav id="nav">
+  <ul class="wrapper">
+    {{ range $section := $.Site.Params.Sections }}
+      <li class="nav-item">
+        <a href="#{{ $section }}" target="_blank" title="{{ index $.Site.Params.Titles $section }}" class="nav-link">
+          {{ index $.Site.Params.Titles $section }}
+        </a>
+      </li>
+    {{ end }}
+    <li class="nav-item">
+      <a href="https://www.billetweb.fr/devfest-perros" target="_billet" title="Billeterie" class="nav-link">
+        Billeterie
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<hr>
