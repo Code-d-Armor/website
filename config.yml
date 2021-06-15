@@ -78,7 +78,7 @@ params:
       company: "Thales"
     - name: "Magali Denelle"
       photo: "/img/speakers/magali.jpg"
-      bio: "Magali Denelle is a French computer science student at Epitech Paris. She is interested in privacy, Android internals and more generally everything related to cyber security.
+      bio: "Magali Denelle is a French computer science student at Epitech Paris. She is interested in privacy, Android internals and more generally everything related to cyber security."
       company: "Thales"
 
   # The entire schedule
