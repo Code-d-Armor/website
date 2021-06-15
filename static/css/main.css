@@ -746,18 +746,13 @@ img.float-logo-devfest {
 }
 
 .call-action-area .price {
-	color: #fcbc05;
+	color: #2b2b2b;
 }
 
 .call-action-area .call-action-link,
 .btn {
-	background-color: #fcbc05;
-	background-image: -moz-linear-gradient(top, #fcbc05 30%, #f0a303 150%);
-	background-image: -webkit-linear-gradient(top, #fcbc05 30%, #f0a303 150%);
-	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#fddd52', endColorstr='#f0a303');
-	background-image: linear-gradient(top, #fcbc05 30%, #f0a303 150%);
-	color: #2b2b2b;
-
+	background-color: #2b2b2b;
+	color: #ffffff;
 	border-radius: 40px;
 }
 .github-link {

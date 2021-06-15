@@ -42,7 +42,7 @@ params:
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
   CallToAction:
-    text: "Billeterie"
+    text: "Billetterie"
     link: "https://www.billetweb.fr/devfest-perros"
 
   # List of Sponsors
