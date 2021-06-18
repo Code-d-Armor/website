@@ -33,7 +33,9 @@ hgroup,
 nav,
 section {
 	display: block;
+
 }
+
 audio,
 canvas,
 video {
@@ -307,6 +309,7 @@ p {
 	font-size: 1.6em;
 	line-height: 1.6em;
 	margin-bottom: 1.4em;
+
 }
 .photo {
 	max-width: 100%;
@@ -378,26 +381,58 @@ nav {
 	top: 0;
 }
 /* =============================================================================
+   TEXT
+   ========================================================================== */
+
+
+
+ul.simple-list {
+	list-style: none; /* Remove HTML bullets */
+	padding: 0;
+	margin: 0.5em;
+	font-size:1.6em;
+	line-height:1.6em;
+}
+
+li {
+	padding-left: 16px;
+}
+
+li::before {
+	content: "•"; /* Insert content that looks like bullets */
+	padding-right: 8px;
+
+}
+/* =============================================================================
    ABOUT
    ========================================================================== */
 .about {
 	padding: 19px;
 	margin: 0 -20px 0;
+
 }
 /* =============================================================================
    SPEAKER
    ========================================================================== */
+.speakers {
+	margin: 0 20px 0;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+
+}
 .speakers-item {
 	position: relative;
 	min-height: 180px;
 	padding-left: 180px;
 	margin-bottom: 30px;
 	border-bottom: 1px dashed #e7e7e7;
+	margin:1em;
 }
 .speaker-photo {
 	position: absolute;
 	top: 0;
 	left: 0;
+	margin: 0.5em;
 	display: block;
 	width: 120px;
 	height: 120px;
@@ -412,8 +447,10 @@ nav {
 	padding: 10px 15px;
 	letter-spacing: -0.03em;
 }
+
 .speakers-name {
-	font-size: 1.6em;
+
+	font-size:2em;
 }
 .speakers-item p {
 	font-size: 1.4em;
@@ -463,6 +500,11 @@ nav {
 /* =============================================================================
    SPONSORS  and  PARTNERS
    ========================================================================== */
+.partners{
+	margin: 0 20px 0;
+	padding-left: 1em;
+	padding-right: 1em;
+}
 .sponsor-item,
 .partner-item {
 	display: inline-block;
@@ -535,6 +577,10 @@ nav {
 	.about {
 		margin: 0;
 	}
+	h3.speakers-name {
+
+		font-size:2em;
+	}
 }
 @media only screen and (min-width: 320px) and (max-width: 800px) {
 	/* schedule */
@@ -568,6 +614,11 @@ nav {
 	}
 	.schedule-tbl td.schedule-description {
 		font-size: 12px;
+	}
+	/* speakers */
+	h3.speakers-name {
+		padding-top: 1em;
+		font-size:2em;
 	}
 	/* partners */
 	.sponsor-item,
@@ -706,6 +757,7 @@ h6 {
    ========================================================================== */
 nav {
 	background: #2b2b2b;
+	padding-left:1em;
 }
 .nav-link {
 	color: #e7e7e7;
@@ -769,6 +821,7 @@ img.float-logo-devfest {
    ========================================================================== */
 .content a {
 	color: #34b8c2;
+	margin:2em;
 }
 .content a:hover,
 .content a:focus {
