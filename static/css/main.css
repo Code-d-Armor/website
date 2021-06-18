@@ -398,10 +398,12 @@ li {
 	padding-left: 16px;
 }
 
-li::before {
+li.simple-list::before {
 	content: "•"; /* Insert content that looks like bullets */
-	padding-right: 8px;
+}
 
+li::before {
+	padding-right: 8px;
 }
 /* =============================================================================
    ABOUT
