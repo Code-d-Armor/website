@@ -80,6 +80,10 @@ params:
       photo: "/img/speakers/magali.jpg"
       bio: "Magali Denelle is a French computer science student at Epitech Paris. She is interested in privacy, Android internals and more generally everything related to cyber security."
       company: "Thales"
+    - name: "Christophe Hauquiert"
+      photo: "/img/speakers/christophe.png"
+      bio: "Passionné depuis longtemps d'informatique et autodidacte je suis tombé très jeune dans la marmite en commençant par concevoir et administrer des infrastructures pour faire de l'hébergement de serveurs de jeux. J'ai ensuite découvert le domaine de la sécurité informatique et du hack, j'ai tout de suite accroché. Depuis je prend plaisir à apprendre et à continuer à développer mes compétences, toujours avec passion, sur ces deux domaines. Aujourd'hui je suis indépendant dans le domaine du cloud et de la cybersécurité et je fais également du bug bounty."
+      company: "Freelance"
 
   # The entire schedule
   Schedule:
