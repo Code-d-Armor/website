@@ -56,6 +56,9 @@ params:
     - name: "Anticipa"
       logo: "/img/partners/anticipa.png"
       url: "https://www.technopole-anticipa.com/french-tech-lannion/"
+    - name: "LTC"
+      logo: "/img/partners/ltc.jpg"
+      url: "https://www.lannion-tregor.com/"
 
   Speakers:
     - name: "Fulup Le Foll"
