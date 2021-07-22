@@ -90,6 +90,10 @@ params:
       photo: "/img/speakers/christophe.png"
       bio: "Passionné depuis longtemps d'informatique et autodidacte je suis tombé très jeune dans la marmite en commençant par concevoir et administrer des infrastructures pour faire de l'hébergement de serveurs de jeux. J'ai ensuite découvert le domaine de la sécurité informatique et du hack, j'ai tout de suite accroché. Depuis je prend plaisir à apprendre et à continuer à développer mes compétences, toujours avec passion, sur ces deux domaines. Aujourd'hui je suis indépendant dans le domaine du cloud et de la cybersécurité et je fais également du bug bounty."
       company: "Freelance"
+    - name: "David Rogel"
+      photo: "/img/speakers/david.jpg"
+      bio: "Après un parcours très diversifié, je suis arrivé chez Orange Cyberdefense pour construire l’expertise en sécurité applicative. J’interviens depuis 5 ans sur l’automatisation et l’industrialisation de la sécurité, avec depuis quelques mois des missions liées au cloud et aux nouvelles architectures applicatives."
+      company: "Orange Cyberdefense"
 
   # The entire schedule
   Schedule:
