@@ -66,7 +66,11 @@ params:
   Speakers:
     - name: "Florian Chazal"
       photo: "/img/speakers/florian.jpg"
-      bio: " Dev, Ops, ingénieur en tests et maintenant Solutions Architect sont les différents role que j'ai pu avoir au cours de ces 5 dernières années à travers les équipes d'Amazon Alexa, Zendesk et AWS entre la France et les US. Mon leitmotiv: avoir une couverture de tests et une automatisation suffisante pour pouvoir pousser du code un vendredi soir sans stress :)"
+      bio: "Dev, Ops, ingénieur en tests et maintenant Solutions Architect sont les différents role que j'ai pu avoir au cours de ces 5 dernières années à travers les équipes d'Amazon Alexa, Zendesk et AWS entre la France et les US. Mon leitmotiv: avoir une couverture de tests et une automatisation suffisante pour pouvoir pousser du code un vendredi soir sans stress :)"
+      company: "AWS"
+    - name: "Alexis Marcou"
+      photo: "/img/speakers/alexis.jpg"
+      bio: "J'ai travaillé, pendant plus de 12 ans, en tant qu'Architecte sur des plateformes de services de communication puis sur les évolutions de la plateforme Android dans le domaine des télecoms. Depuis 3 ans, j'accompagne les entreprises dans leur utilisation de solutions Cloud, avec une affinité pour le domaine du réseau et les principes du Well Architected Framework. La sécurité est un des piliers le plus important."
       company: "AWS"
     - name: "Fulup Le Foll"
       photo: "/img/speakers/fulup.jpg"
