@@ -64,6 +64,10 @@ params:
       url: "https://www.lannion-tregor.com/"
 
   Speakers:
+    - name: "Florian Chazal"
+      photo: "/img/speakers/florian.jpg"
+      bio: " Dev, Ops, ingénieur en tests et maintenant Solutions Architect sont les différents role que j'ai pu avoir au cours de ces 5 dernières années à travers les équipes d'Amazon Alexa, Zendesk et AWS entre la France et les US. Mon leitmotiv: avoir une couverture de tests et une automatisation suffisante pour pouvoir pousser du code un vendredi soir sans stress :)"
+      company: "AWS"
     - name: "Fulup Le Foll"
       photo: "/img/speakers/fulup.jpg"
       bio: "Fulup est diplômé de l’école supérieure de l'armement d’Arcueil. Il a commencé sa carrière comme ingénieur système pour le département de la défense au centre de recherche de l’armement à Bruz/Rennes où il travaillait sur les systèmes temps réels pour les simulateurs d’hélicoptères et d’avions. En 1990 il quitte le secteur public et prend la direction technique de « Wind River System » Europe. Professeur associé à l’Université de Bretagne Sud, il enseignait la structure interne des systèmes d’exploitation, les architectures réseaux et les systèmes embarqués. Fulup a donné de nombreuses conférences à l’international et participé de manière active comme expert technique dans divers groupes de normalisations au niveau mondial. Il participe actuellement aux consortiums GENIVI et AGL pour le compte de Renesas."
