@@ -1,4 +1,4 @@
-<!--h2 class="section-title">{{ .titles.schedule }}</h2>
+<h2 class="section-title">{{ .titles.schedule }}</h2>
 
 <div class="schedule-tbl">
   <table>
@@ -15,16 +15,20 @@
           <tr>
             <td class="schedule-time">{{ .presentation.time }}</td>
             <td class="schedule-slot">
-            {{ with .photo }}
+              <div>
+            {{ range $speaker := .speakers }}
               <span class="speaker-photo">
-                <img class="photo" src="{{ . }}" alt="{{ $slot.name }}">
+                <img class="photo" src="{{ $speaker.photo }}" alt="{{ $speaker.name }}">
               </span>
             {{ end }}
-
+              </div>
+              <BR/>
+              <div>
               {{ .presentation.title }}
+              </div>
               <span class="speakers-company">{{ .company }}</span>
             </td>
-            <td class="schedule-description">{{ .presentation.description }}</td>
+            <td class="schedule-description"> {{ with .presentation.description }}{{ . | safeHTML }}{{ end }}</td>
           </tr>
         {{ else }}
           <tr class="schedule-other">
@@ -36,4 +40,4 @@
       {{ end }}
     </tbody>
   </table>
-</div-->
+</div>
