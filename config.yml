@@ -115,7 +115,7 @@ params:
     - name: "Check-in"
       time: "9h00"
     - name: "Philippe Ensarguet"
-      company: "OBS"
+      company: "CTO OBS"
       speakers:
         - name: "Philippe Ensarguet"
           ref: "philippe"
