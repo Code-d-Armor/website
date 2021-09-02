@@ -131,28 +131,6 @@ règles gérées par un architecte de sécurité.<br><br>
 Cette présentation présente comment LSM fonctionne et comment les régles
 peuvent être automatisées dans un framework comme redpesk."
         time: "-"
-    - name: "Guillaume Teissier"
-      company: "Thales"
-      speakers:
-        - name: "Guillaume Teissier"
-          ref: "guillaume"
-          photo: "/img/speakers/guillaume.jpg"
-        - name: "Magali Denelle"
-          ref: "magali"
-          photo: "/img/speakers/magali.jpg"
-      presentation:
-        title: "eBPF, un outil de déverminage poids plume"
-        description: "Microsoft a récemment introduit eBPF sur Windows 10. Cette technologie prend ses racines dans le mécanisme de filtrage de paquets de tcpdump, mais elle a évolué de manière significative, pour devenir un outil fort utile d'observation sur les systèmes, avec une perturbation minimale.<br/><br/>Dans cette présentation, nous décrirons la technologie, puis nous nous concentrerons sur l'utilisation d'eBPF à des fins de tracing. Enfin, nous montrerons les avantages d'eBPF pour déverminer en légèreté."
-        time: "-"
-    - name: "Christophe Hauquiert"
-      speakers:
-        - name: "Christophe Hauquiert"
-          ref: "christophe"
-          photo: "/img/speakers/christophe.png"
-      presentation:
-        title: "Bug bounty, ou comment pirater légalement les plus grandes entreprises"
-        description: "Le bug bounty est une activité qui consiste à trouver des vulnérabilités chez des entreprises contre rémunération, le chasseur de prime 2.0, appelé \"hunter\", est alors rémunéré en fonction de la criticité de la vulnérabilité qu'il remonte. Au travers de quelques exemples de vulnérabilité je vais vous faire un retour d'expérience sur ce nouveau métier, et partager mes réflexions sur son évolution et sa place dans la stratégie de cybersécurité des entreprises."
-        time: "-"
     - name: "Alexis Marcou"
       company: "AWS"
       speakers:
@@ -166,6 +144,19 @@ peuvent être automatisées dans un framework comme redpesk."
         title: "Le Machine Learning au service des développeurs"
         description: "Venez découvrir comment les nouveaux outils peuvent vous aider à écrire du code plus sécurisé grâce à l'assistant Github Copilot et aux revues de code automatiques de AWS Code Guru."
         time: "-"
+    - name: "Guillaume Teissier"
+      company: "Thales"
+      speakers:
+        - name: "Guillaume Teissier"
+          ref: "guillaume"
+          photo: "/img/speakers/guillaume.jpg"
+        - name: "Magali Denelle"
+          ref: "magali"
+          photo: "/img/speakers/magali.jpg"
+      presentation:
+        title: "eBPF, un outil de déverminage poids plume"
+        description: "Microsoft a récemment introduit eBPF sur Windows 10. Cette technologie prend ses racines dans le mécanisme de filtrage de paquets de tcpdump, mais elle a évolué de manière significative, pour devenir un outil fort utile d'observation sur les systèmes, avec une perturbation minimale.<br/><br/>Dans cette présentation, nous décrirons la technologie, puis nous nous concentrerons sur l'utilisation d'eBPF à des fins de tracing. Enfin, nous montrerons les avantages d'eBPF pour déverminer en légèreté."
+        time: "-"
     - name: "ROGEL David"
       company: "Orange Cyberdefense"
       speakers:
@@ -175,6 +166,15 @@ peuvent être automatisées dans un framework comme redpesk."
       presentation:
         title: "Intégrer la sécurité dans l’approche DevOps"
         description: "Les équipes de développement modernes doivent livrer des fonctionnalités à un rythme soutenu en utilisant de nouvelles technologies telles que les conteneurs, les micro-services et le serverless. Les équipes d'exploitation et d'infrastructure prennent en charge ces cycles de livraison rapides à l'aide de l'infrastructure as code, de l'infrastructure pilotée par les tests et de l'automatisation de l'infrastructure Cloud. Cependant, les équipes de sécurité utilisent des approches de sécurité traditionnelles qui ne suivent pas le rythme des changements accélérés. La sécurité doit être réinventée dans un monde DevOps en tirant parti des possibilités offertes par les outils automatisés d'intégration, de livraison et de surveillance."
+        time: "-"
+    - name: "Christophe Hauquiert"
+      speakers:
+        - name: "Christophe Hauquiert"
+          ref: "christophe"
+          photo: "/img/speakers/christophe.png"
+      presentation:
+        title: "Bug bounty, ou comment pirater légalement les plus grandes entreprises"
+        description: "Le bug bounty est une activité qui consiste à trouver des vulnérabilités chez des entreprises contre rémunération, le chasseur de prime 2.0, appelé \"hunter\", est alors rémunéré en fonction de la criticité de la vulnérabilité qu'il remonte. Au travers de quelques exemples de vulnérabilité je vais vous faire un retour d'expérience sur ce nouveau métier, et partager mes réflexions sur son évolution et sa place dans la stratégie de cybersécurité des entreprises."
         time: "-"
 
 
