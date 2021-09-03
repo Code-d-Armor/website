@@ -72,7 +72,7 @@ params:
     - name: "Florian Chazal"
       ref: "florian"
       photo: "/img/speakers/florian.jpg"
-      bio: "Dev, Ops, ingénieur en tests et maintenant Solutions Architect sont les différents role que j'ai pu avoir au cours de ces 5 dernières années à travers les équipes d'Amazon Alexa, Zendesk et AWS entre la France et les US. Mon leitmotiv: avoir une couverture de tests et une automatisation suffisante pour pouvoir pousser du code un vendredi soir sans stress :)"
+      bio: "Dev, Ops, ingénieur en tests et maintenant Solutions Architect sont les différents roles que j'ai pu avoir au cours de ces 5 dernières années à travers les équipes d'Amazon Alexa, Zendesk et AWS entre la France et les US. Mon leitmotiv: avoir une couverture de tests et une automatisation suffisante pour pouvoir pousser du code un vendredi soir sans stress :)"
       company: "AWS"
     - name: "Alexis Marcou"
       ref: "alexis"
