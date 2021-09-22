@@ -112,8 +112,8 @@ params:
 
   # The entire schedule
   Schedule:
-    - name: "Check-in"
-      time: "9h00"
+    - name: "Ouverture des portes"
+      time: "8h45"
     - name: "Intro"
       time: "9h20"
     - name: "Philippe Ensarguet"
