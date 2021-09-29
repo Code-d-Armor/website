@@ -42,8 +42,8 @@ params:
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
   CallToAction:
-    text: "Billetterie"
-    link: "https://www.billetweb.fr/devfest-perros"
+    text: "Photos"
+    link: "https://photos.app.goo.gl/xgwMG7jWEFHu2RLS9"
 
   # List of Sponsors
   Sponsors:
