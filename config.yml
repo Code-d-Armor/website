@@ -1,4 +1,4 @@
-baseurl: "https://code-d-armor.github.io/conference/"
+baseurl: "https://devfest.codedarmor.fr/"
 title: "DevFest Perros"
 canonifyurls: true
 theme: "hugo-conference"
@@ -9,7 +9,7 @@ params:
   # Conference info
   Name: "DevFest Perros-Guirec"
   Description: "sur de la côte de granit rose"
-  Date: "24 Septembre"
+  Date: "8 octobre"
   Price: "30€"
   Venue: "Palais des Congrès"
   Address: "1 Rue du Maréchal Foch"
@@ -23,10 +23,10 @@ params:
   Sections:
     - about
     #- location
-    - speakers
-    - schedule
+    #- speakers
+    #- schedule
     #- sponsors
-    - partners
+    #- partners
     #- contact
 
   # Titles which you can translate to other languages
@@ -41,9 +41,9 @@ params:
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
-  CallToAction:
-    text: "Photos"
-    link: "https://photos.app.goo.gl/xgwMG7jWEFHu2RLS9"
+  #CallToAction:
+    #text: "Photos"
+    #link: "https://photos.app.goo.gl/xgwMG7jWEFHu2RLS9"
 
   # List of Sponsors
   Sponsors:
@@ -53,158 +53,31 @@ params:
 
   # List of Partners
   Partners:
-    - name: "Anticipa"
-      logo: "/img/partners/anticipa.png"
-      url: "https://www.technopole-anticipa.com/french-tech-lannion/"
-    - name: "French Tech Brest+"
-      logo: "/img/partners/brestplus.png"
-      url: "https://frenchtech-brestplus.bzh/"
-    - name: "LTC"
-      logo: "/img/partners/ltc.jpg"
-      url: "https://www.lannion-tregor.com/"
+    #- name: "Anticipa"
+    #  logo: "/img/partners/anticipa.png"
+    #  url: "https://www.technopole-anticipa.com/french-tech-lannion/"
 
   Speakers:
-    - name: "Philippe Ensarguet"
-      ref: "philippe"
-      photo: "/img/speakers/philippe.jpg"
-      bio: "As Chief Technology Officer, Philippe is leading the network-native to digital technology strategy, orientations and tech cultural transformation for Orange Business Services. With 25+ years of experience, he has a privileged viewpoint on tech stacks and platforms, build to ops practices and tools, as well as on the cultural transformations undertaken by customers, partners and teams. Philippe frequently shares his observations and trends via keynotes, sessions or conferences. Pro-software cultured, cloud minded and digital addicted, he brings expertise, analysis and leadership to executives and companies in their global tech innovations and transformations. With a deep understanding of partners and Open Source ecosystems, he is actively scouting to identify the most strategic and disruptive partners. Advisor for 2 startups in tech, Weaveworks and Cycloid. MTB and Gravel addicted on his spare time."
-      company: "AWS"
-    - name: "Florian Chazal"
-      ref: "florian"
-      photo: "/img/speakers/florian.jpg"
-      bio: "Dev, Ops, ingénieur en tests et maintenant Solutions Architect sont les différents roles que j'ai pu avoir au cours de ces 5 dernières années à travers les équipes d'Amazon Alexa, Zendesk et AWS entre la France et les US. Mon leitmotiv: avoir une couverture de tests et une automatisation suffisante pour pouvoir pousser du code un vendredi soir sans stress :)"
-      company: "AWS"
-    - name: "Alexis Marcou"
-      ref: "alexis"
-      photo: "/img/speakers/alexis.jpg"
-      bio: "J'ai travaillé, pendant plus de 12 ans, en tant qu'Architecte sur des plateformes de services de communication puis sur les évolutions de la plateforme Android dans le domaine des télecoms. Depuis 3 ans, j'accompagne les entreprises dans leur utilisation de solutions Cloud, avec une affinité pour le domaine du réseau et les principes du Well Architected Framework. La sécurité est un des piliers le plus important."
-      company: "AWS"
-    - name: "Fulup Le Foll"
-      ref: "fulup"
-      photo: "/img/speakers/fulup.jpg"
-      bio: "Fulup est diplômé de l’école supérieure de l'armement d’Arcueil. Il a commencé sa carrière comme ingénieur système pour le département de la défense au centre de recherche de l’armement à Bruz/Rennes où il travaillait sur les systèmes temps réels pour les simulateurs d’hélicoptères et d’avions. En 1990 il quitte le secteur public et prend la direction technique de « Wind River System » Europe. Professeur associé à l’Université de Bretagne Sud, il enseignait la structure interne des systèmes d’exploitation, les architectures réseaux et les systèmes embarqués. Fulup a donné de nombreuses conférences à l’international et participé de manière active comme expert technique dans divers groupes de normalisations au niveau mondial. Il participe actuellement aux consortiums GENIVI et AGL pour le compte de Renesas."
-      company: "iot.bzh"
-    - name: "Clément Bénier"
-      ref: "clement"
-      photo: "/img/speakers/clement.jpg"
-      bio: "Clément détient un master en logiciel et système embarqué. Il a travaillé un peu plus de 3 ans en tant que Ingénieur Linux pour l'embarqué chez SMILE/Open Grande entreprise, architecte Open Source pour laquelle il travailla pour fournir des distributions personalisées Linux pour véhicules classique ainsi que militaire et smartphones. De plus, il participa à la documentation de l'Enlightenment Foundation Libraries (EFL)"
-      company: "iot.bzh"
-    - name: "Guillaume Teissier"
-      ref: "guillaume"
-      photo: "/img/speakers/guillaume.jpg"
-      bio: "Guillaume Teissier est un chercheur en sécurité français du groupe Thales. Ses activités incluent la rétro conception et l’analyse de vulnérabilités. Il a contribué à plusieurs conférences de sécurité, et publié de façon responsable des vulnérabilités sur les systèmes de signalisation et les produits de virtualisation réseau"
-      company: ""
-    - name: "Magali Denelle"
-      ref: "magali"
-      photo: "/img/speakers/magali.jpg"
-      bio: "Magali Denelle est étudiante en informatique à EPITECH Paris. Elle s'intéresse aux domaines de la vie privée, Android, et plus généralement tout ce qui touche à la cybersecurité"
-      company: "étudiante EPITECH"
-    - name: "Christophe Hauquiert"
-      ref: "christophe"
-      photo: "/img/speakers/christophe.png"
-      bio: "Passionné depuis longtemps d'informatique et autodidacte je suis tombé très jeune dans la marmite en commençant par concevoir et administrer des infrastructures pour faire de l'hébergement de serveurs de jeux. J'ai ensuite découvert le domaine de la sécurité informatique et du hack, j'ai tout de suite accroché. Depuis je prend plaisir à apprendre et à continuer à développer mes compétences, toujours avec passion, sur ces deux domaines. Aujourd'hui je suis indépendant dans le domaine du cloud et de la cybersécurité et je fais également du bug bounty."
-      company: "Freelance"
-    - name: "David Rogel"
-      ref: "david"
-      photo: "/img/speakers/david.jpg"
-      bio: "Après un parcours très diversifié, je suis arrivé chez Orange Cyberdefense pour construire l’expertise en sécurité applicative. J’interviens depuis 5 ans sur l’automatisation et l’industrialisation de la sécurité, avec depuis quelques mois des missions liées au cloud et aux nouvelles architectures applicatives."
-      company: "Orange Cyberdefense"
+#    - name: "Philippe Ensarguet"
+#      ref: "philippe"
+#      photo: "/img/speakers/philippe.jpg"
+#      bio: "As Chief Technology Officer, Philippe is leading the network-native to digital technology strategy, orientations and tech cultural transformation for Orange Business Services. With 25+ years of experience, he has a privileged viewpoint on tech stacks and platforms, build to ops practices and tools, as well as on the cultural transformations undertaken by customers, partners and teams. Philippe frequently shares his observations and trends via keynotes, sessions or conferences. Pro-software cultured, cloud minded and digital addicted, he brings expertise, analysis and leadership to executives and companies in their global tech innovations and transformations. With a deep understanding of partners and Open Source ecosystems, he is actively scouting to identify the most strategic and disruptive partners. Advisor for 2 startups in tech, Weaveworks and Cycloid. MTB and Gravel addicted on his spare time."
+#      company: "AWS"
 
   # The entire schedule
   Schedule:
-    - name: "Ouverture des portes"
-      time: "8h45"
-    - name: "Intro"
-      time: "9h20"
-    - name: "Philippe Ensarguet"
-      company: "CTO OBS"
-      speakers:
-        - name: "Philippe Ensarguet"
-          ref: "philippe"
-          photo: "/img/speakers/philippe.jpg"
-      presentation:
-        title: "Keynote"
-        description: "Surprise !"
-        time: "9h30"
-    - name: "Fulup Le Foll"
-      company: "iot.bzh"
-      speakers:
-        - name: "Clément Bénier"
-          ref: "clement"
-          photo: "/img/speakers/clement.jpg"
-        - name: "Fulup Le Foll"
-          ref: "fulup"
-          photo: "/img/speakers/fulup.jpg"
-      presentation:
-        title: "Automatisation des modules de sécurité Linux en intégration continue"
-        description: "Tous les programmes ont potentiellement des vulnérabilités qui peuvent être
-utilisées pour pénétrer dans votre système. Ainsi pour diminuer la portée des
-cyberattaques, les programmes devraient avoir des accés limités sur le système
-et ne devrait pas pouvoir écrire, lire, ... d'autres ressources que celles
-nécessaires.<br><br>
-C'est ce que propose les modules de sécurité Linux(LSM) comme SELINUX ou SMACK
-qui permettent de renforcer le contrôle d'accès obligatoire en créant des
-règles gérées par un architecte de sécurité.<br><br>
-Cette présentation présente comment LSM fonctionne et comment les régles
-peuvent être automatisées dans un framework comme redpesk."
-        time: "10h00"
-    - name: "Break"
-      time: "11h00"
-    - name: "Alexis Marcou"
-      company: "AWS"
-      speakers:
-        - name: "Alexis Marcou"
-          ref: "alexis"
-          photo: "/img/speakers/alexis.jpg"
-        - name: "Florian Chazal"
-          ref: "florian"
-          photo: "/img/speakers/florian.jpg"
-      presentation:
-        title: "Le Machine Learning au service des développeurs"
-        description: "Venez découvrir comment les nouveaux outils peuvent vous aider à écrire du code plus sécurisé grâce à l'assistant Github Copilot et aux revues de code automatiques de AWS Code Guru."
-        time: "11h15"
-    - name: "Repas"
-      time: "12h15"
-    - name: "Guillaume Teissier"
-      company: ""
-      speakers:
-        - name: "Guillaume Teissier"
-          ref: "guillaume"
-          photo: "/img/speakers/guillaume.jpg"
-        - name: "Magali Denelle"
-          ref: "magali"
-          photo: "/img/speakers/magali.jpg"
-      presentation:
-        title: "eBPF, un outil de déverminage poids plume"
-        description: "Microsoft a récemment introduit eBPF sur Windows 10. Cette technologie prend ses racines dans le mécanisme de filtrage de paquets de tcpdump, mais elle a évolué de manière significative, pour devenir un outil fort utile d'observation sur les systèmes, avec une perturbation minimale.<br/><br/>Dans cette présentation, nous décrirons la technologie, puis nous nous concentrerons sur l'utilisation d'eBPF à des fins de tracing. Enfin, nous montrerons les avantages d'eBPF pour déverminer en légèreté."
-        time: "14h00"
-    - name: "Break"
-      time: "15h00"
-    - name: "ROGEL David"
-      company: "Orange Cyberdefense"
-      speakers:
-        - name: "David Rogel"
-          ref: "david"
-          photo: "/img/speakers/david.jpg"
-      presentation:
-        title: "Intégrer la sécurité dans l’approche DevOps"
-        description: "Les équipes de développement modernes doivent livrer des fonctionnalités à un rythme soutenu en utilisant de nouvelles technologies telles que les conteneurs, les micro-services et le serverless. Les équipes d'exploitation et d'infrastructure prennent en charge ces cycles de livraison rapides à l'aide de l'infrastructure as code, de l'infrastructure pilotée par les tests et de l'automatisation de l'infrastructure Cloud. Cependant, les équipes de sécurité utilisent des approches de sécurité traditionnelles qui ne suivent pas le rythme des changements accélérés. La sécurité doit être réinventée dans un monde DevOps en tirant parti des possibilités offertes par les outils automatisés d'intégration, de livraison et de surveillance."
-        time: "15h15"
-    - name: "Christophe Hauquiert"
-      speakers:
-        - name: "Christophe Hauquiert"
-          ref: "christophe"
-          photo: "/img/speakers/christophe.png"
-      presentation:
-        title: "Bug bounty, ou comment pirater légalement les plus grandes entreprises"
-        description: "Le bug bounty est une activité qui consiste à trouver des vulnérabilités chez des entreprises contre rémunération, le chasseur de prime 2.0, appelé \"hunter\", est alors rémunéré en fonction de la criticité de la vulnérabilité qu'il remonte. Au travers de quelques exemples de vulnérabilité je vais vous faire un retour d'expérience sur ce nouveau métier, et partager mes réflexions sur son évolution et sa place dans la stratégie de cybersécurité des entreprises."
-        time: "16h15"
-    - name: "Plage !"
-      time: "17h15"
-
-
-#    - name: "Repas"
-#      time: "12h00"
-#    - name: "Coffee-break"
-#      time: "15h00"
+#    - name: "Ouverture des portes"
+#      time: "8h45"
+#    - name: "Intro"
+#      time: "9h20"
+#    - name: "Philippe Ensarguet"
+#      company: "CTO OBS"
+#      speakers:
+#        - name: "Philippe Ensarguet"
+#          ref: "philippe"
+#          photo: "/img/speakers/philippe.jpg"
+#      presentation:
+#        title: "Keynote"
+#        description: "Surprise !"
+#        time: "9h30"
 
