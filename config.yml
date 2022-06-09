@@ -42,8 +42,8 @@ params:
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
   CallToAction:
-    text: "Call For Proposals"
-    link: "https://conference-hall.io/public/event/c1f8XlL596g6AL9uA5vZ"
+    text: "Billeterie"
+    link: "https://www.billetweb.fr/devfest-perros-guirec"
 
   # List of Sponsors
   Sponsors:
