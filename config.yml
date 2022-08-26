@@ -23,7 +23,7 @@ params:
   Sections:
     - about
     #- location
-    #- speakers
+    - speakers
     #- schedule
     #- sponsors
     #- partners
@@ -58,11 +58,27 @@ params:
     #  url: "https://www.technopole-anticipa.com/french-tech-lannion/"
 
   Speakers:
-#    - name: "Philippe Ensarguet"
-#      ref: "philippe"
-#      photo: "/img/speakers/philippe.jpg"
-#      bio: "As Chief Technology Officer, Philippe is leading the network-native to digital technology strategy, orientations and tech cultural transformation for Orange Business Services. With 25+ years of experience, he has a privileged viewpoint on tech stacks and platforms, build to ops practices and tools, as well as on the cultural transformations undertaken by customers, partners and teams. Philippe frequently shares his observations and trends via keynotes, sessions or conferences. Pro-software cultured, cloud minded and digital addicted, he brings expertise, analysis and leadership to executives and companies in their global tech innovations and transformations. With a deep understanding of partners and Open Source ecosystems, he is actively scouting to identify the most strategic and disruptive partners. Advisor for 2 startups in tech, Weaveworks and Cycloid. MTB and Gravel addicted on his spare time."
-#      company: "AWS"
+    - name: "Héloïse Dano"
+      ref: "heloise"
+      photo: "/img/speakers/heloise.jpg"
+      bio: "Avec sa société ecologeek, Héloïse tente d'initier le plus de personnes possible aux pratiques du Numérique Responsable. Fervente partisane de l'utilisation de l'intelligence collective elle utilise au maximum des méthodes participatives et collaborative pour faire comprendre les messages clés tout en passant un bon moment. Elle est également membre du CA de l'association de la Fresque Du Numérique et participe activement à de nombreux collectifs et groupes de travail autour de ce sujet. Bretonne depuis toujours elle a à coeur de développer un réseau local pour parler du Numérique Responsable jusqu'au fin fond du Finistère ;)"
+      company: "Ecologeek"
+    - name: "Olivier Le Goaer"
+      ref: "olivier"
+      photo: "/img/speakers/olivier.png"
+      bio: "Titulaire d'un Doctorat en Informatique de l'Université de Nantes, Olivier Le Goaër est actuellement enseignant-chercheur à l'Université de Pau et des Pays de l'Adour. Son thème de recherche est le Génie Logiciel (Vert)."
+      company: "Université de Pau et des Pays de l'Adour"
+    - name: "Sylvain Revereault"
+      ref: "sylvain"
+      photo: "/img/speakers/sylvain.jpg"
+      bio: "Travaillant depuis une vingtaine d’années dans l’informatique, je me suis progressivement spécialisé dans les technologies systèmes et réseaux, en particulier autour des systèmes GNU/Linux, avant de m’orienter vers les thématiques DevOps et de l'agilité dans le monde “Ops”. En complément des facettes techniques, j'explore les aspects collaboratifs et les approches innovantes de management, et j'ai consacré ces deux dernières années à monter en compétences sur les liens de nos métiers avec l'écologie. Je suis actuellement consultant autour des thématiques DevOps, Management 3.0 et Green IT chez Zenika, tout en portant la casquette de CTO de l’agence de Rennes." 
+      company: "Zenika"
+    - name: "Romuald Priol"
+      ref: "romuald"
+      photo: "/img/speakers/romuald.jpg"
+      bio: "Passionné d’écologie, de good-tech, d’éthique et de performance informatique, je suis développeur expert en web-performance au quotidien, représentant du collectif numérique responsable de GreenIt.fr et ambassadeur formation chez thegreencompagnon. J’essaye de promouvoir l’évolution du numérique en le rendant responsable : pour un numérique plus « green », plus « performant », plus « éthique » et plus « accessible »."
+      company: ""
+
 
   # The entire schedule
   Schedule:
