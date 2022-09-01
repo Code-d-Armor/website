@@ -26,7 +26,7 @@ params:
     - speakers
     #- schedule
     #- sponsors
-    #- partners
+    - partners
     #- contact
 
   # Titles which you can translate to other languages
@@ -53,9 +53,9 @@ params:
 
   # List of Partners
   Partners:
-    #- name: "Anticipa"
-    #  logo: "/img/partners/anticipa.png"
-    #  url: "https://www.technopole-anticipa.com/french-tech-lannion/"
+    - name: "DCbrain"
+      logo: "/img/partners/dcbrain.png"
+      url: "https://dcbrain.com/"
 
   Speakers:
     - name: "Héloïse Dano"
