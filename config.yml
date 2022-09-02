@@ -24,7 +24,7 @@ params:
     - about
     #- location
     - speakers
-    #- schedule
+    - schedule
     #- sponsors
     - partners
     #- contact
@@ -92,18 +92,86 @@ params:
 
   # The entire schedule
   Schedule:
-#    - name: "Ouverture des portes"
-#      time: "8h45"
-#    - name: "Intro"
-#      time: "9h20"
-#    - name: "Philippe Ensarguet"
-#      company: "CTO OBS"
-#      speakers:
-#        - name: "Philippe Ensarguet"
-#          ref: "philippe"
-#          photo: "/img/speakers/philippe.jpg"
-#      presentation:
-#        title: "Keynote"
-#        description: "Surprise !"
-#        time: "9h30"
+    - name: "Ouverture des portes"
+      time: "8h45"
+    - name: "Intro"
+      time: "9h15"
+    - name: "Héloïse Dano"
+      company: "Ecologeek"
+      speakers:
+        - name: "Héloïse Dano"
+          ref: "heloise"
+          photo: "/img/speakers/heloise.jpg"
+      presentation:
+        title: "Numérique responsable"
+        description: "Quels sont les impacts environnementaux, sociaux et sociétaux du numérique.? Le Numérique Responsable c’est quoi ? Comment il répond à ces problématiques ? Quelles sont les grandes pistes d'actions à notre échelle de dev ? On tentera de répondre ensemble à ces questions lors de cette conférence interactive. (Re)voir les bases pour aller dans la bonne direction ça fait pas de mal ;)"
+        time: "9h30"
+    - name: "Sylvain Revereault"
+      company: "Zenika"
+      speakers:
+        - name: "Sylvain Revereault"
+          ref: "sylvain"
+          photo: "/img/speakers/sylvain.jpg"
+      presentation:
+        title: "Impacts environnementaux du Cloud : the good, the bad, the ugly"
+        description: "Le Cloud est un outil formidable qui facilite notre quotidien, nous permet de travailler plus vite, de mettre en place des architectures dont nous n'osions pas rêver il y a encore quelques années.
+
+Parmi les promesses du Cloud, il y a celle du Green IT : en utilisant le Cloud, nous pourrions réduire l'empreinte environnementale de nos activités. Mais qu'en est-il réellement de cette promesse ?
+
+C'est ce que nous explorerons lors de cette présentation, en nous penchant tout d'abord sur les impacts environnementaux de l'informatique au sens large, puis en nous focalisant sur les aspects hébergements, et enfin en regardant ce que les grands acteurs du Cloud mettent en place pour réduire leurs impacts."
+        time: "10h30"
+    - name: "Café"
+      time: "11h15"
+    - name: "Romuald Priol"
+      company: "GreenIT"
+      speakers:
+        - name: "Romuald Priol"
+          ref: "romuald"
+          photo: "/img/speakers/romuald.jpg"
+      presentation:
+        title: "Numérique responsable : Comment lier performance et écologie ?"
+        description: "Contrairement à ce que l'on pourrait croire, la performance n'est pas forcément \"green\", et ça n'est pas parce que vous avez de très bons scores sur les outils d'analyse de performance que votre application est écoconçue ! Nous allons voir comment développer une application de la façon \"responsable\" en comprenant les différents problèmes écologiques du numérique tout en passant en revue les bonnes (ou mauvaises) pratiques de web-performance et les outils pouvant améliorer votre code."
+        time: "11h30"
+    - name: "Déjeuner"
+      time: "12h15"
+    - name: "Pierre Rust"
+      company: "Orange"
+      speakers:
+        - name: "Pierre Rust"
+          ref: "pierre"
+          photo: "/img/speakers/pierre.jpg"
+      presentation:
+        title: "Outils d\'empreinte carbone des cloud public : comparer des pommes et des oranges"
+        description: "L\'hébergement, et en particulier les data-centers, a un impact environnemental, mais on ne sait généralement pas estimer combien il représente sur nos projets. Depuis quelques mois, tous les grands fournisseurs de cloud public vous proposent des outils pour estimer le CO2 émis par les ressources cloud que vous utilisez. Malheureusement, il n\'existe pas de méthodologie commune pour ces estimations et chaque acteur compte un peu ce qu\'il veut ! Venez voir ce qui se cache derrières les \"calculettes carbones\" de GCP, Azure et AWS, ce qu'ils prennent en compte et ce qu'ils négligent."
+        time: "14h00"
+    - name: "Olivier Le Goaër"
+      company: "Université de Pau"
+      speakers:
+        - name: "Olivier Le Goaër"
+          ref: "olivier"
+          photo: "/img/speakers/olivier.png"
+      presentation:
+        title: "ecoCode mobile: how green is your app?"
+        description: "Tandis que de plus en plus d’acteurs s’intéressent à l’éco-conception des sites Web, peu de travaux se sont intéressés aux apps mobile alors que ces dernières représentent un défi environnemental encore plus gigantesque.
+
+Mais comment former la future génération de développeurs mobile à l’écriture d’un code plus écologique ?
+
+Pour tenter de répondre à cette question, cette présentation introduit un catalogue spécifique de code smells pour Android ainsi qu’un plugin SonarQube pour les faire respecter."
+        time: "14h45"
+    - name: "break"
+      time: "15h30"
+    - name: "A confirmer"
+      time: "15h45"
+    - name: "Tristan Nitot"
+      company: ""
+      speakers:
+        - name: "Tristan Nitot"
+          ref: "tristan"
+          photo: "/img/speakers/tristan.png"
+      presentation:
+        title: "Keynote de fermeture"
+        description: "Le changement climatique et le numérique font-ils bon ménage."
+        time: "16h30"
+    - name: "Fin"
+      time: "17h30"
 
