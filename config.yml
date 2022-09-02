@@ -25,7 +25,7 @@ params:
     #- location
     - speakers
     - schedule
-    #- sponsors
+    - sponsors
     - partners
     #- contact
 
@@ -47,15 +47,19 @@ params:
 
   # List of Sponsors
   Sponsors:
-    - name: "Sponsor1"
-      logo: "/img/sponsor1.png"
-      url: "http://www.codedarmor.fr"
-
-  # List of Partners
-  Partners:
     - name: "DCbrain"
       logo: "/img/partners/dcbrain.png"
       url: "https://dcbrain.com/"
+    
+    - name: "Eco-Compteur"
+      logo: "/img/partners/ecocompteur.png"
+      url: "https://www.eco-compteur.com/"
+
+  # List of Partners
+  Partners:
+    - name: "Anticipa"
+      logo: "/img/partners/anticipa.png"
+      url: "https://www.technopole-anticipa.com/french-tech-lannion/"
 
   Speakers:
     - name: "Héloïse Dano"
