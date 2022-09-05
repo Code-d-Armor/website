@@ -75,8 +75,8 @@ params:
     - name: "Tristan Nitot"
       ref: "tristan"
       photo: "/img/speakers/tristan.png"
-      bio: "Tristan Nitot, entrepreneur du numérique, fondateur et ex-président de Mozilla Europe (Firefox), co-fondateur d’Unsearch et animateur du podcast l’Octet Vert."
-      company: ""
+      bio: "Je suis un passionné du numérique de la première heure. Ingénieur, entrepreneur du numérique, auteur, co-fondateur et ex-président de Mozilla Europe (Firefox), co-fondateur d'Unsearch et animateur du podcast l'Octet Vert sur le numérique et le climat. Je viens de rejoindre Scaleway (fournisseur de cloud français) en tant que responsable du développement durable."
+      company: "Scaleway"
     - name: "Romuald Priol"
       ref: "romuald"
       photo: "/img/speakers/romuald.jpg"
@@ -181,14 +181,16 @@ Pour tenter de répondre à cette question, cette présentation introduit un cat
 Nous allons proposer de l’aborder comme faire délibérément moins, avec encore moins, c’est-à-dire éliminer les exigences, et donc les fonctionnalités, qui seraient les plus impactantes.
 Nous présenterons des exemples concrets et d’autres encore imaginaires, mais pas improbables, à l’appui de la devise « Moins vite, moins haut, moins fort »"
     - name: "Tristan Nitot"
-      company: "Tristan Nitot"
+      company: "Tristan Nitot (Scaleway)"
       speakers:
         - name: "Tristan Nitot"
           ref: "tristan"
           photo: "/img/speakers/tristan.png"
       presentation:
         title: "Keynote de fermeture"
-        description: "Le changement climatique et le numérique font-ils bon ménage."
+        description: "L'été 2022, avec sa sécheresse et ses multiples canicules en Europe, ses inondations au Pakistan nous permet de vivre le dérèglement climatique de près. Mais quels sont les rapports entre 
+        le changement climatique et le numérique ? Ce dernier fait-il partie de la solution ou du problème ? Que peut-on faire personnellement et professionnellement à notre niveau ? Ce sont ces sujets qui seront 
+        abordés successivement dans cete intervention."
         time: "16h30"
     - name: "Fin"
       time: "17h30"
