@@ -87,6 +87,11 @@ params:
       photo: "/img/speakers/sylvain.jpg"
       bio: "Travaillant depuis une vingtaine d’années dans l’informatique, je me suis progressivement spécialisé dans les technologies systèmes et réseaux, en particulier autour des systèmes GNU/Linux, avant de m’orienter vers les thématiques DevOps et de l'agilité dans le monde “Ops”. En complément des facettes techniques, j'explore les aspects collaboratifs et les approches innovantes de management, et j'ai consacré ces deux dernières années à monter en compétences sur les liens de nos métiers avec l'écologie. Je suis actuellement consultant autour des thématiques DevOps, Management 3.0 et Green IT chez Zenika, tout en portant la casquette de CTO de l’agence de Rennes." 
       company: "Zenika"
+    - name: "Olivier Ridoux"
+      ref: "olivier_ridoux"
+      photo: "img/speakers/olivier_ridoux.png"
+      bio: "Je suis professeur à l’université de Rennes 1 (2 fois directeur de département, actuellement responsable de formation), chercheur à l’IRISA (1 fois responsable de département, créateur et responsable d’une équipe, aujourd’hui dissoute), et membre du groupe de travail CNRS ÉcoInfo. Mes centres d’intérêt vont vers la logique formelle et ses applications et les limites physiques du calcul."
+      company: "IRISA"
     - name: "Pierre Rust"
       ref: "pierre"
       photo: "img/speakers/pierre.jpg"
@@ -101,7 +106,7 @@ params:
     - name: "Intro"
       time: "9h15"
     - name: "Héloïse Dano"
-      company: "Ecologeek"
+      company: "Héloïse Dano (Ecologeek)"
       speakers:
         - name: "Héloïse Dano"
           ref: "heloise"
@@ -111,7 +116,7 @@ params:
         description: "Quels sont les impacts environnementaux, sociaux et sociétaux du numérique.? Le Numérique Responsable c’est quoi ? Comment il répond à ces problématiques ? Quelles sont les grandes pistes d'actions à notre échelle de dev ? On tentera de répondre ensemble à ces questions lors de cette conférence interactive. (Re)voir les bases pour aller dans la bonne direction ça fait pas de mal ;)"
         time: "9h30"
     - name: "Sylvain Revereault"
-      company: "Zenika"
+      company: "Sylvain Revereault (Zenika)"
       speakers:
         - name: "Sylvain Revereault"
           ref: "sylvain"
@@ -127,7 +132,7 @@ C'est ce que nous explorerons lors de cette présentation, en nous penchant tout
     - name: "Café"
       time: "11h15"
     - name: "Romuald Priol"
-      company: "GreenIT"
+      company: "Romuald Priol (GreenIT)"
       speakers:
         - name: "Romuald Priol"
           ref: "romuald"
@@ -139,7 +144,7 @@ C'est ce que nous explorerons lors de cette présentation, en nous penchant tout
     - name: "Déjeuner"
       time: "12h15"
     - name: "Pierre Rust"
-      company: "Orange"
+      company: "Pierre Rust (Orange)"
       speakers:
         - name: "Pierre Rust"
           ref: "pierre"
@@ -149,7 +154,7 @@ C'est ce que nous explorerons lors de cette présentation, en nous penchant tout
         description: "L\'hébergement, et en particulier les data-centers, a un impact environnemental, mais on ne sait généralement pas estimer combien il représente sur nos projets. Depuis quelques mois, tous les grands fournisseurs de cloud public vous proposent des outils pour estimer le CO2 émis par les ressources cloud que vous utilisez. Malheureusement, il n\'existe pas de méthodologie commune pour ces estimations et chaque acteur compte un peu ce qu\'il veut ! Venez voir ce qui se cache derrières les \"calculettes carbones\" de GCP, Azure et AWS, ce qu'ils prennent en compte et ce qu'ils négligent."
         time: "14h00"
     - name: "Olivier Le Goaër"
-      company: "Université de Pau"
+      company: "Olivier Le Goaër (Université de Pau)"
       speakers:
         - name: "Olivier Le Goaër"
           ref: "olivier"
@@ -164,10 +169,19 @@ Pour tenter de répondre à cette question, cette présentation introduit un cat
         time: "14h45"
     - name: "break"
       time: "15h30"
-    - name: "A confirmer"
-      time: "15h45"
+    - name: "Olivier Ridoux"
+      company: "Olivier Ridoux (IRISA)"
+      speakers:
+        - name: "Olivier Ridoux"
+          ref: "olivier_ridoux"
+          photo: "/img/speakers/olivier_ridoux.png"
+      presentation:
+        title: "Moins vite, moins haut, moins fort : une devise pour le Green IT"
+        description: "Le Green IT est souvent abordé comme faire autant voire plus avec moins, c’est-à-dire éliminer les impacts qui ne seraient pas essentiels à la réalisation d’une fonctionnalité désirée.
+Nous allons proposer de l’aborder comme faire délibérément moins, avec encore moins, c’est-à-dire éliminer les exigences, et donc les fonctionnalités, qui seraient les plus impactantes.
+Nous présenterons des exemples concrets et d’autres encore imaginaires, mais pas improbables, à l’appui de la devise « Moins vite, moins haut, moins fort »"
     - name: "Tristan Nitot"
-      company: ""
+      company: "Tristan Nitot"
       speakers:
         - name: "Tristan Nitot"
           ref: "tristan"
