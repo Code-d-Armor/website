@@ -180,6 +180,7 @@ Pour tenter de répondre à cette question, cette présentation introduit un cat
         description: "Le Green IT est souvent abordé comme faire autant voire plus avec moins, c’est-à-dire éliminer les impacts qui ne seraient pas essentiels à la réalisation d’une fonctionnalité désirée.
 Nous allons proposer de l’aborder comme faire délibérément moins, avec encore moins, c’est-à-dire éliminer les exigences, et donc les fonctionnalités, qui seraient les plus impactantes.
 Nous présenterons des exemples concrets et d’autres encore imaginaires, mais pas improbables, à l’appui de la devise « Moins vite, moins haut, moins fort »"
+        time: "15h45"
     - name: "Tristan Nitot"
       company: "Tristan Nitot (Scaleway)"
       speakers:
