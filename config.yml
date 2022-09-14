@@ -132,7 +132,7 @@ C'est ce que nous explorerons lors de cette présentation, en nous penchant tout
     - name: "Café"
       time: "11h15"
     - name: "Romuald Priol"
-      company: "Romuald Priol (GreenIT)"
+      company: "Romuald Priol (Association Green IT)"
       speakers:
         - name: "Romuald Priol"
           ref: "romuald"
