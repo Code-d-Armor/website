@@ -122,7 +122,7 @@ params:
           ref: "tristan"
           photo: "/img/speakers/tristan.png"
       presentation:
-        title: "Keynote de fermeture"
+        title: ""
         description: "L'été 2022, avec sa sécheresse et ses multiples canicules en Europe, ses inondations au Pakistan nous permet de vivre le dérèglement climatique de près. Mais quels sont les rapports entre 
         le changement climatique et le numérique ? Ce dernier fait-il partie de la solution ou du problème ? Que peut-on faire personnellement et professionnellement à notre niveau ? Ce sont ces sujets qui seront 
         abordés successivement dans cete intervention."
