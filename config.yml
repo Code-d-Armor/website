@@ -115,6 +115,20 @@ params:
         title: "Numérique responsable"
         description: "Quels sont les impacts environnementaux, sociaux et sociétaux du numérique.? Le Numérique Responsable c’est quoi ? Comment il répond à ces problématiques ? Quelles sont les grandes pistes d'actions à notre échelle de dev ? On tentera de répondre ensemble à ces questions lors de cette conférence interactive. (Re)voir les bases pour aller dans la bonne direction ça fait pas de mal ;)"
         time: "9h30"
+    - name: "Tristan Nitot"
+      company: "Tristan Nitot (Scaleway)"
+      speakers:
+        - name: "Tristan Nitot"
+          ref: "tristan"
+          photo: "/img/speakers/tristan.png"
+      presentation:
+        title: "Keynote de fermeture"
+        description: "L'été 2022, avec sa sécheresse et ses multiples canicules en Europe, ses inondations au Pakistan nous permet de vivre le dérèglement climatique de près. Mais quels sont les rapports entre 
+        le changement climatique et le numérique ? Ce dernier fait-il partie de la solution ou du problème ? Que peut-on faire personnellement et professionnellement à notre niveau ? Ce sont ces sujets qui seront 
+        abordés successivement dans cete intervention."
+        time: "10h30"
+    - name: "Café"
+      time: "11h15"
     - name: "Sylvain Revereault"
       company: "Sylvain Revereault (Zenika)"
       speakers:
@@ -128,9 +142,9 @@ params:
 Parmi les promesses du Cloud, il y a celle du Green IT : en utilisant le Cloud, nous pourrions réduire l'empreinte environnementale de nos activités. Mais qu'en est-il réellement de cette promesse ?
 
 C'est ce que nous explorerons lors de cette présentation, en nous penchant tout d'abord sur les impacts environnementaux de l'informatique au sens large, puis en nous focalisant sur les aspects hébergements, et enfin en regardant ce que les grands acteurs du Cloud mettent en place pour réduire leurs impacts."
-        time: "10h30"
-    - name: "Café"
-      time: "11h15"
+        time: "11h30"
+    - name: "Déjeuner"
+      time: "12h15"
     - name: "Romuald Priol"
       company: "Romuald Priol (Association Green IT)"
       speakers:
@@ -140,9 +154,7 @@ C'est ce que nous explorerons lors de cette présentation, en nous penchant tout
       presentation:
         title: "Numérique responsable : Comment lier performance et écologie ?"
         description: "Contrairement à ce que l'on pourrait croire, la performance n'est pas forcément \"green\", et ça n'est pas parce que vous avez de très bons scores sur les outils d'analyse de performance que votre application est écoconçue ! Nous allons voir comment développer une application de la façon \"responsable\" en comprenant les différents problèmes écologiques du numérique tout en passant en revue les bonnes (ou mauvaises) pratiques de web-performance et les outils pouvant améliorer votre code."
-        time: "11h30"
-    - name: "Déjeuner"
-      time: "12h15"
+        time: "14h00"
     - name: "Pierre Rust"
       company: "Pierre Rust (Orange)"
       speakers:
@@ -152,7 +164,9 @@ C'est ce que nous explorerons lors de cette présentation, en nous penchant tout
       presentation:
         title: "Outils d\'empreinte carbone des cloud public : comparer des pommes et des oranges"
         description: "L\'hébergement, et en particulier les data-centers, a un impact environnemental, mais on ne sait généralement pas estimer combien il représente sur nos projets. Depuis quelques mois, tous les grands fournisseurs de cloud public vous proposent des outils pour estimer le CO2 émis par les ressources cloud que vous utilisez. Malheureusement, il n\'existe pas de méthodologie commune pour ces estimations et chaque acteur compte un peu ce qu\'il veut ! Venez voir ce qui se cache derrières les \"calculettes carbones\" de GCP, Azure et AWS, ce qu'ils prennent en compte et ce qu'ils négligent."
-        time: "14h00"
+        time: "14h45"
+    - name: "break"
+      time: "15h30"
     - name: "Olivier Le Goaër"
       company: "Olivier Le Goaër (Université de Pau)"
       speakers:
@@ -166,9 +180,7 @@ C'est ce que nous explorerons lors de cette présentation, en nous penchant tout
 Mais comment former la future génération de développeurs mobile à l’écriture d’un code plus écologique ?
 
 Pour tenter de répondre à cette question, cette présentation introduit un catalogue spécifique de code smells pour Android ainsi qu’un plugin SonarQube pour les faire respecter."
-        time: "14h45"
-    - name: "break"
-      time: "15h30"
+        time: "15h45"
     - name: "Olivier Ridoux"
       company: "Olivier Ridoux (IRISA)"
       speakers:
@@ -180,18 +192,6 @@ Pour tenter de répondre à cette question, cette présentation introduit un cat
         description: "Le Green IT est souvent abordé comme faire autant voire plus avec moins, c’est-à-dire éliminer les impacts qui ne seraient pas essentiels à la réalisation d’une fonctionnalité désirée.
 Nous allons proposer de l’aborder comme faire délibérément moins, avec encore moins, c’est-à-dire éliminer les exigences, et donc les fonctionnalités, qui seraient les plus impactantes.
 Nous présenterons des exemples concrets et d’autres encore imaginaires, mais pas improbables, à l’appui de la devise « Moins vite, moins haut, moins fort »"
-        time: "15h45"
-    - name: "Tristan Nitot"
-      company: "Tristan Nitot (Scaleway)"
-      speakers:
-        - name: "Tristan Nitot"
-          ref: "tristan"
-          photo: "/img/speakers/tristan.png"
-      presentation:
-        title: "Keynote de fermeture"
-        description: "L'été 2022, avec sa sécheresse et ses multiples canicules en Europe, ses inondations au Pakistan nous permet de vivre le dérèglement climatique de près. Mais quels sont les rapports entre 
-        le changement climatique et le numérique ? Ce dernier fait-il partie de la solution ou du problème ? Que peut-on faire personnellement et professionnellement à notre niveau ? Ce sont ces sujets qui seront 
-        abordés successivement dans cete intervention."
         time: "16h30"
     - name: "Fin"
       time: "17h30"
