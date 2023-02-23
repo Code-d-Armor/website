@@ -1,25 +1,35 @@
 <nav id="nav">
   <ul class="wrapper">
     {{ range $section := $.Site.Params.Sections }}
-      <li class="nav-item">
-        <a href="#{{ $section }}" title="{{ index $.Site.Params.Titles $section }}" class="nav-link">
-          {{ index $.Site.Params.Titles $section }}
-        </a>
-      </li>
+    <li class="nav-item">
+      <a href="#{{ $section }}" title="{{ index $.Site.Params.Titles $section }}" class="nav-link">
+        {{ index $.Site.Params.Titles $section }}
+      </a>
+    </li>
+    {{ end }}
+
+    {{ with .press }}
+    <li class="nav-item">
+      <a href="{{ .link }}" title="{{ .text }}" class="nav-link">
+        {{ .text }}
+      </a>
+    </li>
+    {{ end }}
+    {{ with .calltoaction }}
+    <li class="nav-item">
+      <a href="{{ .link }}" target="_billeterie" title="{{ .text }}" class="nav-link">
+        {{ .text }}
+      </a>
+    </li>
     {{ end }}
     <li class="nav-item">
-      <a href="./doc/DevFest-Perros-Guirec.pdf" title="Press" class="nav-link">
-        Presse
-      </a>
-    </li>
-    <li class="nav-item">
-      <a href="https://www.billetweb.fr/devfest-perros-guirec" target="_photos" title="billetterie" class="nav-link">
-        Billetterie
-      </a>
-    </li>
-    <li class="nav-item">
-      <a href="https://devfest.codedarmor.fr/2021/" target="_2021" title="DevFest 2021" class="nav-link">
+      <a href="./2021/" target="_2021" title="DevFest 2021" class="nav-link">
         DevFest 2021
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="./2022/" target="_2022" title="DevFest 2022" class="nav-link">
+        DevFest 2022
       </a>
     </li>
   </ul>

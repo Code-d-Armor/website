@@ -9,7 +9,7 @@ params:
   # Conference info
   Name: "DevFest Perros-Guirec"
   Description: "sur de la côte de granit rose"
-  Date: "7 octobre"
+  Date: "6 octobre 2023"
   Price: "30€"
   Venue: "Palais des Congrès"
   Address: "1 Rue du Maréchal Foch"
@@ -23,10 +23,10 @@ params:
   Sections:
     - about
     #- location
-    - speakers
-    - schedule
-    - sponsors
-    - partners
+    #- speakers
+    #- schedule
+    #- sponsors
+    #- partners
     #- contact
 
   # Titles which you can translate to other languages
@@ -41,9 +41,15 @@ params:
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
-  CallToAction:
-    text: " Billetterie "
-    link: "https://www.billetweb.fr/devfest-perros-guirec"
+  #CallToAction:
+  #  text: " Billetterie "
+  #  link: "https://www.billetweb.fr/devfest-perros-guirec"
+
+  # The Press Link in the menu
+  # If you don't want this, just comment the press property.
+  #Press:
+  #  text: "Dossier de Presse"
+  #  link: "./doc/DevFest-Perros-Guirec.pdf"
 
   # List of Sponsors
   Sponsors:
