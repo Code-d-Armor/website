@@ -109,7 +109,7 @@ kbd,
 samp {
 	font-family: monospace, serif;
 	_font-family: 'courier new', monospace;
-	font-size: 1em;
+	font-size: 1.5em;
 }
 pre {
 	white-space: pre;
@@ -279,14 +279,25 @@ hr {
    ========================================================================== */
 .wrapper {
 	margin: 0 auto;
-	width: 960px;
+	width: 100%;
+	max-width: 960px;
 	position: relative;
 }
+.main-header {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 960px;
+	position: relative;
+	padding-top:90px;
+
+	/* background-color: pink;  */
+}
+
 .content {
 	padding: 50px 0;
 }
 .content section {
-	padding-top: 50px;
+	padding-top: 20px;
 }
 /* =============================================================================
    BASIC STYLES
@@ -294,7 +305,7 @@ hr {
 h2,
 h3,
 h4 {
-	font-size: 5em;
+	font-size: 3em;
 	font-weight: normal;
 	margin-bottom: 0.4em;
 	letter-spacing: -0.02em;
@@ -336,8 +347,10 @@ nav {
    HEADER
    ========================================================================== */
 .header {
-	padding: 100px 0 100px;
+	padding: 0;
+
 	text-align: center;
+	/* background-color: yellow; */
 }
 .logo-name {
 	margin-bottom: 0;
@@ -356,10 +369,11 @@ nav {
 }
 .call-action-area .call-action-link,
 .btn {
-	position: relative;
-	top: -5px;
+
+
+	position: absolute;
+	bottom: 5%;
 	cursor: pointer;
-	display: inline-block;
 	padding: 8px 20px;
 	font-size: 1.5em;
 	line-height: 1em;
@@ -373,12 +387,31 @@ nav {
 	-ms-transition: all 0.3s ease-out;
 	-o-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
+	left: 20px;
+	width: 10%;
 }
 .call-action-area .call-action-link:hover,
 .call-action-area .call-action-link:focus,
 .btn:hover,
 .btn:focus {
-	top: 0;
+	position: absolute;
+	bottom: 5%;
+	cursor: pointer;
+	padding: 8px 20px;
+	font-size: 1.5em;
+	line-height: 1em;
+	vertical-align: center;
+	letter-spacing: -0.02em;
+	color: #ffffff;
+	border-radius: 30px;
+	border: solid thin #34b8c2;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	left: 20px;
+	width: 10%;
 }
 /* =============================================================================
    TEXT
@@ -414,8 +447,8 @@ li::before {
 .about {
 	padding: 19px;
 	margin: 0 -20px 0;
-
 }
+
 /* =============================================================================
    SPEAKER
    ========================================================================== */
@@ -570,15 +603,24 @@ li::before {
    Media Queries
    ========================================================================== */
 @media only screen and (max-width: 1024px) {
+	.main-header {
+		width: 100%;
+		padding-top : 100px;
+		-ms-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		/* background-color: #f0a303; */
+	}
 	.wrapper {
 		width: 100%;
-		/* padding: 0 20px; */
-		/* padding-left: 10px; */
-		/* padding-top: 0px; */
+		padding: 0 20px;
+		padding-left: 10px;
+		padding-top: 0px;
 		-ms-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
+
 	.about {
 		margin: 0;
 	}
@@ -664,14 +706,28 @@ li::before {
 		font-size: 1.4em;
 	}
 	.call-action-area .price {
-		font-size: 2em;
+		/* font-size: 2em; */
 		margin: 0 0 15px;
 		display: block;
 	}
 	.call-action-area .call-action-link,
 	.btn {
-		top: 0;
+
+		cursor: pointer;
+		line-height: 1em;
+		vertical-align: center;
+		border-radius: 30px;
+		border: solid thin #34b8c2;
+		-webkit-transition: all 0.3s ease-out;
+		-moz-transition: all 0.3s ease-out;
+		-ms-transition: all 0.3s ease-out;
+		-o-transition: all 0.3s ease-out;
+		transition: all 0.3s ease-out;
+		left: 20px;
+		width: fit-content;
+		margin-bottom: -10px;
 	}
+
 	h2,
 	h3,
 	h4 {
@@ -691,7 +747,8 @@ li::before {
 		padding: 0;
 	}
 	.content section {
-		padding-top: 50px;
+		padding-top: 20px;
+		margin-top:10px;
 	}
 	/* speakers */
 	.speakers-item {
@@ -778,20 +835,33 @@ nav {
    ========================================================================== */
 
 .header {
-	background-image: url('../img/bigcover2.png');
-	background-color: #ffffff;
+	background-image: url('../DevFest Perros-Guirec_files/digits.png');
+	background-color: #602392;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-size: 100% auto;
+	background-size:cover;
 }
 /* Addition to have the floating image*/
 img.float-logo-devfest {
 	float: left;
-	width: 30%;
-	padding-left: 20px;
-	max-width: 400px;
+	padding-left: 4%;
+	width: 80%;
+	padding-top: 0;
+	max-width: 450px;
 }
 
+img.float-macareux-ia {
+	float: right;
+	width: 60%;
+	height:60%;
+	margin-top:-20px;
+	margin-bottom:-20px;
+	overflow:visible;
+	padding-right: 4%;
+
+	overflow: visible;
+	max-width: 250px;
+}
 .logo-link,
 .tagline,
 .call-action-area .price {
@@ -825,12 +895,14 @@ img.float-logo-devfest {
    CONTENT
    ========================================================================== */
 .content a {
-	color: #34b8c2;
-	margin:2em;
+	color: #7237a4;
+	/* margin: 2em; */
+	font-size: medium;
+	font-weight: 600;
 }
 .content a:hover,
 .content a:focus {
-	color: #386a6a;
+	color: #7a3ba7;
 	text-decoration: underline;
 }
 /* =============================================================================
@@ -947,23 +1019,50 @@ img.float-logo-devfest {
    ========================================================================== */
 @media only screen and (max-width: 1024px) {
 	.header {
-		background-size: auto 100%;
+		background-image: url('../DevFest Perros-Guirec_files/digits.png');
+		/* background-color: #239259; */
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size:cover;
+	}
+	img.float-logo-devfest {
+		float: left;
+		padding-left: 4%;
+		width: 60%;
+		padding-top: 0;
+		max-width: 400px;
+	}
+	img.float-macareux-ia {
+		float: right;
+		width: 30%;
+		height:30%;
+		margin-top:-20px;
+		margin-bottom:-20px;
+		overflow:visible;
+		padding-right: 4%;
+
+		overflow: visible;
+		max-width: 250px;
 	}
 }
 @media only screen and (max-width: 480px) {
-	/* speakers */
-	.speaker-photo .photo {
-		box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.07);
+	.main-header {
+		padding-top:20px;
 	}
-	.speech-title {
-		font-weight: bolder;
-	}
-	.speech-time {
-		color: #2b2b2b;
-		background: transparent;
-		font-weight: bolder;
-	}
-	.github-link {
-		display: none;
-	}
+}
+/* speakers */
+.speaker-photo .photo {
+	box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.07);
+}
+.speech-title {
+	font-weight: bolder;
+}
+.speech-time {
+	color: #2b2b2b;
+	background: transparent;
+	font-weight: bolder;
+}
+.github-link {
+	display: none;
+}
 }
