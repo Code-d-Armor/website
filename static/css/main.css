@@ -835,7 +835,7 @@ nav {
    ========================================================================== */
 
 .header {
-	background-image: url('../DevFest Perros-Guirec_files/digits.png');
+	background-image: url('img/digits.png');
 	background-color: #602392;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -1019,7 +1019,7 @@ img.float-macareux-ia {
    ========================================================================== */
 @media only screen and (max-width: 1024px) {
 	.header {
-		background-image: url('../DevFest Perros-Guirec_files/digits.png');
+		background-image: url('img/digits.png');
 		/* background-color: #239259; */
 		background-repeat: no-repeat;
 		background-position: center center;
