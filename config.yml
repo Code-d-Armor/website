@@ -101,7 +101,7 @@ params:
       ref: "thomas"
       photo: "/img/speakers/thomas.jpg"
       bio: "Directeur délégué - Responsable de domaine STS (SOLUTIONS TECHNOLOGIQUES DU SI )"
-      company: "BPCE-SI"
+      company: "Nickel"
     - name: "Julie Rabette"
       ref: "julie"
       photo: "/img/speakers/julie.jpg"
