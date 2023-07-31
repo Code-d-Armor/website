@@ -90,7 +90,7 @@ params:
     - name: "Stephane Cauchy"
       ref: "stephane"
       photo: "/img/speakers/stephane.jpg"
-      bio: 'Host leader du Laboratoire d’expérimentation digitale (LED) de BPCE-SI, incubateur sur les nouveaux usages, pratiques et outils au service d’une édition logicielle toujours plus performante. Auteur du livre 'Etre agile par nature' qui retrace les débuts de la transformation agile chez BPCE. Près de 40 ans d'expérience, spécialiste de l'agilité d'entreprise et coach d'organisation."
+      bio: "Host leader du Laboratoire d’expérimentation digitale (LED) de BPCE-SI, incubateur sur les nouveaux usages, pratiques et outils au service d’une édition logicielle toujours plus performante. Auteur du livre 'Etre agile par nature' qui retrace les débuts de la transformation agile chez BPCE. Près de 40 ans d'expérience, spécialiste de l'agilité d'entreprise et coach d'organisation."
       company: "BPCE-SI"
     - name: "LIU Yung"
       ref: "liu"
