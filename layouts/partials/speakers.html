@@ -21,7 +21,7 @@
       <a href="{{ .href }}" target="_blank" title="{{ .text }}"> {{ .text }} </a>
       {{ end }}
     </h3>
-    <p class="speakers-bio">{{ .bio }}</p>
+    <p class="speakers-bio">{{ with .bio }}{{ . | safeHTML }}{{ end }}</p>
   </li>
   {{ end }}
 </ul>
