@@ -100,7 +100,7 @@ params:
     - name: "Thomas Fournaise"
       ref: "thomas"
       photo: "/img/speakers/thomas.jpg"
-      bio: "Directeur délégué - Responsable de domaine STS (SOLUTIONS TECHNOLOGIQUES DU SI )"
+      bio: "Passionné d'informatique et de développement depuis longtemps, je suis passé par les équipes projets, l'architecture et l'urbanisme d'entreprise avant de bifurquer vers l'IA et la Data. Je me passionne pour tous les sujets liés aux données, aux biais, à l'IA et à l'éthique. Depuis 2016, j'organise le Salon de la Data à Nantes."
       company: "Nickel"
     - name: "Julie Rabette"
       ref: "julie"
