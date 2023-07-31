@@ -144,11 +144,13 @@ params:
       presentation:
         title: "Copilot : L’intelligence artificielle au service des développeurs"
         description: "Amis développeurs, vous avez besoin:<br>
-        - d’écrire des tests pour vos applications Web/JavaScript ?<br>
-        - de compléter une classe Java d’accès aux données ?<br>
-        - corriger des bugs dans votre code ?<br>
-        - d’ajouter des nouveaux services à votre déploiement Kubernetes, Terraform ?<br>
-        - de comprendre du code que vous découvrez en arrivant sur un nouveau projet ?<br>
+        <ul>
+        <li>d’écrire des tests pour vos applications Web/JavaScript ?</li>
+        <li>de compléter une classe Java d’accès aux données ?</li>
+        <li>corriger des bugs dans votre code ?</li>
+        <li>d’ajouter des nouveaux services à votre déploiement Kubernetes, Terraform ?</li>
+        <li>de comprendre du code que vous découvrez en arrivant sur un nouveau projet ?</li>
+        </ul>
         Venez découvrir comment GitHub Copilot va vous aider sur ses taches et bien d'autres, et ce directement dans votre IDE favori, et quelque soit votre language de predilection! GitHub Copilot est un outil basé sur le maintenant très connu modèle OpenAI GPT.<br>
         Cette présentation s'appuie principalement sur des démonstrations durant lesquelles Tug montre comment il utilise GitHub Copilot pour développer le site https://windr.org . Venez également avec vos questions & retour d'experience si vous utilisez aujourd'hui Copilot: cette session sera interactive!<br>
         Tug couvrira également GitHub Copilot X, la vision de GitHub de l'IA et le travaille du développeur."
