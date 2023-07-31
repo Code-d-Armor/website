@@ -114,10 +114,27 @@ params:
       photo: "/img/speakers/alexandre.jpg"
       bio: "Aujourd'hui ingénieur MLOps chez Nokia, j'ai commencé en tant que stagiaire sur des problématiques Machine learning. Dans la continuité de ces travaux, je contribue à la création d'environnements dédiés aux projets"
       company: "Nokia"
-
+    - name: "Renaud Allioux"
+      ref: "renaud"
+      photo: "/img/speakers/renaud.jpg"
+      bio: "Co Founder, Chief Innovation and Future technologies @Preligens"
+      company: "Preligens"
 
   # The entire schedule
   Schedule:
+    - name: "Renaud Allioux"
+      company: "Preligens"
+      speakers:
+        - name: "Renaud Allioux"
+          ref: "renaud"
+          photo: "/img/speakers/renaud.jpg"
+      presentation:
+        title: "Les développeurs à l'heure de l'IA"
+        description: "Si l'actualité récente met en valeur certaine rupture autour des large langages models, 
+        les évolutions technologiques liées à l'IA ont changé en continue le métier de développeur depuis plusieurs années. 
+        Que ce soit travailler grâce à l'IA ou travailler pour faire de l'A les développeur.e.s sont plus que jamais au cœur de la machine.
+        Sans ingénierie informatique la science de la donnée et la recherche en IA n'est que du concept et du PoC.
+        Comment va évoluer le métier ? Impossible à dire, mais nous pouvons déjà analyser les changements des dernières années et essayer d'en tirer quelques conclusions."
     - name: "Tugdual Grall"
       company: "Github"
       speakers:
