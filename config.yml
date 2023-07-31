@@ -23,7 +23,7 @@ params:
   Sections:
     - about
     #- location
-    #- speakers
+    - speakers
     #- schedule
     #- sponsors
     #- partners
@@ -68,41 +68,52 @@ params:
       url: "https://www.technopole-anticipa.com/french-tech-lannion/"
 
   Speakers:
-    - name: "Héloïse Dano"
-      ref: "heloise"
-      photo: "/img/speakers/heloise.jpg"
-      bio: "Avec sa société ecologeek, Héloïse tente d'initier le plus de personnes possible aux pratiques du Numérique Responsable. Fervente partisane de l'utilisation de l'intelligence collective elle utilise au maximum des méthodes participatives et collaborative pour faire comprendre les messages clés tout en passant un bon moment. Elle est également membre du CA de l'association de la Fresque Du Numérique et participe activement à de nombreux collectifs et groupes de travail autour de ce sujet. Bretonne depuis toujours elle a à coeur de développer un réseau local pour parler du Numérique Responsable jusqu'au fin fond du Finistère ;)"
-      company: "Ecologeek"
-    - name: "Olivier Le Goaër"
-      ref: "olivier"
-      photo: "/img/speakers/olivier.png"
-      bio: "Titulaire d'un Doctorat en Informatique de l'Université de Nantes, Olivier Le Goaër est actuellement enseignant-chercheur à l'Université de Pau et des Pays de l'Adour. Son thème de recherche est le Génie Logiciel (Vert). Il est responsable scientifique de la branche Mobile (Android et bientôt iOS) du projet Open Source ecoCode, basé sur SonarQube. Il milite pour l'introduction du Numérique Responsable dans les formations universitaires et d'ingénieurs en Informatique."
-      company: "Université de Pau et des Pays de l'Adour"
-    - name: "Tristan Nitot"
-      ref: "tristan"
-      photo: "/img/speakers/tristan.png"
-      bio: "Je suis un passionné du numérique de la première heure. Ingénieur, entrepreneur du numérique, auteur, co-fondateur et ex-président de Mozilla Europe (Firefox), co-fondateur d'Unsearch et animateur du podcast l'Octet Vert sur le numérique et le climat. Je viens de rejoindre Scaleway (fournisseur de cloud français) en tant que responsable du développement durable."
-      company: "Scaleway"
-    - name: "Romuald Priol"
-      ref: "romuald"
-      photo: "/img/speakers/romuald.jpg"
-      bio: "Passionné d’écologie, de good-tech, d’éthique et de performance informatique, je suis développeur expert en web-performance au quotidien, représentant du collectif numérique responsable de GreenIt.fr et ambassadeur formation chez thegreencompagnon. J’essaye de promouvoir l’évolution du numérique en le rendant responsable : pour un numérique plus « green », plus « performant », plus « éthique » et plus « accessible »."
-      company: ""
-    - name: "Sylvain Revereault"
-      ref: "sylvain"
-      photo: "/img/speakers/sylvain.jpg"
-      bio: "Travaillant depuis une vingtaine d’années dans l’informatique, je me suis progressivement spécialisé dans les technologies systèmes et réseaux, en particulier autour des systèmes GNU/Linux, avant de m’orienter vers les thématiques DevOps et de l'agilité dans le monde “Ops”. En complément des facettes techniques, j'explore les aspects collaboratifs et les approches innovantes de management, et j'ai consacré ces deux dernières années à monter en compétences sur les liens de nos métiers avec l'écologie. Je suis actuellement consultant autour des thématiques DevOps, Management 3.0 et Green IT chez Zenika, tout en portant la casquette de CTO de l’agence de Rennes." 
-      company: "Zenika"
-    - name: "Olivier Ridoux"
-      ref: "olivier_ridoux"
-      photo: "img/speakers/olivier_ridoux.png"
-      bio: "Je suis professeur à l’université de Rennes 1 (2 fois directeur de département, actuellement responsable de formation), chercheur à l’IRISA (1 fois responsable de département, créateur et responsable d’une équipe, aujourd’hui dissoute), et membre du groupe de travail CNRS ÉcoInfo. Mes centres d’intérêt vont vers la logique formelle et ses applications et les limites physiques du calcul."
-      company: "IRISA"
-    - name: "Pierre Rust"
-      ref: "pierre"
-      photo: "img/speakers/pierre.jpg"
-      bio: "Développeur et chercheur chez Orange, je travaille sur l'empreinte environnementale du numérique et sur sa réduction."
-      company: "Orange"
+    - name: "Tugdual Grall"
+      ref: "tugdual"
+      photo: "/img/speakers/tugdual.jpg"
+      bio: "Tugdual Grall, est Solutions Engineer chez GitHub, où il accompagne les développeurs dans leur utilisation de GitHub et des pratiques DevOps/DevSecOps.
+      Avant de travailler chez GitHub, 'Tug', était, DevRel chez Redis, Directeur du Product Management chez Red Hat, Technical Evangelist chez MapR, MongoDB et Couchbase. Tug a également travaillé comme CTO chez eXo Platform, et comme Product Manager et Développeur sur la platform JavaEE d'Oracle.
+      Tugdual est également co-fondateur du Nantes JUG (Java Users Group) qui réunit tous les mois depuis 2008 les développeurs et architectes de la région nantaise."
+      company: "GitHub"
+    - name: "Julien Salvi"
+      ref: "julien"
+      photo: "/img/speakers/julien.png"
+      bio: "Into the Android world for 10 years, I experienced California the startup way of life before coming back to France. I am currently a Lead Android Engineer at Aircall where we are building the best phone system for modern businesses. Alongside Android, I have a great interest in backend development with Kotlin and AR/VR technology. In 2021, I became an Android GDE to continue my journey to always share and learn with the Android community. On my spare time, I am a world traveler and a beer lover always looking for the best IPAs!"
+      company: "Aircall"
+    - name: "Eléa Petton"
+      ref: "elea"
+      photo: "/img/speakers/elea.jpg"
+      bio: "Etudiante pendant cinq ans à l'école d'ingénieurs ISEN Brest, je suis diplômée en octobre 2022 en tant qu'ingénieur généraliste avec une coloration Intelligence Artificielle (IA).
+      L'IA est un domaine qui me passionne et dans lequel je me spécialise en intégrant la TEAM AI Solutions d'OVHcloud en tant que Machine Learning Engineer.
+      Je travaille sur trois produits d'OVHcloud dédiés à l'entraînement et au déploiement de modèles d'IA : AI Training, AI Notebooks et AI Deploy. Mon rôle est de créer des verticaux sur ces produits sous différents formats pour les utilisateurs de la plateforme."
+      company: "OVHcloud"
+    - name: "Stephane Cauchy"
+      ref: "stephane"
+      photo: "/img/speakers/stephane.jpg"
+      bio: 'Host leader du Laboratoire d’expérimentation digitale (LED) de BPCE-SI, incubateur sur les nouveaux usages, pratiques et outils au service d’une édition logicielle toujours plus performante. Auteur du livre 'Etre agile par nature' qui retrace les débuts de la transformation agile chez BPCE. Près de 40 ans d'expérience, spécialiste de l'agilité d'entreprise et coach d'organisation."
+      company: "BPCE-SI"
+    - name: "LIU Yung"
+      ref: "liu"
+      photo: "/img/speakers/liu.jpg"
+      bio: "Directeur délégué - Responsable de domaine STS (SOLUTIONS TECHNOLOGIQUES DU SI )"
+      company: "BPCE-SI"
+    - name: "Thomas Fournaise"
+      ref: "thomas"
+      photo: "/img/speakers/thomas.jpg"
+      bio: "Directeur délégué - Responsable de domaine STS (SOLUTIONS TECHNOLOGIQUES DU SI )"
+      company: "BPCE-SI"
+    - name: "Julie Rabette"
+      ref: "julie"
+      photo: "/img/speakers/julie.jpg"
+      bio: "Apres plus de 10 ans a alterner les missions de dev Java et de test, j'ai eu la chance de faire partie des premieres personnes a Nokia Lannion
+      a travailler sur le remplacement d'algo 'classique' de la couche L1 de la 5G par du deepLearning en vue de l'integration sur accelerateur HW ML specific
+      depuis novembre nous avons pour objectif d'ameliorer les performances et nous travaillons sur la mise en place de la QAT sur le model."
+      company: "Nokia"
+    - name: "Alexandre Lou"
+      ref: "alexandre"
+      photo: "/img/speakers/alexandre.jpg"
+      bio: "Aujourd'hui ingénieur MLOps chez Nokia, j'ai commencé en tant que stagiaire sur des problématiques Machine learning. Dans la continuité de ces travaux, je contribue à la création d'environnements dédiés aux projets"
+      company: "Nokia"
 
 
   # The entire schedule
