@@ -24,7 +24,7 @@ params:
     - about
     #- location
     - speakers
-    #- schedule
+    - schedule
     #- sponsors
     #- partners
     #- contact
@@ -118,98 +118,31 @@ params:
 
   # The entire schedule
   Schedule:
-    - name: "Ouverture des portes"
-      time: "8h45"
-    - name: "Intro"
-      time: "9h15"
-    - name: "Héloïse Dano"
-      company: "Héloïse Dano (Ecologeek)"
+    - name: "Tugdual Grall"
+      company: "Github"
       speakers:
-        - name: "Héloïse Dano"
-          ref: "heloise"
-          photo: "/img/speakers/heloise.jpg"
+        - name: "Tugdual Grall"
+          ref: "tugdual"
+          photo: "/img/speakers/tugdual.jpg"
       presentation:
-        title: "Numérique responsable"
-        description: "Quels sont les impacts environnementaux, sociaux et sociétaux du numérique.? Le Numérique Responsable c’est quoi ? Comment il répond à ces problématiques ? Quelles sont les grandes pistes d'actions à notre échelle de dev ? On tentera de répondre ensemble à ces questions lors de cette conférence interactive. (Re)voir les bases pour aller dans la bonne direction ça fait pas de mal ;)"
-        time: "9h30"
-    - name: "Tristan Nitot"
-      company: "Tristan Nitot (Scaleway)"
+        title: "Copilot : L’intelligence artificielle au service des développeurs"
+        description: "Amis développeurs, vous avez besoin:
+        * d’écrire des tests pour vos applications Web/JavaScript ?
+        * de compléter une classe Java d’accès aux données ?
+        * corriger des bugs dans votre code ?
+        * d’ajouter des nouveaux services à votre déploiement Kubernetes, Terraform ?
+        * de comprendre du code que vous découvrez en arrivant sur un nouveau projet ?
+        Venez découvrir comment GitHub Copilot va vous aider sur ses taches et bien d'autres, et ce directement dans votre IDE favori, et quelque soit votre language de predilection! GitHub Copilot est un outil basé sur le maintenant très connu modèle OpenAI GPT.
+        Cette présentation s'appuie principalement sur des démonstrations durant lesquelles Tug montre comment il utilise GitHub Copilot pour développer le site https://windr.org . Venez également avec vos questions & retour d'experience si vous utilisez aujourd'hui Copilot: cette session sera interactive!
+        Tug couvrira également GitHub Copilot X, la vision de GitHub de l'IA et le travaille du développeur."
+    - name: "Julien Salvi"
+      company: "Aircall"
       speakers:
-        - name: "Tristan Nitot"
-          ref: "tristan"
-          photo: "/img/speakers/tristan.png"
+        - name: "Julien Salvi"
+          ref: "julien"
+          photo: "/img/speakers/julien.png"
       presentation:
-        title: ""
-        description: "L'été 2022, avec sa sécheresse et ses multiples canicules en Europe, ses inondations au Pakistan nous permet de vivre le dérèglement climatique de près. Mais quels sont les rapports entre 
-        le changement climatique et le numérique ? Ce dernier fait-il partie de la solution ou du problème ? Que peut-on faire personnellement et professionnellement à notre niveau ? Ce sont ces sujets qui seront 
-        abordés successivement dans cete intervention."
-        time: "10h30"
-    - name: "Café"
-      time: "11h15"
-    - name: "Sylvain Revereault"
-      company: "Sylvain Revereault (Zenika)"
-      speakers:
-        - name: "Sylvain Revereault"
-          ref: "sylvain"
-          photo: "/img/speakers/sylvain.jpg"
-      presentation:
-        title: "Impacts environnementaux du Cloud : the good, the bad, the ugly"
-        description: "Le Cloud est un outil formidable qui facilite notre quotidien, nous permet de travailler plus vite, de mettre en place des architectures dont nous n'osions pas rêver il y a encore quelques années.
-
-Parmi les promesses du Cloud, il y a celle du Green IT : en utilisant le Cloud, nous pourrions réduire l'empreinte environnementale de nos activités. Mais qu'en est-il réellement de cette promesse ?
-
-C'est ce que nous explorerons lors de cette présentation, en nous penchant tout d'abord sur les impacts environnementaux de l'informatique au sens large, puis en nous focalisant sur les aspects hébergements, et enfin en regardant ce que les grands acteurs du Cloud mettent en place pour réduire leurs impacts."
-        time: "11h30"
-    - name: "Déjeuner"
-      time: "12h15"
-    - name: "Romuald Priol"
-      company: "Romuald Priol (Association Green IT)"
-      speakers:
-        - name: "Romuald Priol"
-          ref: "romuald"
-          photo: "/img/speakers/romuald.jpg"
-      presentation:
-        title: "Numérique responsable : Comment lier performance et écologie ?"
-        description: "Contrairement à ce que l'on pourrait croire, la performance n'est pas forcément \"green\", et ça n'est pas parce que vous avez de très bons scores sur les outils d'analyse de performance que votre application est écoconçue ! Nous allons voir comment développer une application de la façon \"responsable\" en comprenant les différents problèmes écologiques du numérique tout en passant en revue les bonnes (ou mauvaises) pratiques de web-performance et les outils pouvant améliorer votre code."
-        time: "14h00"
-    - name: "Pierre Rust"
-      company: "Pierre Rust (Orange)"
-      speakers:
-        - name: "Pierre Rust"
-          ref: "pierre"
-          photo: "/img/speakers/pierre.jpg"
-      presentation:
-        title: "Outils d\'empreinte carbone des cloud public : comparer des pommes et des oranges"
-        description: "L\'hébergement, et en particulier les data-centers, a un impact environnemental, mais on ne sait généralement pas estimer combien il représente sur nos projets. Depuis quelques mois, tous les grands fournisseurs de cloud public vous proposent des outils pour estimer le CO2 émis par les ressources cloud que vous utilisez. Malheureusement, il n\'existe pas de méthodologie commune pour ces estimations et chaque acteur compte un peu ce qu\'il veut ! Venez voir ce qui se cache derrières les \"calculettes carbones\" de GCP, Azure et AWS, ce qu'ils prennent en compte et ce qu'ils négligent."
-        time: "14h45"
-    - name: "break"
-      time: "15h30"
-    - name: "Olivier Le Goaër"
-      company: "Olivier Le Goaër (Université de Pau)"
-      speakers:
-        - name: "Olivier Le Goaër"
-          ref: "olivier"
-          photo: "/img/speakers/olivier.png"
-      presentation:
-        title: "ecoCode mobile: how green is your app?"
-        description: "Tandis que de plus en plus d’acteurs s’intéressent à l’éco-conception des sites Web, peu de travaux se sont intéressés aux apps mobile alors que ces dernières représentent un défi environnemental encore plus gigantesque.
-
-Mais comment former la future génération de développeurs mobile à l’écriture d’un code plus écologique ?
-
-Pour tenter de répondre à cette question, cette présentation introduit un catalogue spécifique de code smells pour Android ainsi qu’un plugin SonarQube pour les faire respecter."
-        time: "15h45"
-    - name: "Olivier Ridoux"
-      company: "Olivier Ridoux (IRISA)"
-      speakers:
-        - name: "Olivier Ridoux"
-          ref: "olivier_ridoux"
-          photo: "/img/speakers/olivier_ridoux.png"
-      presentation:
-        title: "Moins vite, moins haut, moins fort : une devise pour le Green IT"
-        description: "Le Green IT est souvent abordé comme faire autant voire plus avec moins, c’est-à-dire éliminer les impacts qui ne seraient pas essentiels à la réalisation d’une fonctionnalité désirée.
-Nous allons proposer de l’aborder comme faire délibérément moins, avec encore moins, c’est-à-dire éliminer les exigences, et donc les fonctionnalités, qui seraient les plus impactantes.
-Nous présenterons des exemples concrets et d’autres encore imaginaires, mais pas improbables, à l’appui de la devise « Moins vite, moins haut, moins fort »"
-        time: "16h30"
-    - name: "Fin"
-      time: "17h30"
+        title: "Machine Learning sur Android avec ML Kit (sans être expert en IA)"
+        description: "Et si je vous disais que vous n'avez pas besoin d'être un.e expert.e en intelligence artificielle ou en machine learning pour apporter certaines de ces fonctionnalités dans vos applications Android.
+        Dans cette session, nous explorerons ce que ML Kit a à offrir pour ajouter assez facilement des fonctionnalités de machine learning optimisées pour le mobile. En se basant sur des examples de code, nous explorerons les principales API de Vision et Natural Language pour potentiellement débloquer de nouvelles idées dans vos applications."
 
