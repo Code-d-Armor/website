@@ -116,7 +116,7 @@ params:
       company: "Nokia"
     - name: "Renaud Allioux"
       ref: "renaud"
-      photo: "/img/speakers/renaud.jpg"
+      photo: "/img/speakers/renaud.png"
       bio: "Co Founder, Chief Innovation and Future technologies @Preligens"
       company: "Preligens"
 
@@ -127,7 +127,7 @@ params:
       speakers:
         - name: "Renaud Allioux"
           ref: "renaud"
-          photo: "/img/speakers/renaud.jpg"
+          photo: "/img/speakers/renaud.png"
       presentation:
         title: "Les développeurs à l'heure de l'IA"
         description: "Si l'actualité récente met en valeur certaine rupture autour des large langages models, 
