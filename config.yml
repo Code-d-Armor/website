@@ -105,9 +105,7 @@ params:
     - name: "Julie Rabette"
       ref: "julie"
       photo: "/img/speakers/julie.jpg"
-      bio: "Apres plus de 10 ans a alterner les missions de dev Java et de test, j'ai eu la chance de faire partie des premieres personnes a Nokia Lannion.<br>
-      A travailler sur le remplacement d'algo 'classique' de la couche L1 de la 5G par du deepLearning en vue de l'integration sur accelerateur HW ML specific.<br>
-      Depuis novembre nous avons pour objectif d'ameliorer les performances et nous travaillons sur la mise en place de la QAT sur le model.<br>"
+      bio: "Je fais partie de l'équipe nokia qui travaille sur le remplacement d'algo 'classique' de la couche L1 uplink de la 5G/6G par du deepLearning. Nous travaillons actuellement sur la mise en place de notre propre converteur pour faire de la QAT sur les modèles avant de les intégrer sur accélérateur HW spécifiques."
       company: "Nokia"
     - name: "Alexandre Lou"
       ref: "alexandre"
