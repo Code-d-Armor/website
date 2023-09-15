@@ -115,7 +115,7 @@ params:
     - name: "Renaud Allioux"
       ref: "renaud"
       photo: "/img/speakers/renaud.png"
-      bio: "Co Founder, Chief Innovation and Future technologies @Preligens"
+      bio: "Renaud Allioux est le co-fondateur et Chief Innovation and Future technologies de Preligens, une entreprise spécialisée dans l'Intelligence Artificielle au service de l'armée et du renseignement militaire. Après avoir réalisé une thèse au CNES, il a poursuivi son aventure chez Airbus. <br/> En 2016, il a créé Preligens avec son associé Arnaud Guérin. Leur IA est capable de détecter des modèles de blindés, d'avions ou de drones à partir d'images satellites. L'entreprise a levé 23 millions d'euros, signé des contrats avec 5 pays, et compte plus de 180 salariés. Ils ont également ouvert des filiales dans plusieurs pays."
       company: "Preligens"
 
   # The entire schedule
