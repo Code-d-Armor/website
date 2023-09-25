@@ -120,6 +120,10 @@ params:
 
   # The entire schedule
   Schedule:
+    - name: "Ouverture des portes"
+      time: "8h45"
+    - name: "Intro"
+      time: "9h00"
     - name: "Renaud Allioux"
       company: "Preligens"
       speakers:
@@ -127,12 +131,48 @@ params:
           ref: "renaud"
           photo: "/img/speakers/renaud.png"
       presentation:
+        time: "9h15"
         title: "Les développeurs à l'heure de l'IA"
         description: "Si l'actualité récente met en valeur certaine rupture autour des large langages models, 
         les évolutions technologiques liées à l'IA ont changé en continue le métier de développeur depuis plusieurs années. 
         Que ce soit travailler grâce à l'IA ou travailler pour faire de l'A les développeur.e.s sont plus que jamais au cœur de la machine.
         Sans ingénierie informatique la science de la donnée et la recherche en IA n'est que du concept et du PoC.
         Comment va évoluer le métier ? Impossible à dire, mais nous pouvons déjà analyser les changements des dernières années et essayer d'en tirer quelques conclusions."
+    - name: "Surprise"
+      time: "10h15"
+    - name: "Café"
+      time: "10h30"
+    - name: "Thomas Fournaise"
+      company: "Nickel"
+      speakers:
+        - name: "Thomas Fournaise"
+          ref: "thomas"
+          photo: "/img/speakers/thomas.jpg"
+      presentation:
+        time: "10h45"
+        title: "Faut-il réguler les algorithmes ? Clairement non !"
+        description: "L'intelligence artificielle est de plus en plus présente à nos cotés pour nous aider à prendre des décisions mais régulièrement on entend dire qu'elles prend de mauvaises décisions ou qu'elle est sont biaisée. La solution qui est souvent évoquée est de réguler les algorithmes. Mais qu'est ce que cela veut dire et est ce réellement la bonne solution ? Plongeons ensemble dans les biais liés aux données et aux algorithmes, regardons ce que propose l'IA Act ou la directive sur la responsabilité des IAs et essayons de voir quel rôle ont les développeurs pour faire de meilleures intelligences."
+    - name: "Stephane Cauchy"
+      company: "BPCE-SI"
+      speakers:
+        - name: "Stephane Cauchy"
+          ref: "stephane"
+          photo: "/img/speakers/stephane.jpg"
+        - name: "LIU Yung"
+          ref: "liu"
+          photo: "/img/speakers/liu.jpg"
+      presentation:
+        time: "11h30"
+        title: "Le développeur augmenté chez BPCE année 1"
+        description: "Octobre 2022, lors du précédent devfest nous découvrons l'IA générative et GPT3. Plein d'enthousiasme, nous retournons au bureau avec l'intuition qu'une révolution était en marche et que nous devions monter dans le train. Octobre 2023, 1 an après des résultats visibles : <br>
+        <ul>
+        <li>- les développeurs BPCE SI font du pair programming au quotidien</li>
+        <li>- Des analystes utilisent un chatbot pour connaître le fonctionnement du SI</li>
+        <li>- Les opérations lourdes de migration de code sont facilitées</li>
+        </ul>
+        Nous sommes aujourd'hui collectivement convaincu que nous vivons le début d'une transformation significative de nos métiers . Nous souhaitons vous raconter le chemin parcouru en 1 an pour revisiter les méthodes de travail de 2.600 personnes."
+    - name: "Déjeuner"
+      time: "12h15"
     - name: "Tugdual Grall"
       company: "Github"
       speakers:
@@ -140,6 +180,7 @@ params:
           ref: "tugdual"
           photo: "/img/speakers/tugdual.jpg"
       presentation:
+        time: "14h00"
         title: "Copilot : L’intelligence artificielle au service des développeurs"
         description: "Amis développeurs, vous avez besoin:<br>
         <ul>
@@ -152,6 +193,8 @@ params:
         Venez découvrir comment GitHub Copilot va vous aider sur ses taches et bien d'autres, et ce directement dans votre IDE favori, et quelque soit votre language de predilection! GitHub Copilot est un outil basé sur le maintenant très connu modèle OpenAI GPT.<br>
         Cette présentation s'appuie principalement sur des démonstrations durant lesquelles Tug montre comment il utilise GitHub Copilot pour développer le site https://windr.org . Venez également avec vos questions & retour d'experience si vous utilisez aujourd'hui Copilot: cette session sera interactive!<br>
         Tug couvrira également GitHub Copilot X, la vision de GitHub de l'IA et le travaille du développeur."
+    - name: "Surprise"
+      time: "14h45"
     - name: "Julien Salvi"
       company: "Aircall"
       speakers:
@@ -159,51 +202,12 @@ params:
           ref: "julien"
           photo: "/img/speakers/julien.png"
       presentation:
+        time: "15h00"
         title: "Machine Learning sur Android avec ML Kit (sans être expert en IA)"
         description: "Et si je vous disais que vous n'avez pas besoin d'être un.e expert.e en intelligence artificielle ou en machine learning pour apporter certaines de ces fonctionnalités dans vos applications Android.<br>
         Dans cette session, nous explorerons ce que ML Kit a à offrir pour ajouter assez facilement des fonctionnalités de machine learning optimisées pour le mobile. En se basant sur des examples de code, nous explorerons les principales API de Vision et Natural Language pour potentiellement débloquer de nouvelles idées dans vos applications."
-    - name: "Eléa Petton"
-      company: "OVHcloud"
-      speakers:
-        - name: "Eléa Petton"
-          ref: "elea"
-          photo: "/img/speakers/elea.jpg"
-      presentation:
-        title: "A quel point devons-nous optimiser nos modèles d'IA ? Testons, évaluons, comparons !"
-        description: "Dans le domaine du Machine Learning, le concept d'optimisation est au coeur de la création des modèles. Il existe de multiples façons d'optimiser un modèle d'IA en se basant sur divers aspects : précision, performance, explicabilité, latence, consommation énergétique, ...<br>
-        Durant ce talk nous allons tout d'abord voir pourquoi il est primordial d'optimiser un modèle et quels sont les différentes optimisations possibles. Comment ? Au travers d'un cas d'usage métier pour voir à quel point notre modèle de Machine Learning peut être optimisé.<br>
-        Dans un premier temps, nous nous intéresserons à la métrique 'phare' : la précision du modèle. En tant que Data Scientist, l'entraînement est notre première étape pour optimiser un modèle de Machine Learning.<br>
-        Au delà de qualité et de la précision du modèle, il est primordial que ce dernier soit utilisable et déployable en production. Nous devons donc porter attention au temps d'exécution en évaluant à la fois la latence et l'intérêt métier. Pour cela, quoi de mieux que de créer un benchmark en se basant sur un jeu de données de test ?<br>
-        Nous serons également attentifs à la complexité du modèle et à son explicabilité en nous intéressant au cas d'usage métier.<br>
-        Ce talk montrera également l'impact écologique des modèles. Nous verrons comment évaluer leur émission de CO2 ou encore leur consommation énergétique.<br>
-        Mais au final, devons nous tenir comptes de toutes ces métriques ?"
-    - name: "Stephane Cauchy"
-      company: "BPCE-SI"
-      speakers:
-        - name: "Stephane Cauchy"
-          ref: "stephane"
-          photo: "/img/speakers/stephane.jpg"
-        - name: "LIU Yung"
-          ref: "liu"
-          photo: "/img/speakers/liu.jpg"
-      presentation:
-        title: "Le développeur augmenté chez BPCE année 1"
-        description: "Octobre 2022, lors du précédent devfest nous découvrons l'IA générative et GPT3. Plein d'enthousiasme, nous retournons au bureau avec l'intuition qu'une révolution était en marche et que nous devions monter dans le train. Octobre 2023, 1 an après des résultats visibles : <br>
-        <ul>
-        <li>- les développeurs BPCE SI font du pair programming au quotidien</li>
-        <li>- Des analystes utilisent un chatbot pour connaître le fonctionnement du SI</li>
-        <li>- Les opérations lourdes de migration de code sont facilitées</li>
-        </ul>
-        Nous sommes aujourd'hui collectivement convaincu que nous vivons le début d'une transformation significative de nos métiers . Nous souhaitons vous raconter le chemin parcouru en 1 an pour revisiter les méthodes de travail de 2.600 personnes."
-    - name: "Thomas Fournaise"
-      company: "Nickel"
-      speakers:
-        - name: "Thomas Fournaise"
-          ref: "thomas"
-          photo: "/img/speakers/thomas.jpg"
-      presentation:
-        title: "Faut-il réguler les algorithmes ? Clairement non !"
-        description: "L'intelligence artificielle est de plus en plus présente à nos cotés pour nous aider à prendre des décisions mais régulièrement on entend dire qu'elles prend de mauvaises décisions ou qu'elle est sont biaisée. La solution qui est souvent évoquée est de réguler les algorithmes. Mais qu'est ce que cela veut dire et est ce réellement la bonne solution ? Plongeons ensemble dans les biais liés aux données et aux algorithmes, regardons ce que propose l'IA Act ou la directive sur la responsabilité des IAs et essayons de voir quel rôle ont les développeurs pour faire de meilleures intelligences."
+    - name: "Café"
+      time: "15h45"
     - name: "Julie Rabette"
       company: "Nokia"
       speakers:
@@ -214,8 +218,27 @@ params:
           ref: "alexandre"
           photo: "/img/speakers/alexandre.jpg"
       presentation:
+        time: "16h00"
         title: "Kubeflow pour le MLOps avec Cas d'usage"
         description: "Le MLOps, contraction de Machine Learning Operations, désigne l'ensemble des pratiques mises en œuvre pour automatiser l'entrainement, le déploiement et la maintenance de modèles de machine learning. Ces pratiques permettent
         notamment de traiter les problématiques de gestion des versions de modèles, de gestion de ressources cloud, ou encore de monitoring.<br>
         Ceci nécessite un environnement dédié au ML : une plateforme MLOps. L'automatisation des tâches répétitives et des pipelines permet aux équipes de se concentrer sur l'optimisation des performances des modèles ou l'exploration
         des données. Kubeflow est une plateforme MLOps qui vise à centraliser les outils ML pour le training, l'optimisation d'hyperparamètres et bien d'autres atouts qui seront présentés durant ce talk."
+    - name: "Eléa Petton"
+      company: "OVHcloud"
+      speakers:
+        - name: "Eléa Petton"
+          ref: "elea"
+          photo: "/img/speakers/elea.jpg"
+      presentation:
+        time: "16h45"
+        title: "A quel point devons-nous optimiser nos modèles d'IA ? Testons, évaluons, comparons !"
+        description: "Dans le domaine du Machine Learning, le concept d'optimisation est au coeur de la création des modèles. Il existe de multiples façons d'optimiser un modèle d'IA en se basant sur divers aspects : précision, performance, explicabilité, latence, consommation énergétique, ...<br>
+        Durant ce talk nous allons tout d'abord voir pourquoi il est primordial d'optimiser un modèle et quels sont les différentes optimisations possibles. Comment ? Au travers d'un cas d'usage métier pour voir à quel point notre modèle de Machine Learning peut être optimisé.<br>
+        Dans un premier temps, nous nous intéresserons à la métrique 'phare' : la précision du modèle. En tant que Data Scientist, l'entraînement est notre première étape pour optimiser un modèle de Machine Learning.<br>
+        Au delà de qualité et de la précision du modèle, il est primordial que ce dernier soit utilisable et déployable en production. Nous devons donc porter attention au temps d'exécution en évaluant à la fois la latence et l'intérêt métier. Pour cela, quoi de mieux que de créer un benchmark en se basant sur un jeu de données de test ?<br>
+        Nous serons également attentifs à la complexité du modèle et à son explicabilité en nous intéressant au cas d'usage métier.<br>
+        Ce talk montrera également l'impact écologique des modèles. Nous verrons comment évaluer leur émission de CO2 ou encore leur consommation énergétique.<br>
+        Mais au final, devons nous tenir comptes de toutes ces métriques ?"
+    - name: "Fin"
+      time: "17h30"
