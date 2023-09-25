@@ -95,7 +95,7 @@ params:
     - name: "LIU Yung"
       ref: "liu"
       photo: "/img/speakers/liu.jpg"
-      bio: "Directeur délégué - Responsable de domaine STS (SOLUTIONS TECHNOLOGIQUES DU SI )"
+      bio: "Après quelques années passées chez des éditeurs de solutions logiciels internationaux, j ‘ai rejoint le groupe BPCE où j’ai pu exercer différentes fonctions autour du développement logiciels d’application bancaire. Actuellement, je me concentre avec mes équipes sur les opportunités de mise en œuvre des nouvelles technologies, RPA, Low Code, IA, ... pour améliorer l’expérience de nos clients et de nos collaborateurs."
       company: "BPCE-SI"
     - name: "Thomas Fournaise"
       ref: "thomas"
