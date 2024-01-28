@@ -367,35 +367,15 @@ nav {
 	vertical-align: center;
 	margin-right: 20px;
 }
-.call-action-area .call-action-link,
-.btn {
-
-
+.call-action-area {
 	position: absolute;
 	bottom: 5%;
-	cursor: pointer;
-	padding: 8px 20px;
-	font-size: 1.5em;
-	line-height: 1em;
-	vertical-align: center;
-	letter-spacing: -0.02em;
-	color: #ffffff;
-	border-radius: 30px;
-	border: solid thin #34b8c2;
-	-webkit-transition: all 0.3s ease-out;
-	-moz-transition: all 0.3s ease-out;
-	-ms-transition: all 0.3s ease-out;
-	-o-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
 	left: 20px;
-	width: 10%;
 }
-.call-action-area .call-action-link:hover,
-.call-action-area .call-action-link:focus,
-.btn:hover,
-.btn:focus {
-	position: absolute;
-	bottom: 5%;
+
+.call-action-link,
+.btn {
+	
 	cursor: pointer;
 	padding: 8px 20px;
 	font-size: 1.5em;
@@ -410,7 +390,6 @@ nav {
 	-ms-transition: all 0.3s ease-out;
 	-o-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
-	left: 20px;
 	width: 10%;
 }
 /* =============================================================================
