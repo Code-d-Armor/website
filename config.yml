@@ -5,6 +5,7 @@ theme: "hugo-conference"
 
 GoogleAnalytics: ""
 
+
 params:
   # Conference info
   Name: "DevFest Perros-Guirec"

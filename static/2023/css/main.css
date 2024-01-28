@@ -375,7 +375,6 @@ nav {
 
 .call-action-link,
 .btn {
-	
 	cursor: pointer;
 	padding: 8px 20px;
 	font-size: 1.5em;
@@ -392,6 +391,26 @@ nav {
 	transition: all 0.3s ease-out;
 	width: 10%;
 }
+
+/* =============================================================================
+   THANK YOU
+   ========================================================================== */
+
+.thankyou p{
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+}
+.aftermovie {
+	display:flex;
+	justify-content: center;
+}
+
+.aftermovie iframe{
+	
+}
+
 /* =============================================================================
    TEXT
    ========================================================================== */

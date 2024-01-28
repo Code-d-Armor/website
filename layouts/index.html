@@ -39,11 +39,12 @@
 
     <div class="content" id="content">
       <div class="wrapper">
-        {{ range $section := .Site.Params.Sections }}
+        {{ partial "thankyou.html" .Site.Params }}
+       <!--  {{ range $section := .Site.Params.Sections }}
           <section class="{{ $section }}" id="{{ $section }}">
             {{ partial $section $.Site.Params }}
           </section>
-        {{ end }}
+        {{ end }} -->
 
         <footer class="footer">
         </footer>
