@@ -5,6 +5,7 @@ theme: "hugo-conference"
 
 GoogleAnalytics: ""
 
+
 params:
   # Conference info
   Name: "DevFest Perros-Guirec"
@@ -15,7 +16,7 @@ params:
   Address: "1 Rue du Maréchal Foch"
   City:  "Perros-Guirec"
   State: "France"
-  Images: ["/img/cover.jpg"]
+  Images: ["img/cover.jpg"]
   GoogleMapsKey: "my-secret-maps-key"
 
   # Active sections on the website to deactivate comment out with '#'
@@ -54,67 +55,67 @@ params:
   # List of Sponsors
   Sponsors:
     - name: "DCbrain"
-      logo: "/img/partners/dcbrain.png"
+      logo: "img/partners/dcbrain.png"
       url: "https://dcbrain.com/"
     
     - name: "Eco-Compteur"
-      logo: "/img/partners/ecocompteur.png"
+      logo: "img/partners/ecocompteur.png"
       url: "https://www.eco-compteur.com/"
 
   # List of Partners
   Partners:
     - name: "Anticipa"
-      logo: "/img/partners/anticipa.png"
+      logo: "img/partners/anticipa.png"
       url: "https://www.technopole-anticipa.com/french-tech-lannion/"
 
   Speakers:
     - name: "Tugdual Grall"
       ref: "tugdual"
-      photo: "/img/speakers/tugdual.jpg"
+      photo: "img/speakers/tugdual.jpg"
       bio: "Tugdual Grall, est Solutions Engineer chez GitHub, où il accompagne les développeurs dans leur utilisation de GitHub et des pratiques DevOps/DevSecOps.<br>
       Avant de travailler chez GitHub, 'Tug', était, DevRel chez Redis, Directeur du Product Management chez Red Hat, Technical Evangelist chez MapR, MongoDB et Couchbase. Tug a également travaillé comme CTO chez eXo Platform, et comme Product Manager et Développeur sur la platform JavaEE d'Oracle.<br>
       Tugdual est également co-fondateur du Nantes JUG (Java Users Group) qui réunit tous les mois depuis 2008 les développeurs et architectes de la région nantaise."
       company: "GitHub"
     - name: "Julien Salvi"
       ref: "julien"
-      photo: "/img/speakers/julien.png"
+      photo: "img/speakers/julien.png"
       bio: "Into the Android world for 10 years, I experienced California the startup way of life before coming back to France. I am currently a Lead Android Engineer at Aircall where we are building the best phone system for modern businesses. Alongside Android, I have a great interest in backend development with Kotlin and AR/VR technology. In 2021, I became an Android GDE to continue my journey to always share and learn with the Android community. On my spare time, I am a world traveler and a beer lover always looking for the best IPAs!"
       company: "Aircall"
     - name: "Eléa Petton"
       ref: "elea"
-      photo: "/img/speakers/elea.jpg"
+      photo: "img/speakers/elea.jpg"
       bio: "Etudiante pendant cinq ans à l'école d'ingénieurs ISEN Brest, je suis diplômée en octobre 2022 en tant qu'ingénieur généraliste avec une coloration Intelligence Artificielle (IA).<br>
       L'IA est un domaine qui me passionne et dans lequel je me spécialise en intégrant la TEAM AI Solutions d'OVHcloud en tant que Machine Learning Engineer.<br>
       Je travaille sur trois produits d'OVHcloud dédiés à l'entraînement et au déploiement de modèles d'IA : AI Training, AI Notebooks et AI Deploy. Mon rôle est de créer des verticaux sur ces produits sous différents formats pour les utilisateurs de la plateforme."
       company: "OVHcloud"
     - name: "Stephane Cauchy"
       ref: "stephane"
-      photo: "/img/speakers/stephane.jpg"
+      photo: "img/speakers/stephane.jpg"
       bio: "Host leader du Laboratoire d’expérimentation digitale (LED) de BPCE-SI, incubateur sur les nouveaux usages, pratiques et outils au service d’une édition logicielle toujours plus performante. Auteur du livre 'Etre agile par nature' qui retrace les débuts de la transformation agile chez BPCE. Près de 40 ans d'expérience, spécialiste de l'agilité d'entreprise et coach d'organisation."
       company: "BPCE-SI"
     - name: "LIU Yung"
       ref: "liu"
-      photo: "/img/speakers/liu.jpg"
+      photo: "img/speakers/liu.jpg"
       bio: "Après quelques années passées chez des éditeurs de solutions logiciels internationaux, j ‘ai rejoint le groupe BPCE où j’ai pu exercer différentes fonctions autour du développement logiciels d’application bancaire. Actuellement, je me concentre avec mes équipes sur les opportunités de mise en œuvre des nouvelles technologies, RPA, Low Code, IA, ... pour améliorer l’expérience de nos clients et de nos collaborateurs."
       company: "BPCE-SI"
     - name: "Thomas Fournaise"
       ref: "thomas"
-      photo: "/img/speakers/thomas.jpg"
+      photo: "img/speakers/thomas.jpg"
       bio: "Passionné d'informatique et de développement depuis longtemps, je suis passé par les équipes projets, l'architecture et l'urbanisme d'entreprise avant de bifurquer vers l'IA et la Data. Je me passionne pour tous les sujets liés aux données, aux biais, à l'IA et à l'éthique. Depuis 2016, j'organise le Salon de la Data à Nantes."
       company: "Nickel"
     - name: "Julie Rabette"
       ref: "julie"
-      photo: "/img/speakers/julie.jpg"
+      photo: "img/speakers/julie.jpg"
       bio: "Je fais partie de l'équipe nokia qui travaille sur le remplacement d'algo 'classique' de la couche L1 uplink de la 5G/6G par du deepLearning. Nous travaillons actuellement sur la mise en place de notre propre converteur pour faire de la QAT sur les modèles avant de les intégrer sur accélérateur HW spécifiques."
       company: "Nokia"
     - name: "Alexandre Lou"
       ref: "alexandre"
-      photo: "/img/speakers/alexandre.jpg"
+      photo: "img/speakers/alexandre.jpg"
       bio: "Aujourd'hui ingénieur MLOps chez Nokia, j'ai commencé en tant que stagiaire sur des problématiques Machine learning. Dans la continuité de ces travaux, je contribue à la création d'environnements dédiés aux projets"
       company: "Nokia"
     - name: "Renaud Allioux"
       ref: "renaud"
-      photo: "/img/speakers/renaud.png"
+      photo: "img/speakers/renaud.png"
       bio: "Renaud Allioux est le co-fondateur et Chief Innovation and Future technologies de Preligens, une entreprise spécialisée dans l'Intelligence Artificielle au service de l'armée et du renseignement militaire. Après avoir réalisé une thèse au CNES, il a poursuivi son aventure chez Airbus. <br/> En 2016, il a créé Preligens avec son associé Arnaud Guérin. Leur IA est capable de détecter des modèles de blindés, d'avions ou de drones à partir d'images satellites. L'entreprise a levé 23 millions d'euros, signé des contrats avec 5 pays, et compte plus de 180 salariés. Ils ont également ouvert des filiales dans plusieurs pays."
       company: "Preligens"
 
@@ -129,7 +130,7 @@ params:
       speakers:
         - name: "Renaud Allioux"
           ref: "renaud"
-          photo: "/img/speakers/renaud.png"
+          photo: "img/speakers/renaud.png"
       presentation:
         time: "9h15"
         title: "Les développeurs à l'heure de l'IA"
@@ -147,7 +148,7 @@ params:
       speakers:
         - name: "Thomas Fournaise"
           ref: "thomas"
-          photo: "/img/speakers/thomas.jpg"
+          photo: "img/speakers/thomas.jpg"
       presentation:
         time: "10h45"
         title: "Faut-il réguler les algorithmes ? Clairement non !"
@@ -157,10 +158,10 @@ params:
       speakers:
         - name: "Stephane Cauchy"
           ref: "stephane"
-          photo: "/img/speakers/stephane.jpg"
+          photo: "img/speakers/stephane.jpg"
         - name: "LIU Yung"
           ref: "liu"
-          photo: "/img/speakers/liu.jpg"
+          photo: "img/speakers/liu.jpg"
       presentation:
         time: "11h30"
         title: "Le développeur augmenté chez BPCE année 1"
@@ -178,7 +179,7 @@ params:
       speakers:
         - name: "Tugdual Grall"
           ref: "tugdual"
-          photo: "/img/speakers/tugdual.jpg"
+          photo: "img/speakers/tugdual.jpg"
       presentation:
         time: "14h00"
         title: "Copilot : L’intelligence artificielle au service des développeurs"
@@ -200,7 +201,7 @@ params:
       speakers:
         - name: "Julien Salvi"
           ref: "julien"
-          photo: "/img/speakers/julien.png"
+          photo: "img/speakers/julien.png"
       presentation:
         time: "15h00"
         title: "Machine Learning sur Android avec ML Kit (sans être expert en IA)"
@@ -213,10 +214,10 @@ params:
       speakers:
         - name: "Julie Rabette"
           ref: "julie"
-          photo: "/img/speakers/julie.jpg"
+          photo: "img/speakers/julie.jpg"
         - name: "Alexandre Lou"
           ref: "alexandre"
-          photo: "/img/speakers/alexandre.jpg"
+          photo: "img/speakers/alexandre.jpg"
       presentation:
         time: "16h00"
         title: "Kubeflow pour le MLOps avec Cas d'usage"
@@ -229,7 +230,7 @@ params:
       speakers:
         - name: "Eléa Petton"
           ref: "elea"
-          photo: "/img/speakers/elea.jpg"
+          photo: "img/speakers/elea.jpg"
       presentation:
         time: "16h45"
         title: "A quel point devons-nous optimiser nos modèles d'IA ? Testons, évaluons, comparons !"
