@@ -3,5 +3,5 @@
 ## Démarrer une instance locale
 
 ```shell
-hugo -server -D
+bundle exec jekyll serve --trace
 ```
