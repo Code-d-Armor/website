@@ -1,8 +1,5 @@
-public/
-
-*.iml
-.idea
-
-.hugo*
-
-content/
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
