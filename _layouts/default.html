@@ -119,7 +119,7 @@
                 {% if slide.button1.isPrimary %}
                   {% assign button_type = 'common'%}
                 {% endif %} 
-              <a href="#" class="fadeInLeft wow btn btn-{{ button_type }} btn-lg" data-wow-delay=".6s">{{ slide.button1.text }}</a>
+              <a href="{{ slide.button1.url }}" class="fadeInLeft wow btn btn-{{ button_type }} btn-lg" data-wow-delay=".6s">{{ slide.button1.text }}</a>
             {% endif %}
             
             {% if slide.button2 %}
@@ -127,7 +127,7 @@
               {% if slide.button2.isPrimary %}
                 {% assign button_type = 'common'%}
               {% endif %} 
-            <a href="#" class="fadeInRight wow btn btn-{{ button_type }} btn-lg" data-wow-delay=".6s">{{ slide.button2.text }}</a>
+            <a href="{{ slide.button2.url }}" class="fadeInRight wow btn btn-{{ button_type }} btn-lg" data-wow-delay=".6s">{{ slide.button2.text }}</a>
             {% endif %}
           </div>
         </div>
@@ -301,7 +301,7 @@
 
           </div>
           <div class="col-lg-4 col-12">
-              <img class="img-fluid mx-auto d-block" src="{{ speaker.picture }}" alt="{{ speaker.name}}">
+              <img class="img-fluid mx-auto d-block" src="{{ site.baseurl }}{{ speaker.picture }}" alt="{{ speaker.name}}">
           </div>
           <div class="col-lg-4 col-12 text-lg-left text-center">
               <h3>{{ speaker.name }}</h3>

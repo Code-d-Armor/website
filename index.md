@@ -22,7 +22,7 @@ Carrousel_Slides:
       button1:
           isPrimary: True
           text: Billeterie
-          url: 
+          url: https://www.billetweb.fr/devfestnoz-github-copilot
       button2:
           isPrimary: False
           text: Programme
