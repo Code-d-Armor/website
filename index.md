@@ -2,9 +2,6 @@
 layout: default
 url: /2024/test
 
-
-
-
 Sections:
     - title: DevFestNoz
       url: /
@@ -25,9 +22,11 @@ Carrousel_Slides:
       button1:
           isPrimary: True
           text: Billeterie
+          url: 
       button2:
           isPrimary: False
           text: Programme
+          url: /#program
 
 Speakers:
   - name: Tugdual Grall
@@ -63,6 +62,8 @@ Details:
       <b>Jeudi 4 Avril à 18h30 au Pixie à Lannion</b>, nous vous proposons une conférence d’1h30 durant laquelle Tugdual Grall reviendra sur l’IA générative et fera un récap des bonnes pratiques de développement assisté par IA accumulées depuis 2,5 ans par Github et ses équipes.
 
       La soirée se terminera par des échanges autour d’un verre.
+    shortDescription: Le DevFestNoz est un événement à destination des développeu.se.r.s organisé par l'association <a href="https://codedarmor.fr/">Code d'Armor</a>.
+
 
 Sponsors:
 
