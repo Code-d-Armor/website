@@ -45,35 +45,84 @@
           </div>
           <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="navbar-nav mr-auto w-100 justify-content-end">
-              
-              {% for menu_item in page.Sections %}
-              
-              {% assign active_class = nil %}
-              {% if page.url == menu_item.url %}
-                {% assign active_class = 'active' %}
-              {% elsif menu_item.url != '/' and page.url contains menu_item.url %}          
-                {% assign active_class = 'active' %}
-              {% endif %}
-              
-              <li class="nav-item {{ active_class }}">
-                <a class="nav-link" href="{{site.baseurl}}{{menu_item.url}}">
-                  {{menu_item.title}}
+              <li class="nav-item active">
+                <a class="nav-link" href="#header-wrap">
+                  Home
                 </a>
               </li>
-              {% endfor %}
-              
+              <li class="nav-item">
+                <a class="nav-link" href="#about">
+                  About
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#schedules">
+                  schedules
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">
+                  Speakers
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">
+                  Gallery
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">
+                  Faq
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sponsors">
+                  Sponsors
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">
+                  pricing
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#google-map-area">
+                  Contact
+                </a>
+              </li>
             </ul>
           </div>
         </div>
 
         <!-- Mobile Menu Start -->
         <ul class="mobile-menu">
-          {% for menu_item in page.Sections %}
           <li>
-            <a class="page-scrool" href="{{site.baseurl}}{{menu_item.url}}">
-              {{menu_item.title}}</a>
+            <a class="page-scrool" href="#header-wrap">Home</a>
           </li>
-          {% endfor %}
+          <li>
+            <a class="page-scrool" href="#about">About</a>
+          </li>
+          <li>
+             <a class="page-scroll" href="#schedules">schedules</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#team">Speakers</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#gallery">Gallery</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#faq">Faq</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#sponsors">Sponsors</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#pricing">pricing</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#google-map-area">Contact</a>
+          </li>
         </ul>
         <!-- Mobile Menu End -->
 
@@ -82,63 +131,38 @@
 
       <!-- Main Carousel Section Start -->
       <div id="main-slide" class="carousel slide" data-ride="carousel">
-        
-        {% if page.Carrousel_Slides.size > 1 %}
-
         <ol class="carousel-indicators">
-          {% assign active_class = 'active' %}
-
-          {% for slide in page.Carrousel_Slides %}
-              
-            <li data-target="#main-slide" data-slide-to="{% increment slide_count %}" class="{{ active_class }}"></li>
-            
-            
-            {% if active_class == 'active' %}
-              {% assign active_class = '' %}
-            {% endif %}
-
-          {% endfor %}
-<!--           <li data-target="#main-slide" data-slide-to="1"></li>
-          <li data-target="#main-slide" data-slide-to="2"></li> -->
+          <li data-target="#main-slide" data-slide-to="0" class="active"></li>
+          <li data-target="#main-slide" data-slide-to="1"></li>
+          <li data-target="#main-slide" data-slide-to="2"></li>
         </ol>
-        {% endif %}
-
-
         <div class="carousel-inner">
-        {% assign active_class = 'active' %}
-        {% for slide in page.Carrousel_Slides %}
-
-        <div class="carousel-item {{ active_class }}">
-          <img class="d-block w-100" src="{{ site.baseurl }}{{ slide.image.url }}" alt="{{ slide.image.alt }}">
-          <div class="carousel-caption d-md-block">
-            <p class="fadeInUp wow" data-wow-delay=".6s">{{ slide.abovetitle }}</p>
-            <h1 class="wow fadeInDown heading" data-wow-delay=".4s">{{ slide.title }}</h1>
-            <p class="fadeInUp wow" data-wow-delay=".6s">{{ slide.subtitle }}</p>
-            {% if slide.button1 %}
-              {% assign button_type = 'border' %}
-                {% if slide.button1.isPrimary %}
-                  {% assign button_type = 'common'%}
-                {% endif %} 
-              <a href="#" class="fadeInLeft wow btn btn-{{ button_type }} btn-lg" data-wow-delay=".6s">{{ slide.button1.text }}</a>
-            {% endif %}
-            
-            {% if slide.button2 %}
-            {% assign button_type = 'border' %}
-              {% if slide.button2.isPrimary %}
-                {% assign button_type = 'common'%}
-              {% endif %} 
-            <a href="#" class="fadeInRight wow btn btn-{{ button_type }} btn-lg" data-wow-delay=".6s">{{ slide.button2.text }}</a>
-            {% endif %}
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="assets/img/slider/slide1.jpg" alt="First slide">
+            <div class="carousel-caption d-md-block">
+              <p class="fadeInUp wow" data-wow-delay=".6s">Global Grand Event on Digital Design</p>
+              <h1 class="wow fadeInDown heading" data-wow-delay=".4s">Design Thinking Conference</h1>
+              <a href="#" class="fadeInLeft wow btn btn-common btn-lg" data-wow-delay=".6s">Get Ticket</a>
+              <a href="#" class="fadeInRight wow btn btn-border btn-lg" data-wow-delay=".6s">Explore More</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/slider/slide2.jpg" alt="Second slide">
+            <div class="carousel-caption d-md-block">
+              <p class="fadeInUp wow" data-wow-delay=".6s">Global Grand Event on Digital Design</p>
+              <h1 class="wow bounceIn heading" data-wow-delay=".7s">22 Amazing Speakers</h1>
+              <a href="#" class="fadeInUp wow btn btn-border btn-lg" data-wow-delay=".8s">Learn More</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/slider/slide3.jpg" alt="Third slide">
+            <div class="carousel-caption d-md-block">
+              <p class="fadeInUp wow" data-wow-delay=".6s">Global Grand Event on Digital Design</p>
+              <h1 class="wow fadeInUp heading" data-wow-delay=".6s">Book Your Seat Now!</h1>
+              <a href="#" class="fadeInUp wow btn btn-common btn-lg" data-wow-delay=".8s">Explore</a>
+            </div>
           </div>
         </div>
-
-        {% if active_class == 'active' %}
-          {% assign active_class = '' %}
-        {% endif %}
-
-        {% endfor %}
-        
-        {% if page.Carrousel_Slides.size > 1 %}
         <a class="carousel-control-prev" href="#main-slide" role="button" data-slide="prev">
           <span class="carousel-control" aria-hidden="true"><i class="lni-chevron-left"></i></span>
           <span class="sr-only">Previous</span>
@@ -147,14 +171,13 @@
           <span class="carousel-control" aria-hidden="true"><i class="lni-chevron-right"></i></span>
           <span class="sr-only">Next</span>
         </a>
-        {% endif %}
       </div>
       <!-- Main Carousel Section End -->
 
     </header>
     <!-- Header Area wrapper End -->
 
-    <!-- Coundown Section Start
+    <!-- Coundown Section Start -->
     <section class="countdown-timer section-padding">
       <div class="container">
         <div class="row text-center">
@@ -174,7 +197,7 @@
     </section>
     <!-- Coundown Section End -->
 
-     <!-- Services Section Start 
+     <!-- Services Section Start -->
     <section id="services" class="services section-padding">
       <div class="container">
         <div class="row">
@@ -186,7 +209,7 @@
           </div>
         </div>
         <div class="row services-wrapper">
-          <!-- Services item 
+          <!-- Services item -->
           <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
             <div class="services-item wow fadeInDown" data-wow-delay="0.2s">
               <div class="icon">
@@ -198,7 +221,7 @@
               </div>
             </div>
           </div>
-          <!-- Services item 
+          <!-- Services item -->
           <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
             <div class="services-item wow fadeInDown" data-wow-delay="0.4s">
               <div class="icon">
@@ -210,7 +233,7 @@
               </div>
             </div>
           </div>
-          <!-- Services item 
+          <!-- Services item -->
           <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
             <div class="services-item wow fadeInDown" data-wow-delay="0.6s">
               <div class="icon">
@@ -222,7 +245,7 @@
               </div>
             </div>
           </div>
-          <!-- Services item 
+          <!-- Services item -->
           <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
             <div class="services-item wow fadeInDown" data-wow-delay="0.8s">
               <div class="icon">
@@ -234,7 +257,7 @@
               </div>
             </div>
           </div>
-           <!-- Services item 
+           <!-- Services item -->
           <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
             <div class="services-item wow fadeInDown" data-wow-delay="1s">
               <div class="icon">
@@ -246,7 +269,7 @@
               </div>
             </div>
           </div>
-           <!-- Services item 
+           <!-- Services item -->
           <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
             <div class="services-item wow fadeInDown" data-wow-delay="1.2s">
               <div class="icon">
@@ -262,61 +285,9 @@
       </div>
     </section>
     <!-- Services Section End -->
+    
 
-    <!-- Section Program Start -->
-    <section id="program" class="section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="section-title-header text-center">
-              <h2 class="section-title wow fadeInUp" data-wow-delay="0.2s">{{ page.Details.what.title}}</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-2 d-none-lg">
-
-          </div>
-          <div class="col-lg-8 col-12 text-lg-left text-center">
-              <p>{{ page.Details.what.description }}</p>
-          </div>
-          <div class="col-2 d-none-lg">
-
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="speaker" class="section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="section-title-header text-center">
-              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Conférencier</h1>
-            </div>
-          </div>
-        </div>
-        {% for speaker in page.Speakers %}
-        <div class="row">
-          <div class="col-2 d-none-lg">
-
-          </div>
-          <div class="col-lg-4 col-12">
-              <img class="img-fluid mx-auto d-block" src="{{ speaker.picture }}" alt="{{ speaker.name}}">
-          </div>
-          <div class="col-lg-4 col-12 text-lg-left text-center">
-              <h3>{{ speaker.name }}</h3>
-              <p>{{ speaker.bio }}</p>
-          </div>
-          <div class="col-2 d-none-lg">
-
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-    </section>
-   <!-- Program Section End -->
-  
-   <!-- About Section Start 
+    <!-- About Section Start -->
     <section id="about" class="section-padding">
       <div class="container">
         <div class="row">
@@ -371,33 +342,32 @@
           <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
             <div class="counter wow fadeInRight" data-wow-delay="0.3s">
               <div class="icon"><i class="lni-map"></i></div>
-              <p><a href="{{ page.Details.linkToMap }}">{{ page.Details.where.venue }}</a></p>
-              <span>{{ page.Details.where.address }}</span>
-              <span>{{ page.Details.where.city }}</span>
+              <p>Wst. Conference Center</p>
+              <span>San Francisco, CA</span>
             </div>
           </div>
           <!-- Counter Item -->
           <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
             <div class="counter wow fadeInRight" data-wow-delay="0.6s">
               <div class="icon"><i class="lni-timer"></i></div>
-              <p>{{ page.Details.when.date }}</p>
-              <span>{{ page.Details.when.time }}</span>
+              <p>February 14 - 19, 2018</p>
+              <span>09:00 AM – 05:00 PM</span>
             </div>
           </div>
           <!-- Counter Item -->
           <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
             <div class="counter wow fadeInRight" data-wow-delay="0.9s">
               <div class="icon"><i class="lni-users"></i></div>
-              <p>{{ page.Details.who.attendees }} </p>       
-              <span>{{ page.Details.who.limit }}</span>
+              <p>343 Available Seats</p>       
+              <span>Hurryup! few tickets are left</span>
             </div>
           </div>
           <!-- Counter Item -->
           <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
             <div class="counter wow fadeInRight" data-wow-delay="1.2s">
               <div class="icon"><i class="lni-coffee-cup"></i></div>
-              <p>{{ page.Details.cocktail.whatOffered}}</p>
-              <span>{{ page.Details.cocktail.callToAction}}</span>
+              <p>Free Lunch & Snacks</p>
+              <span>Don’t miss it</span>
             </div>
           </div>
         </div>
@@ -405,7 +375,7 @@
     </section>
     <!-- Counter Area End-->
 
-    <!-- Schedule Section Start
+    <!-- Schedule Section Start -->
     <section id="schedules" class="schedule section-padding">
       <div class="container">
         <div class="row">
@@ -764,7 +734,7 @@
     </section>
     <!-- Schedule Section End -->
 
-    <!-- Team Section Start 
+    <!-- Team Section Start -->
     <section id="team" class="section-padding text-center">
       <div class="container">
         <div class="row">
@@ -777,7 +747,7 @@
         </div>
         <div class="row">
           <div class="col-sm-6 col-md-6 col-lg-4">
-            <!-- Team Item Starts 
+            <!-- Team Item Starts -->
             <div class="team-item wow fadeInUp" data-wow-delay="0.2s">
               <div class="team-img">
                 <img class="img-fluid" src="assets/img/team/team-01.jpg" alt="">
@@ -797,10 +767,10 @@
                 <p>Product Designer, Tesla</p>
               </div>
             </div>
-            <!-- Team Item Ends
+            <!-- Team Item Ends -->
           </div>
           <div class="col-sm-6 col-md-6 col-lg-4">
-            <!-- Team Item Starts 
+            <!-- Team Item Starts -->
             <div class="team-item wow fadeInUp" data-wow-delay="0.4s">
               <div class="team-img">
                 <img class="img-fluid" src="assets/img/team/team-02.jpg" alt="">
@@ -820,11 +790,11 @@
                 <p>Front-end Developer, Dropbox</p>
               </div>
             </div>
-            <!-- Team Item Ends 
+            <!-- Team Item Ends -->
           </div>
 
           <div class="col-sm-6 col-md-6 col-lg-4">
-            <!-- Team Item Starts
+            <!-- Team Item Starts -->
             <div class="team-item wow fadeInUp" data-wow-delay="0.6s">
               <div class="team-img">
                 <img class="img-fluid" src="assets/img/team/team-03.jpg" alt="">
@@ -844,11 +814,11 @@
                 <p>Lead Designer, TNW</p>
               </div>
             </div>
-            <!-- Team Item Ends
+            <!-- Team Item Ends -->
           </div>
 
           <div class="col-sm-6 col-md-6 col-lg-4">
-            <!-- Team Item Starts 
+            <!-- Team Item Starts -->
             <div class="team-item wow fadeInUp" data-wow-delay="0.8s">
               <div class="team-img">
                 <img class="img-fluid" src="assets/img/team/team-04.jpg" alt="">
@@ -868,10 +838,10 @@
                 <p>Back-end Developer, ASUS</p>
               </div>
             </div>
-            <!-- Team Item Ends 
+            <!-- Team Item Ends -->
           </div>
           <div class="col-sm-6 col-md-6 col-lg-4">
-            <!-- Team Item Starts 
+            <!-- Team Item Starts -->
             <div class="team-item wow fadeInUp" data-wow-delay="1s">
               <div class="team-img">
                 <img class="img-fluid" src="assets/img/team/team-05.jpg" alt="">
@@ -891,10 +861,10 @@
                 <p>Full-stack Developer, Google</p>
               </div>
             </div>
-            <!-- Team Item Ends 
+            <!-- Team Item Ends -->
           </div>
           <div class="col-sm-6 col-md-6 col-lg-4">
-            <!-- Team Item Starts 
+            <!-- Team Item Starts -->
             <div class="team-item wow fadeInUp" data-wow-delay="1.2s">
               <div class="team-img">
                 <img class="img-fluid" src="assets/img/team/team-06.jpg" alt="">
@@ -914,7 +884,7 @@
                 <p>UI Designer, Apple</p>
               </div>
             </div>
-            <!-- Team Item Ends 
+            <!-- Team Item Ends -->
           </div>
         </div>
         <a href="speakers.html" class="btn btn-common mt-30 wow fadeInUp" data-wow-delay="1.9s">All Speakers</a>
@@ -922,7 +892,7 @@
     </section>
     <!-- Team Section End -->
 
-    <!-- Gallary Section Start 
+    <!-- Gallary Section Start -->
     <section id="gallery" class="section-padding">
       <div class="container">
         <div class="row">
@@ -1016,7 +986,7 @@
     </section>
     <!-- Gallary Section End -->
 
-    <!-- Ask Question Section Start 
+    <!-- Ask Question Section Start -->
     <section id="faq" class="section-padding">
       <div class="container">
         <div class="row">
@@ -1137,7 +1107,7 @@
     </section>
     <!-- Ask Question Section End -->
 
-    <!-- Sponsors Section Start
+    <!-- Sponsors Section Start -->
     <section id="sponsors" class="section-padding">
       <div class="container">
         <div class="row">
@@ -1177,7 +1147,7 @@
     </section>
     <!-- Sponsors Section End -->
 
-    <!-- Ticket Pricing Area Start 
+    <!-- Ticket Pricing Area Start -->
     <section id="pricing" class="section-padding">
       <div class="container">
         <div class="row">
@@ -1269,7 +1239,7 @@
     </section>
     <!-- Ticket Pricing Area End -->
 
-    <!-- Event Slides Section Start
+    <!-- Event Slides Section Start -->
     <section id="event-slides" class="section-padding">
       <div class="container">
         <div class="row">
@@ -1300,7 +1270,7 @@
     </section>
     <!-- Event Slides Section End -->
 
-    <!-- Blog Section Start
+    <!-- Blog Section Start -->
     <section id="blog" class="section-padding">
       <div class="container">
         <div class="row">
@@ -1381,7 +1351,7 @@
     </section>
     <!-- Blog Section End -->
 
-    <!-- Subscribe Area Start 
+    <!-- Subscribe Area Start -->
     <div id="subscribe" class="section-padding">
       <div class="container">
         <div class="row justify-content-md-center">
@@ -1401,7 +1371,7 @@
     </div>
     <!-- Subscribe Area End -->
 
-    <!-- Map Section Start 
+    <!-- Map Section Start -->
     <section id="google-map-area">
       <div class="container-fluid">
         <div class="row">
@@ -1413,7 +1383,7 @@
     </section>
     <!-- Map Section End -->
 
-    <!-- Contact Us Section 
+    <!-- Contact Us Section -->
     <section id="contact-map" class="section-padding">
       <div class="container">
         <div class="row justify-content-center">
@@ -1476,7 +1446,7 @@
             </p>
           </div>
           <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
-            <!-- <h3>QUICK LINKS</h3>
+            <h3>QUICK LINKS</h3>
             <ul>
               <li><a href="#">About Conference</a></li>
               <li><a href="#">Our Speakers</a></li>
@@ -1484,9 +1454,9 @@
               <li><a href="#">Latest News</a></li>
               <li><a href="#">Event Photo Gallery</a></li>
             </ul>
-          </div> -->
+          </div>
           <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.6s">
-            <!-- <h3>RECENT POSTS</h3>
+            <h3>RECENT POSTS</h3>
             <ul class="image-list">
               <li>
                 <figure class="overlay">
@@ -1506,10 +1476,10 @@
                   <div class="meta"><span class="date">October 12, 2018</span></div>
                 </div>
               </li>
-            </ul> -->
+            </ul>
           </div>
           <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.8s">
-           <!--  <h3>SUBSCRIBE US</h3>
+            <h3>SUBSCRIBE US</h3>
             <div class="widget">
               <div class="newsletter-wrapper">
                 <form method="post" id="subscribe-form" name="subscribe-form" class="validate">
@@ -1521,7 +1491,7 @@
                 </form>
               </div>
             </div>
-            <!-- /.widget 
+            <!-- /.widget -->
             <div class="widget">
               <h5 class="widget-title">FOLLOW US ON</h5>
               <ul class="footer-social">
@@ -1530,13 +1500,13 @@
                 <li><a class="linkedin" href="#"><i class="lni-linkedin-filled"></i></a></li>
                 <li><a class="google-plus" href="#"><i class="lni-google-plus"></i></a></li>
               </ul>
-            </div> -->
+            </div>
           </div>
         </div>
       </div>
     </footer>
     <!-- Footer Section End -->
-<!-- 
+
     <div id="copyright">
       <div class="container">
         <div class="row">
@@ -1547,7 +1517,7 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
 
     <!-- Go to Top Link -->
     <a href="#" class="back-to-top">
