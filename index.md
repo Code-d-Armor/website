@@ -1,6 +1,9 @@
 ---
 layout: default
-url: /2024/test
+permalink: /
+
+title: "DevFestNoz - 04 Avril 2024 - Lannion"
+thumbnail_url: /assets/img/devfestnoz-2024-linkedin.png
 
 Sections:
     - title: DevFestNoz
@@ -62,7 +65,7 @@ Details:
       <b>Jeudi 4 Avril à 18h30 au Pixie à Lannion</b>, nous vous proposons une conférence d’1h30 durant laquelle Tugdual Grall reviendra sur l’IA générative et fera un récap des bonnes pratiques de développement assisté par IA accumulées depuis 2,5 ans par Github et ses équipes.
 
       La soirée se terminera par des échanges autour d’un verre.
-    shortDescription: Le DevFestNoz est un événement à destination des développeu.se.r.s organisé par l'association <a href="https://codedarmor.fr/">Code d'Armor</a>.
+    shortDescription: Le DevFestNoz est une conférence à destination des développeu.se.r.s organisé par l'association <a href="https://codedarmor.fr/">Code d'Armor</a>.
 
 
 Sponsors:
