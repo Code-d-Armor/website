@@ -26,6 +26,13 @@
     width: 75%;
     max-width: 300px
   }
+
+  .logo_dark{
+    display:none;
+  }
+  .logo_light{
+    display:inline;
+  }
 }
 .top-nav-collapse{
   background: #fff;
@@ -49,6 +56,14 @@
       color: $preset!important;
     }
   }
+
+  .logo_dark{
+    display:inline;
+  }
+  .logo_light{
+    display:none;
+  }
+
 }
 .top-nav-collapse .navbar-nav li.active a.nav-link{
   color: $preset!important;
@@ -225,12 +240,15 @@
   }
   .navbar-brand{
     position: absolute;
-    padding: 15px 15px;
+    padding: 5px 15px;
     top: 0;
+
     img{
       width: 75%;
       max-width: 267px;
     }
+
+   
 }
   #mobile-menu {
     display:none;

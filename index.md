@@ -3,11 +3,11 @@ layout: default
 permalink: /
 
 title: "DevFestNoz - 04 Avril 2024 - Lannion"
-thumbnail_url: /assets/img/devfestnoz-2024-linkedin.png
+thumbnail_url: /assets/img/social-card/social-card-devfestnoz-2023.png
 
 Sections:
     - title: DevFestNoz
-      url: /
+      url: '/#'
     - title: DevFest 2023
       url: /assets/2023/
     - title: DevFest 2022
@@ -16,9 +16,9 @@ Sections:
       url: /assets/2021/
 
 Carrousel_Slides:
-    - abovetitle: Une soirée dédiée à l'IA pour les Devs
-      title: Conférence DevFestNoz
-      subtitle: 4 avril 2024 - 18h30 - Lannion
+    - title: Conférence DevFestNoz
+      abovetitle: Une soirée dédiée à l'IA pour les Devs
+      subtitle2: 4 avril 2024 - 18h30 - Lannion
       image:
         url: /assets/img/slider/tug_devfest_2023.png
         alt: "DevFestNoz"
@@ -54,20 +54,21 @@ Details:
     whatOffered: Collation offerte
     callToAction: pour échanger tous ensemble !
   what:
-    title: Github Copilot - 2ans et demi après le lancement, quels retours d’expérience?
+    title: "Github Copilot <br> 2 ans et demi après le lancement, quels retours d’expérience ?"
     description: |
-      Une <a href="https://github.blog/2022-09-07-research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness">étude</a> réalisée par GitHub montre que 88% des développeurs qui utilisent CoPilot se sentent plus productifs, 74% trouvent qu’ils se concentrent sur des travaux plus satisfaisants.  
-      Et que Github CoPilot permettrait de développer 2x plus vite !
-      Après un DevFest Perros-Guirec 2023 sur l’IA pour les devs, on ne pouvait pas en rester là!
-      Tugdual Grall, Solution Engineer chez Github, revient nous  parler de Github CoPilot, le service d’IA générative pour l’aide au développement informatique proposé par Github.
+      Une <a href="https://github.blog/2022-09-07-research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness">étude</a> réalisée par GitHub montre que 88% des développeurs qui utilisent CoPilot se sentent plus productifs, 74% trouvent qu’ils se concentrent sur des travaux plus satisfaisants.  <br>
+      Et que Github CoPilot permettrait de développer 2x plus vite !<br>
+      Après un DevFest Perros-Guirec 2023 sur l’IA pour les devs, on ne pouvait pas en rester là!<br>
+      Tugdual Grall, Solution Engineer chez Github, revient nous  parler de Github CoPilot, le service d’IA générative pour l’aide au développement informatique proposé par Github.<br><br>
       
-      En participant au devFest Perros-Guirec 2023, vous aviez pu en avoir un avant-goût, voici la suite.
-      <b>Jeudi 4 Avril à 18h30 au Pixie à Lannion</b>, nous vous proposons une conférence d’1h30 durant laquelle Tugdual Grall reviendra sur l’IA générative et fera un récap des bonnes pratiques de développement assisté par IA accumulées depuis 2,5 ans par Github et les utilisateurs de Copilot.
+      En participant au DevFest Perros-Guirec 2023, vous aviez pu en avoir un avant-goût, voici la suite.
+      <b>Jeudi 4 Avril à 18h30 au Pixie à Lannion</b>, nous vous proposons une conférence d’1h30 durant laquelle Tugdual Grall reviendra sur l’IA générative et fera un récap des bonnes pratiques de développement assisté par IA accumulées depuis 2,5 ans par Github et les utilisateurs de Copilot.<br><br>
 
       La soirée se terminera par des échanges autour d’un verre.
     shortDescription: Le DevFestNoz est une conférence à destination des développeu.se.r.s organisée par l'association <a href="https://codedarmor.fr/">Code d'Armor</a>.
 
 
 Sponsors:
+  - image_url:
 
 ---

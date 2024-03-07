@@ -41,7 +41,7 @@ p{
   font-weight: 400;
   font-family: 'Lato', sans-serif;
   margin: 0px;
-  font-size: 14px;
+  font-size: 15px;
 }
 ul,ol{
   list-style: outside none none;
@@ -93,7 +93,6 @@ ul,ol{
   padding-bottom: 20px;
   font-weight: 700;
   text-align: center;
-  text-transform: uppercase;
   position: relative;
   margin-bottom: 15px;
   &:before{
@@ -220,15 +219,10 @@ $transition: all 0.3s ease-in-out;
 }
 .btn-common{
   background-color: $preset;
-  position: relative;
-  z-index: 1;
+
   &:hover{
-    color: #fff;
-    background: #F50057;
-    box-shadow:  0 6px 22px rgba(0,0,0,0.1);
-    transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    -webkit-transition: all .2s ease-in-out;
+    color: $preset;
+    background: #fff;
   }
 }
 .btn-border{
