@@ -62,7 +62,7 @@ Details:
       Tugdual Grall, Solution Engineer chez Github, revient nous  parler de Github CoPilot, le service d’IA générative pour l’aide au développement informatique proposé par Github.
       
       En participant au devFest Perros-Guirec 2023, vous aviez pu en avoir un avant-goût, voici la suite.
-      <b>Jeudi 4 Avril à 18h30 au Pixie à Lannion</b>, nous vous proposons une conférence d’1h30 durant laquelle Tugdual Grall reviendra sur l’IA générative et fera un récap des bonnes pratiques de développement assisté par IA accumulées depuis 2,5 ans par Github et ses équipes.
+      <b>Jeudi 4 Avril à 18h30 au Pixie à Lannion</b>, nous vous proposons une conférence d’1h30 durant laquelle Tugdual Grall reviendra sur l’IA générative et fera un récap des bonnes pratiques de développement assisté par IA accumulées depuis 2,5 ans par Github et les utilisateurs de Copilot.
 
       La soirée se terminera par des échanges autour d’un verre.
     shortDescription: Le DevFestNoz est une conférence à destination des développeu.se.r.s organisée par l'association <a href="https://codedarmor.fr/">Code d'Armor</a>.
