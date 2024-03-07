@@ -30,9 +30,11 @@ a{
 	-moz-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
 	transition: all 0.2s linear;
-	&:hover{text-decoration: none;}
+  color: $preset;
+	&:hover{text-decoration: dashed; color: $preset;}
 	a:focus{
 	outline: none;
+  color: $preset;
 	}
 }
 p{
