@@ -287,22 +287,16 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-2 d-none-lg">
-
-        </div>
-        <div class="col-lg-8 col-12 text-lg-left text-center">
+        <div class="col-12 text-center">
           {% assign slide = page.Carrousel_Slides[0]%}
           {% if slide.button1 %}
             {% assign button_type = 'border' %}
             {% if slide.button1.isPrimary %}
             {% assign button_type = 'common'%}
             {% endif %}
-            <a href="{{ slide.button1.url }}" class="fadeInLeft wow btn btn-{{ button_type }} btn-lg"
-              data-wow-delay=".6s">{{ slide.button1.text }}</a>
+            <p><a href="{{ slide.button1.url }}" class="fadeInLeft wow btn btn-{{ button_type }} btn-lg"
+              data-wow-delay=".6s">{{ slide.button1.text }}</a></p>
             {% endif %}
-
-        </div>
-        <div class="col-2 d-none-lg">
 
         </div>
       </div>

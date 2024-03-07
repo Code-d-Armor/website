@@ -17,7 +17,7 @@ Sections:
 
 Carrousel_Slides:
     - title: Conférence DevFestNoz
-      abovetitle: Une soirée dédiée à l'IA pour les Devs
+      subtitle: Une soirée dédiée à l'IA pour les Devs
       subtitle2: 4 avril 2024 - 18h30 - Lannion
       image:
         url: /assets/img/slider/tug_devfest_2023.png
