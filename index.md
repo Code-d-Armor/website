@@ -70,13 +70,13 @@ Details:
 Gallery:
   title: Photos de la soirée
   photos:
-    - url: assets/img/img-1.jpg
+    - url: /assets/img/img-1.jpg
       alt: conference devfestnoz 2024
-    - url: assets/img/img-2.jpg
+    - url: /assets/img/img-2.jpg
       alt: conference devfestnoz 2024
-    - url: assets/img/img-3.jpg
+    - url: /assets/img/img-3.jpg
       alt: conference devfestnoz 2024
-    - url: assets/img/img-4.jpg
+    - url: /assets/img/img-4.jpg
       alt: conference devfestnoz 2024
 
 Sponsors:
