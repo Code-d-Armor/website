@@ -8,11 +8,11 @@ Sections:
     - title: DevFestNoz
       url: '/#'
     - title: DevFest 2023
-      url: https://devfest.codedarmor.fr/assets/2023/
+      url: /assets/2023/
     - title: DevFest 2022
-      url: https://devfest.codedarmor.fr/assets/2022/
+      url: /assets/2022/
     - title: DevFest 2021
-      url: https://devfest.codedarmor.fr/assets/2021/
+      url: /assets/2021/
 
 Carrousel_Slides:
     - title: Conférence DevFestNoz
