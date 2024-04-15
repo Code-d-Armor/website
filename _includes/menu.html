@@ -1,0 +1,54 @@
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+
+        <a href="{{ site.url }}{{ site.baseurl }}" class="navbar-brand"><img class="logo_dark"
+            src="{{ site.url }}{{ site.baseurl }}/assets/img/logo_dark.png" alt="logo DevFestNoz"><img
+            class="logo_light" src="{{ site.url }}{{ site.baseurl }}/assets/img/logo_dark.png"
+            alt="logo DevFestNoz"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar"
+          aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="main-navbar">
+        <ul class="navbar-nav mr-auto w-100 justify-content-end">
+
+          {% for menu_item in page.Sections %}
+
+            {% assign active_class = nil %}
+            {% if page.url == menu_item.url %}
+              {% assign active_class = 'active' %}
+            {% elsif menu_item.url == '/#' and page.url=='/'%}
+              {% assign active_class = 'active' %}
+            {% elsif menu_item.url != '/' and page.url contains menu_item.url %}
+              {% assign active_class = 'active' %}
+            {% endif %}
+
+            <li class="nav-item {{ active_class }}">
+              <a class="nav-link" href="{{site.url}}{{site.baseurl}}{{menu_item.url}}">
+                {{menu_item.title}}
+              </a>
+            </li>
+          {% endfor %}
+
+        </ul>
+      </div>
+    </div>
+
+    <!-- Mobile Menu Start -->
+    <ul class="mobile-menu">
+      {% for menu_item in page.Sections %}
+      <li>
+        <a class="page-scrool" href="{{ site.url }}{{site.baseurl}}{{menu_item.url}}">
+          {{menu_item.title}}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    <!-- Mobile Menu End -->
+
+  </nav>
+  <!-- Navbar End -->

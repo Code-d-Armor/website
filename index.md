@@ -67,6 +67,17 @@ Details:
       La soirée se terminera par des échanges autour d’un verre.
     shortDescription: Le DevFestNoz est une conférence à destination des développeu.se.r.s organisée par l'association <a href="https://codedarmor.fr/">Code d'Armor</a>.
 
+Gallery:
+  title: Photos de la soirée
+  photos:
+    - url: assets/img/img-1.jpg
+      alt: conference devfestnoz 2024
+    - url: assets/img/img-2.jpg
+      alt: conference devfestnoz 2024
+    - url: assets/img/img-3.jpg
+      alt: conference devfestnoz 2024
+    - url: assets/img/img-4.jpg
+      alt: conference devfestnoz 2024
 
 Sponsors:
   - image_url:

@@ -1,0 +1,28 @@
+ <!-- Gallary Section Start -->
+ <section id="gallery" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title-header text-center">
+            <h2 class="section-title wow fadeInUp" data-wow-delay="0.2s">{{ page.Gallery.title }}</h2>
+          </div>
+        </div> 
+      </div>
+      <div class="row">
+        {% for photo in page.Gallery.photos %}
+        <div class="col-sm-12 col-lg-6">
+          <div class="gallery-box">
+            <div class="img-thumb">
+              <img class="img-fluid" src="{{ site.baseurl }}{{ photo.url }}" alt="{{ photo.alt }}">
+            </div>
+            <div class="overlay-box text-center">
+              <a class="lightbox" href="{{ site.baseurl }}{{ photo.url }}">
+                <i class="lni-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+    </div>
+  </section>
+  <!-- Gallery Section End -->
