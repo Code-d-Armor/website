@@ -4,10 +4,9 @@ permalink: /
 
 title: "DevFestNoz - 04 Avril 2024 - Lannion"
 thumbnail_url: /assets/img/social-card/social-card-devfestnoz-2023.png
-
 Sections:
     - title: DevFestNoz
-      url: '/#'
+      url: '/assets/2024/devfestnoz/'
     - title: DevFest 2023
       url: /assets/2023/
     - title: DevFest 2022
