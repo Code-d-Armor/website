@@ -51,6 +51,20 @@ ul,ol{
     list-style: none;
   }
 }
+
+.btn-primary {
+  
+
+  color: #fff;
+  background-color: $primary;
+  border-color: $primary;
+}
+.btn-primary:hover{
+  background-color: $primary-light;
+  
+  border-color: $primary;
+}
+
 .hero-heading {
 	font-size: 40px;
 	font-weight: 700;
@@ -495,3 +509,8 @@ a.back-to-top{
 }
 
 #white-bg{background: #fff;}
+
+
+header + * {
+  padding-top: 60px;
+}
