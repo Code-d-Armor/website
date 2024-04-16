@@ -1,0 +1,74 @@
+---
+
+---
+
+{% include header.html %}
+<div class="row">
+  <div class="col-2 d-none-lg">
+
+  </div>
+  <div class="col-12 col-lg-8">
+  <!-- Section About Start -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+        <div class="section-title-header text-center">
+          <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">{{ page.title}}</h1>
+        </div>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="gallery-box">
+          <div class="img-thumb">
+            <img class="img-fluid" src="{{ site.baseurl }}{{ page.photo_equipe }}" alt="l'équipe Code d'Armor">
+          </div>
+          <div class="overlay-box text-center">
+            <a class="lightbox" href="{{ site.baseurl }}{{ page.photo_equipe }}">
+              <i class="lni-plus"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-lg-left text-center">
+          <p>{{ page.description }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Subscribe Newsletter Start -->
+  <section id="newsletter" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col col-1ah2 text-lg-left text-center">
+          <h2 class="section-title wow fadeInUp">{{ page.newsletter-sub.title }}</h2>
+          <p>{{ page.newsletter-sub.description }}</p>
+          <p class="text-center m-4"><a class="btn btn-primary" href="{{ page.newsletter-sub.link }}" target="_blank">{{
+              page.newsletter-sub.cta}}</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section Subscribe Newsletter End -->
+
+  <!-- Section Contact Start -->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col col-1ah2 text-lg-left text-center">
+          <h2 class="section-title wow fadeInUp">{{ page.contact-us.title }}</h2>
+          <p>{{ page.contact-us.description }}</p>
+        </div>
+      </div>
+  </section>
+  <!-- Section Contact Newsletter End -->
+  </div>
+  <div class="col-2 d-none-lg">
+
+  </div>
+</div>
+
+{% include footer.html %}

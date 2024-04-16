@@ -4,10 +4,9 @@
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
 
-        <a href="{{ site.baseurl }}" class="navbar-brand"><img class="logo_dark"
-            src="{{ site.baseurl }}/assets/img/logo_dark.png" alt="logo DevFestNoz"><img
-            class="logo_light" src="{{ site.baseurl }}/assets/img/logo_dark.png"
-            alt="logo DevFestNoz"></a>
+        <a href="{{ site.baseurl }}/" class="navbar-brand">
+          <img class="logo_dark" src="{{ site.baseurl }}{{ site.data.commons.logo_url }}" alt="logo">
+        </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar"
           aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,7 +17,7 @@
       <div class="collapse navbar-collapse" id="main-navbar">
         <ul class="navbar-nav mr-auto w-100 justify-content-end">
 
-          {% for menu_item in page.Sections %}
+          {% for menu_item in site.data.commons.menu %}
 
             {% assign active_class = nil %}
             {% if page.url == menu_item.url %}
@@ -42,7 +41,7 @@
 
     <!-- Mobile Menu Start -->
     <ul class="mobile-menu">
-      {% for menu_item in page.Sections %}
+      {% for menu_item in site.data.commons.menu %}
       <li>
         <a class="page-scrool" href="{{ site.baseurl }}{{menu_item.url}}">
           {{menu_item.title}}</a>
