@@ -1,0 +1,28 @@
+<section id="speakers" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title-header text-center">
+            <h2 class="section-title wow fadeInUp" data-wow-delay="0.2s">Conférencier</h2>
+          </div>
+        </div>
+      </div>
+      {% for speaker in page.Speakers %}
+      <div class="row">
+        <div class="col-2 d-none-lg">
+
+        </div>
+        <div class="col-lg-4 col-12">
+          <img class="img-fluid mx-auto d-block" src="{{ site.baseurl }}{{ speaker.picture }}" alt="{{ speaker.name}}">
+        </div>
+        <div class="col-lg-4 col-12 text-lg-left text-center">
+          <h3>{{ speaker.name }}</h3>
+          <p>{{ speaker.bio }}</p>
+        </div>
+        <div class="col-2 d-none-lg">
+
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>

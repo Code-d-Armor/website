@@ -1,0 +1,100 @@
+---
+
+---
+
+{% include header.html %}
+{% include carrousel.html %}
+
+<!-- Section Program Start -->
+<section id="program" class="section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title-header text-center">
+          <h2 class="section-title wow fadeInUp" data-wow-delay="0.2s">{{ page.Details.what.title}}</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-2 d-none-lg">
+
+      </div>
+      <div class="col-lg-8 col-1ah2 text-lg-left text-center">
+        <p>{{ page.Details.what.description }}</p>
+      </div>
+      <div class="col-2 d-none-lg">
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Program Section Ends -->
+
+
+<!-- Speakers Section Starts -->
+
+{% if page.Speakers != null %}
+{% include speakers.html %}
+{% endif %}
+<!-- Speakers Section Ends -->
+
+<!-- Gallery Section Starts -->
+
+{% if page.Gallery != null %}
+{% include gallery.html %}
+{% endif %}
+
+<!-- Gallery Section End -->
+
+<!-- Counter Area Start-->
+<section class="counter-section section-padding">
+  <div class="container">
+    <div class="row">
+      <!-- Counter Item -->
+      <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+        <div class="counter wow fadeInRight" data-wow-delay="0.3s">
+          <div class="icon"><i class="lni-map"></i></div>
+          <p><a href="{{ page.Details.linkToMap }}">{{ page.Details.where.venue }}</a></p>
+          <span>{{ page.Details.where.address }}</span>
+          <span>{{ page.Details.where.city }}</span>
+        </div>
+      </div>
+      <!-- Counter Item -->
+      <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+        <div class="counter wow fadeInRight" data-wow-delay="0.6s">
+          <div class="icon"><i class="lni-timer"></i></div>
+          <p>{{ page.Details.when.date }}</p>
+          <span>{{ page.Details.when.time }}</span>
+        </div>
+      </div>
+      <!-- Counter Item -->
+      <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+        <div class="counter wow fadeInRight" data-wow-delay="0.9s">
+          <div class="icon"><i class="lni-users"></i></div>
+          <p>{{ page.Details.who.attendees }} </p>
+          <span>{{ page.Details.who.limit }}</span>
+        </div>
+      </div>
+      <!-- Counter Item -->
+      <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+        <div class="counter wow fadeInRight" data-wow-delay="1.2s">
+          <div class="icon"><i class="lni-coffee-cup"></i></div>
+          <p>{{ page.Details.cocktail.whatOffered}}</p>
+          <span>{{ page.Details.cocktail.callToAction}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Counter Area End-->
+
+<!-- Registration Section Starts -->
+
+{% if page.Register != null %}
+{% include register.html params=page.Register %}
+{% endif %}
+
+<!-- Registration Section End -->
+
+{% include footer.html %}

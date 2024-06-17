@@ -1,13 +1,11 @@
 logo_url: "/assets/img/logo_dark.png"
 
 menu:
+  - title: DevFest 2024
+    url: '/'
+  - title: Archives
+    url: '/archives'
   - title: À propos
     url: /a-propos
-  - title: DevFestNoz
-    url: '/assets/2024/devfestnoz/'
-  - title: DevFest 2023
-    url: /assets/2023/
-  - title: DevFest 2022
-    url: /assets/2022/
-  - title: DevFest 2021
-    url: /assets/2021/
+
+shortDescription: Le DevFest Perros-Guirec est une conférence à destination des développeu.se.r.s organisée par l'association <a href="https://codedarmor.fr/">Code d'Armor</a>.

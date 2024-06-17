@@ -41,6 +41,7 @@ p{
   font-weight: 400;
   font-family: 'Lato', sans-serif;
   margin: 0px;
+  margin-top: 15px;
   font-size: 15px;
 }
 ul,ol{
@@ -225,12 +226,25 @@ $transition: all 0.3s ease-in-out;
     margin-right: 5px;
   }
 }
+
+/* .contrasted.btn{
+  border-color: $primary;
+  color: $primary-light;
+}
+ */
 .btn:focus,
 .btn:active{
   box-shadow: none;
   outline: none;
   color: #fff;
 }
+
+/* 
+.contrasted.btn:focus,
+.contrasted.btn:active{
+  color: $primary;
+} */
+
 .btn-common{
   background-color: $preset;
 
@@ -239,6 +253,7 @@ $transition: all 0.3s ease-in-out;
     background: #fff;
   }
 }
+
 .btn-border{
   color: #fff;
   background-color: transparent;
@@ -248,6 +263,17 @@ $transition: all 0.3s ease-in-out;
     background-color: rgba(255, 255, 255, 0.2);
   }
 }
+
+.contrasted.btn-border{
+  border-color: $primary;
+  color: $primary;
+
+  &:hover{
+    color: $primary;
+    border-color: $primary;
+  }
+}
+
 .btn-lg{
   padding: 12px 34px;
   text-transform: uppercase;
