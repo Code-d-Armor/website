@@ -4,17 +4,6 @@ permalink: /
 
 title: "DevFest - 04 Octobre 2024 - Perros-Guirec"
 thumbnail_url: /assets/img/social-card/social-card-devfestnoz-2023.png  #TODO
-Sections:
-    - title: DevFest 2024
-      url: '/'
-    - title: DevFestNoz 2024
-      url: '/assets/2024/devfestnoz/'
-    - title: DevFest 2023
-      url: /assets/2023/
-    - title: DevFest 2022
-      url: /assets/2022/
-    - title: DevFest 2021
-      url: /assets/2021/
 
 Carrousel_Slides:
     - title: DevFest Perros-Guirec 2024
@@ -29,8 +18,8 @@ Carrousel_Slides:
           url: https://www.billetweb.fr/devfestnoz-github-copilot
       button1:
           isPrimary: False
-          text: Partagez votre exéprience (CFP)
-          url: /#program
+          text: Partagez votre expérience (CFP)
+          url: https://conference-hall.io/public/event/83stK0KPUZeUccRtx9pA
 
 # Speakers:
 #   - name: Tugdual Grall
