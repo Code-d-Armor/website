@@ -3,10 +3,11 @@ layout: home_conference
 permalink: /
 
 title: "DevFest - 04 Octobre 2024 - Perros-Guirec"
-thumbnail_url: /assets/img/social-card/social-card-devfestnoz-2023.png  #TODO
+thumbnail_url: /assets/img/social-card/Linkedin-event-IOT.png
 
 Carrousel_Slides:
-    - title: DevFest Perros-Guirec 2024
+    - logo: /assets/img/slider/2024-devfestwhite-center.png
+      title: DevFest Perros-Guirec 2024
       subtitle: 7 conférences pour développeur·euse·s
       subtitle2: 4 octobre 2024 - 8h45 - Perros-Guirec
       image:
@@ -15,7 +16,7 @@ Carrousel_Slides:
       button2:
           isPrimary: True
           text: Billeterie
-          url: https://www.billetweb.fr/devfestnoz-github-copilot
+          url: https://www.billetweb.fr/devfest-perros-guirec-2024
       button1:
           isPrimary: False
           text: Partagez votre expérience (CFP)
@@ -46,16 +47,12 @@ Details:
   what:
     title: "L'IoT et les systèmes embarqués pour les devs"
     description: |
-      <p>La hype “IoT” des années 2015 est maintenant bien passée ; nous sommes maintenant dans une époque où l’accès à des matériels miniaturisés et connectés, ainsi qu’à l’infrastructure associée, est devenu une commodité. L’IoT n’est plus, l’IoT est partout, et croise d’autres thématiques émergentes: 6g, cybersécurité, énergie et terres rares, IA,...</p>
-
-      <p>Pour cette 4ème édition, nous vous proposerons un programme autour des objets connectés et de leur infrastructure pour évoquer ensemble des nouveautés, des bonnes pratiques et des retours d’expériences…</p>
-      <p>Et comme chaque année, nous portons un soin particulier à ce que le contenu soit spécialement pensé pour les développeurs, les hackers, et les technophiles de tous horizons.</p>
-
-      <p>Nous vous invitons à nous retrouver le 4 Octobre 2024 dans le cadre idéal du Centre de Conférence de Perros-Guirec pour une journée entre Dev et Mer. </p>
-
-      <p>1 track = 7 conférences</p>
-
-      <p>Hâte de vous retrouver 🫶</p>
+      <p>Depuis la "hype" IoT des années 2015, beaucoup de choses ont évolué. Aujourd'hui, l'accès à des matériels miniaturisés et connectés, ainsi qu'à l'infrastructure associée, est devenu une commodité. L'IoT n'est plus un concept à la mode, il est désormais omniprésent et se croise avec d'autres thématiques émergentes telles que la 6G, la cybersécurité, l'énergie et les terres rares, ainsi que l'intelligence artificielle.</p>
+      <p>Pour cette 4ème édition, nous vous proposons un programme riche et varié autour des objets connectés et de leur infrastructure. Ensemble, nous explorerons les dernières nouveautés, partagerons les bonnes pratiques et reviendrons sur des retours d'expériences enrichissants.</p>
+      <p>Comme chaque année, nous veillons à ce que le contenu soit spécialement conçu pour les développeurs et développeuses, les hackers et les technophiles de tous horizons. Notre objectif est de vous offrir des sessions pertinentes et stimulantes qui répondent à vos attentes.</p>
+      <p>Rejoignez-nous le 4 octobre 2024 dans le cadre idyllique du Centre de Conférence de Perros-Guirec pour une journée d'échanges entre passionnés de technologie et de mer.</p>
+      <p>Programme : 1 track = 7 conférences</p>
+      <p>Nous avons hâte de vous retrouver 🫶</p>
 
 # Gallery:
 #   title: Photos de la soirée
@@ -75,10 +72,12 @@ Register:
   button1:
       isPrimary: False
       text: Tarifs et informations
-      url: https://www.billetweb.fr/devfestnoz-github-copilot
+      target: _blank
+      url: https://www.billetweb.fr/devfest-perros-guirec-2024
   button2:
       isPrimary: True
       text: Acheter
-      url: https://www.billetweb.fr/devfestnoz-github-copilot
+      target: _blank
+      url: https://www.billetweb.fr/devfest-perros-guirec-2024
 
 ---

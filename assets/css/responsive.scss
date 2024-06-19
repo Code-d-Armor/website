@@ -5,19 +5,25 @@
 /* only small desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
     #main-slide{
-        .carousel-caption{
-            top: 32%;
+        .carousel-item {
+            .carousel-caption {
+                img.logo {
+                    max-width: 25%;
+                }
+            }
         }
+    
     }
     .carousel-indicators{
         font-size: 14px;
     }
     #main-slide .carousel-item .carousel-caption .heading{
         font-size: 20px;
-        margin-top: 5px;
+        margin-top: 10px;
     }
     #main-slide .carousel-item .carousel-caption p{
         font-size: 13px;
+        margin-top: 5px;
     }
      #hero-area .contents .head-title{
         font-size: 40px;
@@ -40,11 +46,9 @@
 }
 
 /* tablets */
+/* 
 @media (max-width: 991px) {
     #main-slide{
-        .carousel-caption{
-            top: 32%;
-        }
     }
     #main-slide .carousel-item .carousel-caption .heading{
         font-size: 20px;
@@ -101,14 +105,19 @@
     .footer-area h3{
         margin-top: 30px;
     }
-}
+} */
 
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
     #main-slide{
-        .carousel-caption{
-            top: 32%;
+        .carousel-item {
+            .carousel-caption {
+                img.logo {
+                    max-width: 25%;
+                }
+            }
         }
+    
     }
     #main-slide .carousel-item .carousel-caption .heading{
         font-size: 20px;
