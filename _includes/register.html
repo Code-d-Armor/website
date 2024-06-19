@@ -20,20 +20,8 @@
       <div class="col-2 d-none-lg">
       </div>
       <div class="col-lg-8 col-1ah2 text-center">
-        {% assign button_type = 'border' %}
-        {% if include.params.button1.isPrimary %}
-        {% assign button_type = 'common'%}
-        {% endif %}
-        <a href="{{ include.params.button1.url }}"
-          class="fadeInRight wow contrasted btn btn-{{ button_type }} btn-lg" target="{{ include.params.button1.target}}" data-wow-delay=".6s">{{ include.params.button1.text
-          }}</a>
-          {% assign button_type = 'border' %}
-        {% if include.params.button2.isPrimary %}
-        {% assign button_type = 'common'%}
-        {% endif %}
-        <a href="{{ include.params.button2.url }}"
-          class="fadeInRight wow btn btn-{{ button_type }} btn-lg" target="{{ include.params.button2.target}}" data-wow-delay=".6s">{{ include.params.button2.text
-          }}</a>
+        {% include button.html button=include.params.button1 %}
+        {% include button.html button=include.params.button2 %}
       </div>
       <div class="col-2 d-none-lg">
       </div>

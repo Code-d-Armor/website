@@ -15,10 +15,14 @@ Carrousel_Slides:
         alt: "DevFest Perros-Guirec 2024"
       button2:
           isPrimary: True
+          isExternal: True
+          target: _blank
           text: Billeterie
           url: https://www.billetweb.fr/devfest-perros-guirec-2024
       button1:
           isPrimary: False
+          isExternal: True
+          target: _blank
           text: Partagez votre expérience (CFP)
           url: https://conference-hall.io/public/event/83stK0KPUZeUccRtx9pA
 
@@ -71,13 +75,15 @@ Register:
   text: Soutenez l'événément et achetez dès à présent un billet pour la conférence 2024.
   button1:
       isPrimary: False
+      isExternal: True
+      isContrasted: True
       text: Tarifs et informations
       target: _blank
       url: https://www.billetweb.fr/devfest-perros-guirec-2024
   button2:
       isPrimary: True
+      isExternal: True
       text: Acheter
       target: _blank
       url: https://www.billetweb.fr/devfest-perros-guirec-2024
-
 ---

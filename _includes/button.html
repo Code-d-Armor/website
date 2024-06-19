@@ -1,0 +1,19 @@
+{% if include.button %}
+    {% assign button_type = 'border' %}
+    {% if include.button.isPrimary %}
+        {% assign button_type = 'common'%}
+    {% endif %}
+    {% unless include.button.isExternal %}
+            {% capture base_url %}
+                {{ site.url }}{{ site.baseurl }}
+            {% endcapture %}
+    {% endunless %}
+
+    {% if include.button.isContrasted %}
+    {% assign contrasted = 'contrasted'%}
+    {% endif %}
+
+    <a href="{{ base_url }}{{ include.button.url }}" class="fadeInRight {{ contrasted }} wow btn btn-{{ button_type }} btn-lg"
+        target="{{ include.button.target}}"
+        data-wow-delay=".6s">{{ include.button.text }}</a>
+{% endif %}
