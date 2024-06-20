@@ -89,6 +89,11 @@
 </section>
 <!-- Counter Area End-->
 
+{% if page.LastYearMovie != null %}
+{% include video.html params=page.LastYearMovie %}
+{% endif %}
+
+
 <!-- Registration Section Starts -->
 
 {% if page.Register != null %}

@@ -3,6 +3,7 @@ layout: home_conference
 permalink: /
 
 title: "DevFest - 04 Octobre 2024 - Perros-Guirec"
+description: Le DevFest Perros-Guirec est une conférence à destination des développeu.se.r.s organisée par l'association <a href="https://codedarmor.fr/">Code d'Armor</a>.
 thumbnail_url: /assets/img/social-card/Linkedin-event-IOT.png
 
 Carrousel_Slides:
@@ -58,8 +59,15 @@ Details:
       <p>Programme : 1 track = 7 conférences</p>
       <p>Nous avons hâte de vous retrouver 🫶</p>
 
+
+LastYear:
+  - title: "Souvenirs de l'édition 2023"
+  - text: Revivez les meilleurs moments du DevFest Perros-Guirec 2023.
+  - youtube_url: https://www.youtube.com/watch?v=8WLXD1TigUE
+
+
 # Gallery:
-#   title: Photos de la soirée
+#   title: Souvenirs de l'édition précédente
 #   photos:
 #     - url: /assets/img/img-1.jpg
 #       alt: conference devfestnoz 2024
