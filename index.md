@@ -60,10 +60,10 @@ Details:
       <p>Nous avons hâte de vous retrouver 🫶</p>
 
 
-LastYear:
-  - title: "Souvenirs de l'édition 2023"
-  - text: Revivez les meilleurs moments du DevFest Perros-Guirec 2023.
-  - youtube_url: https://www.youtube.com/watch?v=8WLXD1TigUE
+LastYearMovie:
+  title: "Souvenirs de l'édition 2023"
+  text: Revivez les meilleurs moments du DevFest Perros-Guirec 2023.
+  youtube_embed_url: https://www.youtube.com/embed/8WLXD1TigUE?si=v8uQq2YluSpqfqnv&amp;controls=0
 
 
 # Gallery:
