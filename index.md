@@ -76,7 +76,7 @@ Gallery:
        alt: Pierre Andrieux
 
 Register:
-  title: Billeterie
+  title: Billetterie
   text: Soutenez l'événément et achetez dès à présent un billet pour la conférence 2024.
   button1:
       isPrimary: False
