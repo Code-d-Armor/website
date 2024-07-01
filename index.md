@@ -66,17 +66,14 @@ LastYearMovie:
   youtube_embed_url: https://www.youtube.com/embed/8WLXD1TigUE?si=v8uQq2YluSpqfqnv&amp;controls=0
 
 
-# Gallery:
-#   title: Souvenirs de l'édition précédente
-#   photos:
-#     - url: /assets/img/img-1.jpg
-#       alt: conference devfestnoz 2024
-#     - url: /assets/img/img-2.jpg
-#       alt: conference devfestnoz 2024
-#     - url: /assets/img/img-3.jpg
-#       alt: conference devfestnoz 2024
-#     - url: /assets/img/img-4.jpg
-#       alt: conference devfestnoz 2024
+Gallery:
+   title: Les premiers intervenants dévoilés
+   description: Et bien d'autres à venir...
+   photos:
+     - url: /assets/img/speakers/01_iot.bzh_Fulup-Valentin.png
+       alt: Fulup Ar Foll et Valentin Geffroy
+     - url: /assets/img/speakers/02-capgemini-Pierre.png
+       alt: Pierre Andrieux
 
 Register:
   title: Billeterie

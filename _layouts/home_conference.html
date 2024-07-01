@@ -42,10 +42,21 @@
 <!-- Gallery Section Starts -->
 
 {% if page.Gallery != null %}
-{% include gallery.html %}
+{% include gallery.html params=page.Gallery %}
+
 {% endif %}
 
 <!-- Gallery Section End -->
+
+
+<!-- Registration Section Starts -->
+
+{% if page.Register != null %}
+{% include register.html params=page.Register %}
+{% endif %}
+
+<!-- Registration Section End -->
+
 
 <!-- Counter Area Start-->
 <section class="counter-section section-padding">
@@ -94,12 +105,5 @@
 {% endif %}
 
 
-<!-- Registration Section Starts -->
-
-{% if page.Register != null %}
-{% include register.html params=page.Register %}
-{% endif %}
-
-<!-- Registration Section End -->
 
 {% include footer.html %}
