@@ -540,3 +540,9 @@ a.back-to-top{
 header + * {
   padding-top: 60px;
 }
+
+section#speakers {
+  p.organization{
+    font-weight: bold;
+  }
+}

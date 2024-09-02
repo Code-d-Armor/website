@@ -27,13 +27,6 @@ Carrousel_Slides:
           text: Partagez votre expérience (CFP)
           url: https://conference-hall.io/public/event/83stK0KPUZeUccRtx9pA
 
-# Speakers:
-#   - name: Tugdual Grall
-#     picture: /assets/img/speaker/tug.png
-#     bio: "Tugdual Grall, est Solutions Engineer chez GitHub, où il accompagne les développeurs dans leur utilisation de GitHub et des pratiques DevOps/DevSecOps.
-#     Avant de travailler chez GitHub, 'Tug', était, DevRel chez Redis, Directeur du Product Management chez Red Hat, Technical Evangelist chez MapR, MongoDB et Couchbase. Tug a également travaillé comme CTO chez eXo Platform, et comme Product Manager et Développeur sur la platform JavaEE d'Oracle.
-#     Tugdual est également co-fondateur du Nantes JUG (Java Users Group) qui réunit tous les mois depuis 2008 les développeurs et architectes de la région nantaise."
-
 Details:
   where:
     venue: Centre des Congrès de Perros-Guirec
@@ -66,14 +59,83 @@ LastYearMovie:
   youtube_embed_url: https://www.youtube.com/embed/8WLXD1TigUE?si=v8uQq2YluSpqfqnv&amp;controls=0
 
 
-Gallery:
-   title: Les premiers intervenants dévoilés
-   description: Et bien d'autres à venir...
-   photos:
-     - url: /assets/img/speakers/01_iot.bzh_Fulup-Valentin.png
-       alt: Fulup Ar Foll et Valentin Geffroy
-     - url: /assets/img/speakers/02-capgemini-Pierre.png
-       alt: Pierre Andrieux
+Speakers:
+  title: Speakers
+  list:
+    - name: "Fulup Ar Foll"
+      organization: "IoT. Bzh"
+      photo_url: "assets/img/photos_speakers/fulup_ar_foll.jpg"
+      bio: >
+        CEO et architecte en chef d'IoT.bzh depuis 2015, Fulup a dirigé la stratégie globale de l'entreprise
+        en développant des outils open source pour sécuriser les applications embarquées, notamment dans le secteur automobile.
+        Auparavant, il a été CTO chez Sun Microsystems et consultant indépendant pour le gouvernement français sur la sécurité internet.
+    - name: "Valentin Geffroy"
+      organization: "IoT. Bzh"
+      photo_url: "assets/img/photos_speakers/valentin_geffroy.jpeg"
+      bio: >
+        Valentin est ingénieur en systèmes embarqués chez IoT.bzh, où il développe des microservices pour
+        la géolocalisation d'équipements médicaux et des stations de recharge électrique. Spécialisé en cybersécurité, il a renforcé 
+        la chaîne de démarrage sécurisé sur des SoC ARM. Diplômé en cybersécurité des systèmes embarqués, il allie innovation et expertise technique.
+    - name: "Pierre Andrieux"
+      organization: "Capgemini"
+      photo_url: "assets/img/photos_speakers/pierre_andrieux.png"
+      bio: >
+        Pierre Andrieux est Architecte Solutions au sein de Capgemini. Passionné par les nouvelles technologies et le craftsmanship,
+        Pierre a eu l’occasion de développer son expertise sur le E-commerce, la Data et le Cloud.
+    - name: "Pascal Fifre"
+      organization: "Eco-compteur"
+      photo_url: "assets/img/photos_speakers/pascal_fifre.jpeg"
+      bio: >
+        Responsable R&D Hardware chez Eco-Compteur depuis 2021, Pascal Fifre coordonne l'équipe et mène des projets techniques innovants.
+        Ancien architecte firmware/hardware, il a fondé IOTYS pour conseiller sur les systèmes embarqués et l'IoT. Il a également travaillé chez OPEN et CLEODE,
+        où il a conçu des solutions M2M et Zigbee, après avoir travaillé en ingénierie firmware chez CORVIS, SAGEM et ALCATEL.
+    - name: "Benoit Rouxel"
+      organization: "Thales"
+      photo_url: "assets/img/photos_speakers/benoit_roussel.jpeg"
+      bio: >
+        Développeur logiciel chez Thales depuis 2023, il intègre l'équipe R&D pour travailler sur la géomatique, 
+        l'expérience utilisateur, la visualisation de données, et l'intégration d'algorithmes d'intelligence artificielle. 
+        Ses expériences chez Fortuneo, Geomod et le Crédit Mutuel Arkéa lui ont permis de maîtriser divers langages et technologies,
+        renforçant ainsi ses compétences en développement web.
+    - name: "Erwan Duval"
+      organization: "Thales"
+      photo_url: "assets/img/photos_speakers/erwan_duval.jpeg"
+      bio: >
+        Responsable de la Transformation Digitale chez Thales DMS depuis 2022, pilote l'innovation en intégrant 
+        des solutions logicielles avancées dans l'industrie de la défense. Fort de plus de 15 ans d'expérience chez Nokia et Thales,
+        il a mené des équipes vers la transition cloud et DevOps. Co-fondateur de l'incubateur "Chrysalide", il est également à l'origine
+        de "La Tech est dans le pré", un espace dédié au partage technologique.
+    - name: "Thomas Leseney"
+      organization: "Netvolt"
+      #photo_url: "assets/img/photos_speakers/thomas_leseney.jpg"
+      bio: >
+        Co-fondateur de Netvolt depuis janvier 2024, Thomas Leseney développe des solutions numériques pour la gestion des infrastructures
+        d'énergie renouvelable. Co-fondateur de NEXCOM Systems, il a conçu et déployé des serveurs SIP pour des opérateurs mondiaux et a participé
+        à plusieurs standards Java dans le domaine des télécommunications. Il est également intervenu dans la création de plusieurs start-ups
+        impliquées dans la transformation numérique de secteurs tels que le Field Service Management, l'immobilier ou la finance.
+    - name: "Xavier Marin"
+      organization: "SenX"
+      photo_url: "assets/img/photos_speakers/xavier_marin.jpg"
+      bio: >
+        Senior Software Engineer chez SenX depuis 2018, il développe des outils autour de Warp 10 et forme des équipes.
+        Co-fondateur de Qaobee, il a dirigé le développement de solutions innovantes pour la collecte de données sportives en temps réel.
+        Il a également été ingénieur logiciel chez Crédit Mutuel Arkéa et Cityzen Data, avec une expertise en DevOps, Java, et développement web.
+    - name: "Pierre Papin"
+      organization: "SenX"
+      photo_url: "assets/img/photos_speakers/pierre_papin.jpg"
+      bio: >
+        Après 13 ans dans l'électronique automobile, Pierre Papin s'est reconverti dans l'informatique chez SenX en 2018.
+        Il s'occupe des projets qui incluent une partie électronique, tout en contribuant à l'amélioration de Warp 10.
+
+
+# Gallery:
+#    title: Les premiers intervenants dévoilés
+#    description: Et bien d'autres à venir...
+#    photos:
+#      - url: /assets/img/speakers/01_iot.bzh_Fulup-Valentin.png
+#        alt: Fulup Ar Foll et Valentin Geffroy
+#      - url: /assets/img/speakers/02-capgemini-Pierre.png
+#        alt: Pierre Andrieux
 
 Register:
   title: Billetterie

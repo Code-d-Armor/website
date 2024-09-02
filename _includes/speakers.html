@@ -3,20 +3,23 @@
       <div class="row">
         <div class="col-12">
           <div class="section-title-header text-center">
-            <h2 class="section-title wow fadeInUp" data-wow-delay="0.2s">Conférencier</h2>
+            <h2 class="section-title wow fadeInUp" data-wow-delay="0.2s">{{ page.Speakers.title}}</h2>
           </div>
         </div>
       </div>
-      {% for speaker in page.Speakers %}
-      <div class="row">
+      {% for speaker in page.Speakers.list %}
+      <div class="row pt-5">
         <div class="col-2 d-none-lg">
 
         </div>
         <div class="col-lg-4 col-12">
-          <img class="img-fluid mx-auto d-block" src="{{ site.baseurl }}{{ speaker.picture }}" alt="{{ speaker.name}}">
+          {% if speaker.photo_url!= null %}
+            <img class="img-fluid mx-auto d-block" src="{{ site.baseurl }}{{ speaker.photo_url }}" alt="{{ speaker.name}}">
+          {% endif %}
         </div>
         <div class="col-lg-4 col-12 text-lg-left text-center">
           <h3>{{ speaker.name }}</h3>
+          <p class="organization">{{ speaker.organization }}</p>
           <p>{{ speaker.bio }}</p>
         </div>
         <div class="col-2 d-none-lg">
