@@ -1,0 +1,32 @@
+<!-- Agenda Section Start -->
+<section id="agenda" class="section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title-header text-center">
+          <h2 class="section-title wow fadeInUp" data-wow-delay="0.2s">{{ page.Agenda.title }}</h2>
+        </div>
+      </div> 
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="agenda-day">
+          {% for session in page.Agenda.talks %}
+          <div class="agenda-session">
+            {% if session.time != null %}
+            <div class="session-time">
+              <strong>{{ session.time }}</strong>
+            </div>
+            {% endif %}
+            <div class="session-details">
+              <h3 class="session-title">{{ session.title }}</h3>
+              <p class="session-speaker">{{ session.speakers }}</p>
+              <p class="session-description">{{ session.description }}</p>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+    </div>
+  </div>
+</section>
+<!-- Agenda Section End -->
