@@ -14,18 +14,12 @@ Carrousel_Slides:
       image:
         url: /assets/img/slider/devfest_2024.png 
         alt: "DevFest Perros-Guirec 2024"
-      button2:
+      button1:
           isPrimary: True
           isExternal: True
           target: _blank
           text: Billeterie
           url: https://www.billetweb.fr/devfest-perros-guirec-2024
-      button1:
-          isPrimary: False
-          isExternal: True
-          target: _blank
-          text: Partagez votre expérience (CFP)
-          url: https://conference-hall.io/public/event/83stK0KPUZeUccRtx9pA
 
 Details:
   where:
@@ -129,7 +123,8 @@ Speakers:
 
 Agenda:
   title: Conférences
-  talks:
+  placeholder_wait: Découvrez l'agenda de l'événement dans quelques jours... 
+  talks_:
     - speakers: "Fulup Le Foll & Valentin Geffroy"
       organization: "IoT. Bzh"
       title: "Retour d'expérience sur l'utilisation de RUST/Linux dans une borne de charge véhicule electrique"

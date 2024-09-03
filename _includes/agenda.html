@@ -11,6 +11,7 @@
     <div class="row">
       <div class="col-12">
         <div class="agenda-day">
+          {% if session.Agenda.talks != null %}
           {% for session in page.Agenda.talks %}
           <div class="agenda-session">
             {% if session.time != null %}
@@ -25,6 +26,10 @@
             </div>
           </div>
           {% endfor %}
+
+          {% else %}
+            <p class="session-speaker text-center">{{ page.Agenda.placeholder_wait }}</p>          
+          {% endif %}
         </div>
     </div>
   </div>
