@@ -84,7 +84,7 @@ Speakers:
         Pierre a eu l’occasion de développer son expertise sur le E-commerce, la Data et le Cloud.
     - name: "Pascal Fifre"
       organization: "Eco-compteur"
-      photo_url: "assets/img/photos_speakers/pascal_fifre.jpeg"
+      photo_url: "assets/img/photos_speakers/pascal_fifre.png"
       bio: >
         Responsable R&D Hardware chez Eco-Compteur depuis 2021, Pascal Fifre coordonne l'équipe et mène des projets techniques innovants.
         Ancien architecte firmware/hardware, il a fondé IOTYS pour conseiller sur les systèmes embarqués et l'IoT. Il a également travaillé chez OPEN et CLEODE,
