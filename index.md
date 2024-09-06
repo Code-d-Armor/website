@@ -63,6 +63,7 @@ Speakers:
   title: Speakers
   list:
     - name: "Fulup Ar Foll"
+      id: "fulup"
       organization: "IoT. Bzh"
       photo_url: "assets/img/photos_speakers/fulup_ar_foll.jpg"
       bio: >
@@ -70,6 +71,7 @@ Speakers:
         en développant des outils open source pour sécuriser les applications embarquées, notamment dans le secteur automobile.
         Auparavant, il a été CTO chez Sun Microsystems et consultant indépendant pour le gouvernement français sur la sécurité internet.
     - name: "Valentin Geffroy"
+      id: valentin
       organization: "IoT. Bzh"
       photo_url: "assets/img/photos_speakers/valentin_geffroy.jpeg"
       bio: >
@@ -77,12 +79,14 @@ Speakers:
         la géolocalisation d'équipements médicaux et des stations de recharge électrique. Spécialisé en cybersécurité, il a renforcé 
         la chaîne de démarrage sécurisé sur des SoC ARM. Diplômé en cybersécurité des systèmes embarqués, il allie innovation et expertise technique.
     - name: "Pierre Andrieux"
+      id: pierre
       organization: "Capgemini"
       photo_url: "assets/img/photos_speakers/pierre_andrieux.png"
       bio: >
         Pierre Andrieux est Architecte Solutions au sein de Capgemini. Passionné par les nouvelles technologies et le craftsmanship,
         Pierre a eu l’occasion de développer son expertise sur le E-commerce, la Data et le Cloud.
     - name: "Pascal Fifre"
+      id: pascal
       organization: "Eco-compteur"
       photo_url: "assets/img/photos_speakers/pascal_fifre.png"
       bio: >
@@ -90,6 +94,7 @@ Speakers:
         Ancien architecte firmware/hardware, il a fondé IOTYS pour conseiller sur les systèmes embarqués et l'IoT. Il a également travaillé chez OPEN et CLEODE,
         où il a conçu des solutions M2M et Zigbee, après avoir travaillé en ingénierie firmware chez CORVIS, SAGEM et ALCATEL.
     - name: "Benoit Rouxel"
+      id: benoit
       organization: "Thales"
       photo_url: "assets/img/photos_speakers/benoit_roussel.jpeg"
       bio: >
@@ -98,6 +103,7 @@ Speakers:
         Ses expériences chez Fortuneo, Geomod et le Crédit Mutuel Arkéa lui ont permis de maîtriser divers langages et technologies,
         renforçant ainsi ses compétences en développement web.
     - name: "Erwan Duval"
+      id: erwan
       organization: "Thales"
       photo_url: "assets/img/photos_speakers/erwan_duval.jpeg"
       bio: >
@@ -106,14 +112,16 @@ Speakers:
         il a mené des équipes vers la transition cloud et DevOps. Co-fondateur de l'incubateur "Chrysalide", il est également à l'origine
         de "La Tech est dans le pré", un espace dédié au partage technologique.
     - name: "Thomas Leseney"
+      id: thomas
       organization: "Netvolt"
-      #photo_url: "assets/img/photos_speakers/thomas_leseney.jpg"
+      photo_url: "assets/img/photos_speakers/thomas_leseney.jpeg"
       bio: >
         Co-fondateur de Netvolt depuis janvier 2024, Thomas Leseney développe des solutions numériques pour la gestion des infrastructures
         d'énergie renouvelable. Co-fondateur de NEXCOM Systems, il a conçu et déployé des serveurs SIP pour des opérateurs mondiaux et a participé
         à plusieurs standards Java dans le domaine des télécommunications. Il est également intervenu dans la création de plusieurs start-ups
         impliquées dans la transformation numérique de secteurs tels que le Field Service Management, l'immobilier ou la finance.
     - name: "Xavier Marin"
+      id: xavier
       organization: "SenX"
       photo_url: "assets/img/photos_speakers/xavier_marin.jpg"
       bio: >
@@ -121,6 +129,7 @@ Speakers:
         Co-fondateur de Qaobee, il a dirigé le développement de solutions innovantes pour la collecte de données sportives en temps réel.
         Il a également été ingénieur logiciel chez Crédit Mutuel Arkéa et Cityzen Data, avec une expertise en DevOps, Java, et développement web.
     - name: "Pierre Papin"
+      id: pierrep
       organization: "SenX"
       photo_url: "assets/img/photos_speakers/pierre_papin.jpg"
       bio: >
@@ -130,7 +139,11 @@ Speakers:
 Agenda:
   title: Conférences
   talks:
-    - speakers: "Fulup Le Foll & Valentin Geffroy"
+    - speakers: 
+      - name: "Fulup Le Foll"
+        id: fulup
+      - name: "Valentin Geffroy"
+        id: valentin
       organization: "IoT. Bzh"
       title: "Retour d'expérience sur l'utilisation de RUST/Linux dans une borne de charge véhicule electrique"
       description: "Plongez dans l'univers des infrastructures de charge pour voitures électriques avec cette présentation captivante. Découvrez les architectures techniques derrière les communications entre bornes de charge et véhicules électriques, à travers l'expérience du projet 'Tux-Evse'. La conférence aborde les défis et solutions en matière de cybersécurité, les leçons tirées de l'utilisation de Rust par rapport à C/C++, ainsi que le modèle de cohabitation Linux/RTOS pour assurer la sûreté fonctionnelle. En prime, apprenez comment construire chez vous une borne de charge intelligente de dernière génération, en utilisant des composants open source."
