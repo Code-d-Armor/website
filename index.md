@@ -18,7 +18,7 @@ Carrousel_Slides:
           isPrimary: True
           isExternal: True
           target: _blank
-          text: Billeterie
+          text: Billetterie
           url: https://www.billetweb.fr/devfest-perros-guirec-2024
       button1:
           isPrimary: False
@@ -137,7 +137,7 @@ Speakers:
         Il s'occupe des projets qui incluent une partie électronique, tout en contribuant à l'amélioration de Warp 10.
 
 Agenda:
-  title: Conférences
+  title: Programme
   talks:
     - speakers: 
       - name: "Fulup Le Foll"
@@ -146,24 +146,45 @@ Agenda:
         id: valentin
       organization: "IoT. Bzh"
       title: "Retour d'expérience sur l'utilisation de RUST/Linux dans une borne de charge véhicule electrique"
-      description: "Plongez dans l'univers des infrastructures de charge pour voitures électriques avec cette présentation captivante. Découvrez les architectures techniques derrière les communications entre bornes de charge et véhicules électriques, à travers l'expérience du projet 'Tux-Evse'. La conférence aborde les défis et solutions en matière de cybersécurité, les leçons tirées de l'utilisation de Rust par rapport à C/C++, ainsi que le modèle de cohabitation Linux/RTOS pour assurer la sûreté fonctionnelle. En prime, apprenez comment construire chez vous une borne de charge intelligente de dernière génération, en utilisant des composants open source."
-    - speakers: "Pierre Andrieux"
+      description: "Plongez dans l'univers des infrastructures de charge pour voitures électriques avec cette présentation captivante. Découvrez les architectures techniques derrière les communications entre bornes de charge et véhicules électriques, à travers l'expérience du projet 'Tux-Evse'. <br/><br/>
+      La conférence aborde les défis et solutions en matière de cybersécurité, les leçons tirées de l'utilisation de Rust par rapport à C/C++, ainsi que le modèle de cohabitation Linux/RTOS pour assurer la sûreté fonctionnelle.
+      <br/><br/> En prime, apprenez comment construire chez vous une borne de charge intelligente de dernière génération, en utilisant des composants open source."
+    - speakers: 
+      - name : "Pierre Andrieux"
+        id: pierre
       organization: "Capgemini"
       title: "Comment la domotique peut-elle vous aider à adopter une approche plus écoresponsable tout en réduisant vos factures ?"
-      description: "La crise énergétique des dernières années a sensibilisé à la rareté de cette ressource. Cette présentation démontrera comment, grâce à des logiciels open source et des appareils connectés, il est possible de suivre en temps réel la consommation de votre domicile afin de l'optimiser."
-    - speakers: "Pascal Fifre"
+      description: "La crise énergétique des dernières années a sensibilisé à la rareté de cette ressource. <br/><br/>
+      Cette présentation démontrera comment, grâce à des logiciels open source et des appareils connectés, il est possible de suivre en temps réel la consommation de votre domicile afin de l'optimiser."
+    - speakers: 
+      - name : "Pascal Fifre"
+        id: pascal
       organization: "Eco-compteur"
       title: "Mise en œuvre de l’IOT chez EcoCompteur"
-      description: "Découvrez comment EcoCompteur a intégré l'IoT dans ses systèmes de comptage et explorez l'évolution technologique qui a permis une couverture internationale. Cette conférence offrira un retour d'expérience riche sur la sélection et la mise en œuvre des solutions IoT, en abordant les contraintes techniques, la législation, la sécurité et les performances des systèmes déployés. Vous plongerez dans l'histoire de l'IoT chez EcoCompteur, les défis rencontrés et les perspectives d'avenir."
-    - speakers: "Benoit Rouxel & Erwan Duval"
+      description: "Découvrez comment EcoCompteur a intégré l'IoT dans ses systèmes de comptage et explorez l'évolution technologique qui a permis une couverture internationale.<br/><br/>
+      Cette conférence offrira un retour d'expérience riche sur la sélection et la mise en œuvre des solutions IoT, en abordant les contraintes techniques, la législation, la sécurité et les performances des systèmes déployés. Vous plongerez dans l'histoire de l'IoT chez EcoCompteur, les défis rencontrés et les perspectives d'avenir."
+    - speakers: 
+      - name : "Benoit Rouxel"
+        id: benoit
+      - name: "Erwan Duval"
+        id: erwan
       organization: "Thales"
       title: "Où est Charlie ? (dans mes données IoT géo-référencées)"
-      description: "Imaginez-vous en train de chercher Charlie dans l'une des célèbres illustrations du jeu. C'est amusant, mais souvent frustrant, n'est-ce pas ? Maintenant, transposez ce défi au monde des données IoT géo-référencées. Lorsqu'il s'agit de traiter d'énormes volumes de données issues de capteurs radar, trouver les informations pertinentes peut s'avérer tout aussi complexe et chronophage. Cette présentation montre comment ce défi a été relevé en exploitant la puissance d'OpenSearch pour transformer cette quête en une expérience à la fois intuitive et efficace pour l'utilisateur. À partir d'une base de données OpenSearch contenant des détections radar, il sera démontré comment les utilisateurs peuvent explorer et naviguer facilement dans ces données. L'exploration passera par OpenSearch Dashboard, les vector tiles, l'API d'OpenSearch, et les modèles de langage naturel. Cette approche, c'est un peu comme disposer d'une loupe magique dans le jeu 'Où est Charlie ?' : elle permettrait de trouver Charlie en un clin d'œil. La solution proposée offre aux utilisateurs une exploration de leurs données IoT qui est à la fois rapide, performante et accessible."
-    - speakers: "Thomas Leseney"
+      description: "Imaginez-vous en train de chercher Charlie dans l'une des célèbres illustrations du jeu. C'est amusant, mais souvent frustrant, n'est-ce pas ?<br/><br/> Maintenant, transposez ce défi au monde des données IoT géo-référencées. <br/>Lorsqu'il s'agit de traiter d'énormes volumes de données issues de capteurs radar, trouver les informations pertinentes peut s'avérer tout aussi complexe et chronophage. Cette présentation montre comment ce défi a été relevé en exploitant la puissance d'OpenSearch pour transformer cette quête en une expérience à la fois intuitive et efficace pour l'utilisateur. <br/><br/>À partir d'une base de données OpenSearch contenant des détections radar, il sera démontré comment les utilisateurs peuvent explorer et naviguer facilement dans ces données.<br/><br/> L'exploration passera par OpenSearch Dashboard, les vector tiles, l'API d'OpenSearch, et les modèles de langage naturel. Cette approche, c'est un peu comme disposer d'une loupe magique dans le jeu 'Où est Charlie ?' : elle permettrait de trouver Charlie en un clin d'œil. 
+      <br/><br/>La solution proposée offre aux utilisateurs une exploration de leurs données IoT qui est à la fois rapide, performante et accessible."
+    - speakers: 
+      - name : "Thomas Leseney"
+        id: thomas
       organization: "Netvolt"
       title: "Comment connecter efficacement les applications d'IA dans les systèmes IOT industriels, de l'Edge au Cloud"
-      description: "Les équipements d'IoT industriel génèrent un très grand volume de données qui sont indispensables à l'optimisation de l'exploitation. Qu'il s'agisse d'un site minier, d'un parc éolien ou d'une usine isolée, ces environnements sont souvent distribués et toujours soumis à de fortes contraintes techniques. Il n'est ainsi pas possible de s'appuyer sur des architectures Cloud et les modèles d'IA et les systèmes de décisions doivent s'exécuter localement. Le nouveau système de communications NATS, incubé au sein de la Cloud Native Computing Foundation, permet de construire simplement des architectures hybrides qui unifient les niveaux Edge et Cloud. Nous montrerons comment nous utilisons NATS pour mettre en oeuvre des applications d'IA dans de tels systèmes d'IOT industriel."
-    - speakers: "Pierre Papin & Xavier Marin"
+      description: "Les équipements d'IoT industriel génèrent un très grand volume de données qui sont indispensables à l'optimisation de l'exploitation. Qu'il s'agisse d'un site minier, d'un parc éolien ou d'une usine isolée, ces environnements sont souvent distribués et toujours soumis à de fortes contraintes techniques. <br/><br/>    
+      Il n'est ainsi pas possible de s'appuyer sur des architectures Cloud et les modèles d'IA et les systèmes de décisions doivent s'exécuter localement. Le nouveau système de communications NATS, incubé au sein de la Cloud Native Computing Foundation, permet de construire simplement des architectures hybrides qui unifient les niveaux Edge et Cloud. <br/><br/>      
+      Nous montrerons comment nous utilisons NATS pour mettre en oeuvre des applications d'IA dans de tels systèmes d'IOT industriel."
+    - speakers: 
+      - name: "Pierre Papin"
+        id: pierrep
+      - name: "Xavier Marin"
+        id: xavier
       organization: "SenX"
       title: "Pourquoi votre IoT mérite mieux que Grafana"
       description: "Grafana est devenu au fil du temps un outil par défaut pour la dataviz IoT mais il n'est pas sans défaut. Nous proposons une découverte de Discovery, un framework web open source de dashboard as code permettant de combler les lacunes de Grafana et d'aller plus loin dans l'analyse de vos données IoT."

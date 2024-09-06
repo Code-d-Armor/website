@@ -2,30 +2,71 @@
 <section id="agenda" class="section-padding">
   <div class="container">
     <div class="row">
-      <div class="col-12">
+
+      <div class="col-2"></div>
+      <div class="col-8">
         <div class="section-title-header text-center">
-          <h2 class="section-title wow fadeInUp" data-wow-delay="0.2s">{{ page.Agenda.title }}</h2>
+          <h2 class="section-title wow fadeInUp" data-wow-delay="0.2s">{{ page.Agenda.title}}</h2>
         </div>
-      </div> 
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-8">
+        <div class="section-TOC">
+          <ul>
+            {% assign counter=0 %}
+            {% for talk in page.Agenda.talks %}
+
+            <li class="pb-2">
+              <a href="#talk-{% increment couter %}">{{talk.title}}</a>
+            </li>
+
+            {% endfor %}
+          </ul>
+        </div>
+        </div>
+        <div class="col-2"></div>
+      </div>
+      </div>
+      <div class="col-2"></div>
     </div>
     <div class="row">
-      <div class="col-12">
-        <div class="agenda-day">
-          {% for session in page.Agenda.talks %}
-          <div class="agenda-session">
-            {% if session.time != null %}
-            <div class="session-time">
-              <strong>{{ session.time }}</strong>
+      <div class="col-2">
+
+      </div>
+
+      <div class="col-8">
+        {% assign counter=0 %}
+        {% for talk in page.Agenda.talks %}
+        <div class="row">
+          <div class="col">
+            <hr />
+            <div class="talk-box pt-3">
+              <h3 id="talk-{% increment counter %}">{{ talk.title }}</h3>
+              <div class="talk-speakers d-flex align-items-left">
+
+                {% for speaker in talk.speakers %}
+                {% assign speakerObj = page.Speakers.list | where: 'id', speaker.id | first %}
+                <div class="d-flex align-items-center mr-5">
+                  <a href="#{{ speakerObj.id }}">
+                    <img class="speaker-photo rounded-circle mr-2" src="{{ site.baseurl }}{{ speakerObj.photo_url }}"
+                      alt="{{ speakerObj.name }}">
+                  </a>
+                  <a href="#{{ speakerObj.id }}">
+                    <p class="speaker-name">{{ speakerObj.name }}</p>
+                  </a>
+                </div>
+
+                {% endfor %}
+              </div>
             </div>
-            {% endif %}
-            <div class="session-details">
-              <h3 class="session-title">{{ session.title }}</h3>
-              <p class="session-speaker">{{ session.speakers }}</p>
-              <p class="session-description">{{ session.description }}</p>
-            </div>
+            <p>{{ talk.description }}</p>
           </div>
-          {% endfor %}
         </div>
+        {% endfor %}
+      </div>
+      <div class="col-2">
+
+      </div>
     </div>
   </div>
 </section>
