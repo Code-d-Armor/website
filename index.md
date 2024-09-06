@@ -52,6 +52,19 @@ LastYearMovie:
   text: Revivez les meilleurs moments du DevFest Perros-Guirec 2023.
   youtube_embed_url: https://www.youtube.com/embed/8WLXD1TigUE?si=v8uQq2YluSpqfqnv&amp;controls=0
 
+Sponsoring:
+  title : Nos Partenaires
+  acknowlegment: Merci à aux partenaires qui nous aident à réaliser cet événement dans les meilleures conditions 🙏
+  sponsors:
+    - name: Saooti
+      site_url: https://www.saooti.com
+      logo_url: "assets/img/logos_sponsors/logo_saooti.png"
+    - name: Lannion Tregor Communauté
+      site_url: https://www.lannion-tregor.com/
+      logo_url: "assets/img/logos_sponsors/logo_ltc.png"
+    - name: Anticipa
+      site_url: https://www.technopole-anticipa.com/
+      logo_url: "assets/img/logos_sponsors/logo_anticipa.png"
 
 Speakers:
   title: Speakers

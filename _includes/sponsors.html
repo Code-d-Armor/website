@@ -1,0 +1,29 @@
+<section id="sponsors" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title-header text-center">
+            <h2 class="section-title wow fadeInUp" data-wow-delay="0.2s">{{ page.Sponsoring.title}}</h2>
+            <p>{{ page.Sponsoring.acknowlegment}}</p>
+          </div>
+        </div>
+      </div>
+     
+      <div class="row pt-5" id="{{ speaker.id }}">
+        <div class="col-2 d-none-lg">
+
+        </div>
+        {% for sponsor in page.Sponsoring.sponsors %}
+        <div class="col-lg-3 col-12 p-3">
+          {% if sponsor.logo_url!= null %}
+            <a href="{{ sponsor.site_url }}" target="_blank"><img class="img-fluid mx-auto d-block" src="{{ site.baseurl }}{{ sponsor.logo_url }}" alt="{{ sponsor.name}}"></a>
+          {% endif %}
+        </div>
+        {% endfor %}
+        <div class="col-2 d-none-lg">
+
+        </div>
+      </div>
+      
+    </div>
+  </section>
