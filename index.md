@@ -9,7 +9,7 @@ thumbnail_url: /assets/img/social-card/Linkedin-event-IOT.png
 Carrousel_Slides:
     - logo: /assets/img/slider/2024-devfestwhite-center.png
       title: DevFest Perros-Guirec 2024
-      subtitle: 6 conférences pour développeur·euse·s
+      subtitle: 7 conférences pour développeur·euse·s
       subtitle2: 4 octobre 2024 - 8h45 - Perros-Guirec
       image:
         url: /assets/img/slider/devfest_2024.png 
@@ -43,7 +43,7 @@ Details:
       <p>Pour cette 4ème édition, nous vous proposons un programme riche et varié autour des objets connectés et de leur infrastructure. Ensemble, nous explorerons les dernières nouveautés, partagerons les bonnes pratiques et reviendrons sur des retours d'expériences enrichissants.</p>
       <p>Comme chaque année, nous veillons à ce que le contenu soit spécialement conçu pour les développeurs et développeuses, les hackers et les technophiles de tous horizons. Notre objectif est de vous offrir des sessions pertinentes et stimulantes qui répondent à vos attentes.</p>
       <p>Rejoignez-nous le 4 octobre 2024 dans le cadre idyllique du Centre de Conférence de Perros-Guirec pour une journée d'échanges entre passionnés de technologie et de mer.</p>
-      <p>Programme : 1 track = 6 conférences</p>
+      <p>Programme : 1 track = 7 conférences</p>
       <p>Nous avons hâte de vous retrouver 🫶</p>
 
 
@@ -142,6 +142,13 @@ Speakers:
       bio: >
         Après 13 ans dans l'électronique automobile, Pierre Papin s'est reconverti dans l'informatique chez SenX en 2018.
         Il s'occupe des projets qui incluent une partie électronique, tout en contribuant à l'amélioration de Warp 10.
+    - name: "Pierre Renault"
+      id: pierrer
+      organization: "Rennes Métropole - Ville de Rennes"
+      photo_url: "assets/img/photos_speakers/pierre_renault.jpg"
+      bio: >
+        Pierre Renault, Ingénieur territorial chargé de mission données au sein du services données territoriales et information géographique de Rennes Ville & Métropole depuis 4 ans.
+        Responsable de pilotage du réseau LoRa Métropolitain, notamment sur les aspects usages, gestion des données et stratégie à long terme. 
 
 Agenda:
   title: Programme
@@ -195,6 +202,13 @@ Agenda:
       organization: "SenX"
       title: "Pourquoi votre IoT mérite mieux que Grafana"
       description: "Grafana est devenu au fil du temps un outil par défaut pour la dataviz IoT mais il n'est pas sans défaut. Nous proposons une découverte de Discovery, un framework web open source de dashboard as code permettant de combler les lacunes de Grafana et d'aller plus loin dans l'analyse de vos données IoT."
+    - speakers: 
+      - name: "Pierre Renault"
+        id: pierrer
+      organization: "Rennes Métropole - Ville de Rennes"
+      title: "Le réseau LoRa de Rennes Métropole, un réseau pionnier dont l'histoire ne fait que commencer"
+      description: "Première métropole française à avoir lancer un projet de réseau LoRa en 2015-16, Rennes Métropole dispose d'un retour d'expérience de 8 ans sur le sujet. Entre problématiques techniques, maitrise des données et la recherche d'un cadre juridique adapté, Rennes Métropole a pris son temps pour expérimenter et vérifier la pertinence de ce type de réseau sur une diversité de cas d'usage (déchets, éclairage public, eau, bâtiments, qualité de l'air, îlots de chaleur urbains). 
+      Aujourd'hui, la métropole prépare le passage à la vitesse supérieure, en structurant son offre et ses capacités techniques, afin d'assurer la pérennité de l'infrastructure et des cas d'usage qui y sont raccordés."
 
 
 # Gallery:

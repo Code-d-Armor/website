@@ -43,7 +43,6 @@
             <div class="talk-box pt-3">
               <h3 id="talk-{% increment counter %}">{{ talk.title }}</h3>
               <div class="talk-speakers d-flex align-items-left">
-
                 {% for speaker in talk.speakers %}
                 {% assign speakerObj = page.Speakers.list | where: 'id', speaker.id | first %}
                 <div class="d-flex align-items-center mr-5">
