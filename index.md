@@ -23,7 +23,7 @@ Carrousel_Slides:
 
 Details:
   where:
-    venue: Centre des Congrès de Perros-Guirec
+    venue: Palais des Congrès de Perros-Guirec
     address: 1 Rue du Maréchal Foch
     city: Perros-Guirec
     linkToMap: https://www.google.com/maps/dir//1+Rue+du+Mar%C3%A9chal+Foch,+22700+Perros-Guirec/@48.8150772,-3.5366425,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x48122d8b4fecb533:0xfcfd68c452f10053!2m2!1d-3.4542421!2d48.8151066?entry=ttu
@@ -42,7 +42,7 @@ Details:
       <p>Depuis la "hype" IoT des années 2015, beaucoup de choses ont évolué. Aujourd'hui, l'accès à des matériels miniaturisés et connectés, ainsi qu'à l'infrastructure associée, est devenu une commodité. L'IoT n'est plus un concept à la mode, il est désormais omniprésent et se croise avec d'autres thématiques émergentes telles que la 6G, la cybersécurité, l'énergie et les terres rares, ainsi que l'intelligence artificielle.</p>
       <p>Pour cette 4ème édition, nous vous proposons un programme riche et varié autour des objets connectés et de leur infrastructure. Ensemble, nous explorerons les dernières nouveautés, partagerons les bonnes pratiques et reviendrons sur des retours d'expériences enrichissants.</p>
       <p>Comme chaque année, nous veillons à ce que le contenu soit spécialement conçu pour les développeurs et développeuses, les hackers et les technophiles de tous horizons. Notre objectif est de vous offrir des sessions pertinentes et stimulantes qui répondent à vos attentes.</p>
-      <p>Rejoignez-nous le 4 octobre 2024 dans le cadre idyllique du Centre de Conférence de Perros-Guirec pour une journée d'échanges entre passionnés de technologie et de mer.</p>
+      <p>Rejoignez-nous le 4 octobre 2024 dans le cadre idyllique du Palais des Congrès de Perros-Guirec pour une journée d'échanges entre passionnés de technologie et de mer.</p>
       <p>Programme : 1 track = 7 conférences + 1 quickie</p>
       <p>Nous avons hâte de vous retrouver 🫶</p>
 
