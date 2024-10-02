@@ -672,6 +672,15 @@ section#speakers {
       list-style-type: square;
       li{
         list-style: outside none square;
+        font-weight: bolder;
+        font-size: 1.2em;
+
+        .break {
+          font-style: italic;
+          font-weight: 100;
+          color: $dark
+        }
+
       }
     }
   }

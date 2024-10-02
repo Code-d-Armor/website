@@ -14,10 +14,10 @@
         <div class="section-TOC">
           <ul>
             {% assign counter=0 %}
-            {% for talk in page.Agenda.talks %}
+            {% for talk in page.Agenda.schedule %}
 
             <li class="pb-2">
-              <a href="#talk-{% increment couter %}">{{talk.title}}</a>
+              <a href="#talk-{% increment couter %}" class="slot {{ talk.slot_type }}">{{talk.slot_begin_time}} - {{talk.title}}</a>
             </li>
 
             {% endfor %}
@@ -36,12 +36,15 @@
 
       <div class="col-8">
         {% assign counter=0 %}
-        {% for talk in page.Agenda.talks %}
+        {% for talk in page.Agenda.schedule %}
+        {% if talk.slot_type != "break" %}
         <div class="row">
           <div class="col">
             <hr />
             <div class="talk-box pt-3">
+              <p class="slot_begin_time">{{talk.slot_begin_time}}</p>
               <h3 id="talk-{% increment counter %}">{{ talk.title }}</h3>
+              
               <div class="talk-speakers d-flex align-items-left">
                 {% for speaker in talk.speakers %}
                 {% assign speakerObj = page.Speakers.list | where: 'id', speaker.id | first %}
@@ -61,6 +64,7 @@
             <p>{{ talk.description }}</p>
           </div>
         </div>
+        {% endif %}
         {% endfor %}
       </div>
       <div class="col-2 d-none-lg">
