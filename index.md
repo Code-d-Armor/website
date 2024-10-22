@@ -14,12 +14,12 @@ Carrousel_Slides:
       image:
         url: /assets/img/slider/devfest_2024.png 
         alt: "DevFest Perros-Guirec 2024"
-      button1:
-          isPrimary: True
-          isExternal: True
-          target: _blank
-          text: Billetterie
-          url: https://www.billetweb.fr/devfest-perros-guirec-2024
+      # button1:
+      #     isPrimary: True
+      #     isExternal: True
+      #     target: _blank
+      #     text: Billetterie
+      #     url: https://www.billetweb.fr/devfest-perros-guirec-2024
 
 Details:
   where:
@@ -65,6 +65,12 @@ Sponsoring:
     - name: Anticipa
       site_url: https://www.technopole-anticipa.com/
       logo_url: "assets/img/logos_sponsors/logo_anticipa.png"
+
+
+Newsletter:
+    title: "Restez informé des prochaines actus Code d'Armor"
+    description: "Si vous souhaitez en savoir plus sur Code d'Armor et être averti des prochains événements organisés par l'association et de ses actualités 👇️"
+    cta: "S'inscrire à la newsletter"
 
 Speakers:
   title: Speakers
@@ -302,20 +308,20 @@ Gallery:
       alt: Photo 9 sur 137
 
 
-Register:
-  title: Billetterie
-  text: Soutenez l'événément et achetez dès à présent un billet pour la conférence 2024.
-  button1:
-      isPrimary: False
-      isExternal: True
-      isContrasted: True
-      text: Tarifs et informations
-      target: _blank
-      url: https://www.billetweb.fr/devfest-perros-guirec-2024
-  button2:
-      isPrimary: True
-      isExternal: True
-      text: Acheter
-      target: _blank
-      url: https://www.billetweb.fr/devfest-perros-guirec-2024
+# Register:
+#   title: Billetterie
+#   text: Soutenez l'événément et achetez dès à présent un billet pour la conférence 2024.
+#   button1:
+#       isPrimary: False
+#       isExternal: True
+#       isContrasted: True
+#       text: Tarifs et informations
+#       target: _blank
+#       url: https://www.billetweb.fr/devfest-perros-guirec-2024
+#   button2:
+#       isPrimary: True
+#       isExternal: True
+#       text: Acheter
+#       target: _blank
+#       url: https://www.billetweb.fr/devfest-perros-guirec-2024
 ---

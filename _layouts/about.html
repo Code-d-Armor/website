@@ -40,18 +40,10 @@
   </section>
 
   <!-- Section Subscribe Newsletter Start -->
-  <section id="newsletter" class="section-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col col-1ah2 text-lg-left text-center">
-          <h2 class="section-title wow fadeInUp">{{ page.newsletter-sub.title }}</h2>
-          <p>{{ page.newsletter-sub.description }}</p>
-          <p class="text-center m-4"><a class="btn btn-primary" href="{{ page.newsletter-sub.link }}" target="_blank">{{
-              page.newsletter-sub.cta}}</a></p>
-        </div>
-      </div>
-    </div>
-  </section>
+  {% if page.Newsletter != null %}
+  {% include newsletter.html params=page.Newsletter %}
+  
+  {% endif %}
   <!-- Section Subscribe Newsletter End -->
 
   <!-- Section Contact Start -->

@@ -11,6 +11,8 @@ thumbnail_url: ""
 
 archives_title: Evénements passés
 archives:
+  - title: DevFest 2024
+    url: /assets/2024/devfest/
   - title: DevFestNoz 2024
     url: /assets/2024/devfestnoz/
   - title: DevFest 2023
