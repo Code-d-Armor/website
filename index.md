@@ -272,14 +272,35 @@ Agenda:
       title: Fin de l'événement
 
 
-# Gallery:
-#    title: Les premiers intervenants dévoilés
-#    description: Et bien d'autres à venir...
-#    photos:
-#      - url: /assets/img/speakers/01_iot.bzh_Fulup-Valentin.png
-#        alt: Fulup Ar Foll et Valentin Geffroy
-#      - url: /assets/img/speakers/02-capgemini-Pierre.png
-#        alt: Pierre Andrieux
+Gallery:
+  title: Retour en images sur l'édition 2024
+  description: Toutes les photos sur <a href="https://photos.app.goo.gl/aA4LcCwWsgQE1Eqc8" target="_blank">l'album de l'événement</a>
+  photos:
+    - url: /assets/img/photos_event/DevFest2024_108_sur_137.jpg
+      alt: Photo 108 sur 137
+    - url: /assets/img/photos_event/DevFest2024_120_sur_137.jpg
+      alt: Photo 120 sur 137
+    - url: /assets/img/photos_event/DevFest2024_124_sur_137.jpg
+      alt: Photo 124 sur 137
+    - url: /assets/img/photos_event/DevFest2024_136_sur_137.jpg
+      alt: Photo 136 sur 137
+    - url: /assets/img/photos_event/DevFest2024_13_sur_137.jpg
+      alt: Photo 13 sur 137
+    - url: /assets/img/photos_event/DevFest2024_40_sur_137.jpg
+      alt: Photo 40 sur 137
+    - url: /assets/img/photos_event/DevFest2024_45_sur_137.jpg
+      alt: Photo 45 sur 137
+    - url: /assets/img/photos_event/DevFest2024_61_sur_137.jpg
+      alt: Photo 61 sur 137
+    - url: /assets/img/photos_event/DevFest2024_67_sur_137.jpg
+      alt: Photo 67 sur 137
+    - url: /assets/img/photos_event/DevFest2024_90_sur_137.jpg
+      alt: Photo 90 sur 137
+    - url: /assets/img/photos_event/DevFest2024_97_sur_137.jpg
+      alt: Photo 97 sur 137
+    - url: /assets/img/photos_event/DevFest2024_9_sur_137.jpg
+      alt: Photo 9 sur 137
+
 
 Register:
   title: Billetterie

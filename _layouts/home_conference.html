@@ -5,6 +5,7 @@
 {% include header.html %}
 {% include carrousel.html %}
 
+
 <!-- Section Intro Start -->
 <section id="program" class="section-padding">
   <div class="container">
@@ -31,6 +32,16 @@
 
 <!-- Intro Section Ends -->
 
+<!-- Gallery Section Starts -->
+
+{% if page.Gallery != null %}
+{% include gallery.html params=page.Gallery %}
+
+{% endif %}
+
+<!-- Gallery Section End -->
+
+
 <!-- Agenda Section Starts -->
 
 {% if page.Agenda != null %}
@@ -52,16 +63,6 @@
 {% endif %}
 <!-- Speakers Section Ends -->
 
-
-
-<!-- Gallery Section Starts -->
-
-{% if page.Gallery != null %}
-{% include gallery.html params=page.Gallery %}
-
-{% endif %}
-
-<!-- Gallery Section End -->
 
 
 <!-- Registration Section Starts -->
