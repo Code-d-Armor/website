@@ -17,41 +17,33 @@
           <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">{{ page.title}}</h1>
         </div>
         </div>
-
       </div>
       <div class="row">
-        <div class="gallery-box">
-          <div class="img-thumb">
-            <img class="img-fluid" src="{{ site.baseurl }}{{ page.photo_equipe }}" alt="l'équipe Code d'Armor">
-          </div>
-          <div class="overlay-box text-center">
-            <a class="lightbox" href="{{ site.baseurl }}{{ page.photo_equipe }}">
-              <i class="lni-plus"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col text-lg-left text-center">
+        <div class="p-3 col text-lg-left text-center">
           <p>{{ page.description }}</p>
         </div>
       </div>
     </div>
-  </section>
-
-  <!-- Section Subscribe Newsletter Start -->
-  <section id="newsletter" class="section-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col col-1ah2 text-lg-left text-center">
-          <h2 class="section-title wow fadeInUp">{{ page.newsletter-sub.title }}</h2>
-          <p>{{ page.newsletter-sub.description }}</p>
-          <p class="text-center m-4"><a class="btn btn-primary" href="{{ page.newsletter-sub.link }}" target="_blank">{{
-              page.newsletter-sub.cta}}</a></p>
+    <div class="row">
+      <div class="gallery-box">
+        <div class="img-thumb">
+          <img class="img-fluid" src="{{ site.baseurl }}{{ page.photo_equipe }}" alt="l'équipe Code d'Armor">
+        </div>
+        <div class="overlay-box text-center">
+          <a class="lightbox" href="{{ site.baseurl }}{{ page.photo_equipe }}">
+            <i class="lni-plus"></i>
+          </a>
         </div>
       </div>
     </div>
+
   </section>
+
+  <!-- Section Subscribe Newsletter Start -->
+  {% if page.Newsletter != null %}
+  {% include newsletter.html params=page.Newsletter %}
+  
+  {% endif %}
   <!-- Section Subscribe Newsletter End -->
 
   <!-- Section Contact Start -->

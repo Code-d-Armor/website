@@ -1,13 +1,13 @@
 logo_url: "/assets/img/logo_dark.png"
 
 menu:
+  - title: DevFest 2024
+    url: '/'
+  - title: Archives
+    url: '/archives'
   - title: À propos
     url: /a-propos
-  - title: DevFestNoz
-    url: '/assets/2024/devfestnoz/'
-  - title: DevFest 2023
-    url: /assets/2023/
-  - title: DevFest 2022
-    url: /assets/2022/
-  - title: DevFest 2021
-    url: /assets/2021/
+
+
+Newsletter:
+  link : https://codedarmor.us7.list-manage.com/subscribe?u=05474659d9a3ff4697f4fc41c&id=cc5063773c

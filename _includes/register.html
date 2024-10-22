@@ -1,0 +1,30 @@
+<section id="call-to-action" class="section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title-header text-center">
+          <h2 class="section-title wow fadeInUp" data-wow-delay="0.2s">{{include.params.title}}</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-2 d-none-lg">
+      </div>
+      <div class="col-lg-8 col-1ah2 text-center">
+        <p>{{ include.params.text }}</p>
+      </div>
+      <div class="col-2 d-none-lg">
+      </div>
+    </div>
+    <div class="row p-3">
+      <div class="col-2 d-none-lg">
+      </div>
+      <div class="col-lg-8 col-1ah2 text-center">
+        {% include button.html button=include.params.button1 %}
+        {% include button.html button=include.params.button2 %}
+      </div>
+      <div class="col-2 d-none-lg">
+      </div>
+    </div>
+  </div>
+</section>

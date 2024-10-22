@@ -1,0 +1,69 @@
+---
+
+---
+
+{% include header.html %}
+<div class="row">
+  <div class="col-2 d-none-lg">
+
+  </div>
+  <div class="col-12 col-lg-8">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="section-title-header text-center">
+            <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">{{ page.title}}</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center">
+          <p>{{ page.description }}</p>
+        </div>
+      </div>
+      <!-- Section About Start -->
+      <section id="archives" class="section-padding">
+        <div class="row">
+          <div class="col text-center">
+            <h2 class="p-3">{{ page.archives_title }}</h2>
+            {% for archive in page.archives %}
+            <p><a href="{{ site.baseurl }}{{ archive.url }}" alt="Archive {{ archive.title }}">{{ archive.title }}</a>
+            </p>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+      <!-- Section About Start -->
+      <section id="gallery" class="section-padding">
+        <div class="row">
+          <div class="col text-center">
+            <h2>{{ page.slidedecks_title }}</h2>
+          </div>
+        </div>
+        <div class="row">
+          {% for slidedeck in page.slidedecks %}
+          <div class="col-sm-12 col-lg-6">
+            <a class="text-center" href="{{ site.baseurl }}{{ slidedeck.file }}"><p>Télécharger la présentation</p></a>
+            <div class="gallery-box">
+              <div class="img-thumb">
+               <img class="img-fluid"
+                    src="{{ site.baseurl }}{{ slidedeck.thumbnail }}">
+              </div>
+              <div class="overlay-box text-center">
+                <a class="lightbox" href="{{ site.baseurl }}{{ slidedeck.thumbnail }}">
+                  <i class="lni-plus"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+    </div>
+  </div>
+  <div class="col-2 d-none-lg">
+
+  </div>
+</div>
+
+{% include footer.html %}

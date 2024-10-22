@@ -1,4 +1,5 @@
 <!-- Main Carousel Section Start -->
+
 <div id="main-slide" class="carousel slide" data-ride="carousel">
 
     {% if page.Carrousel_Slides.size > 1 %}
@@ -24,29 +25,15 @@
       {% for slide in page.Carrousel_Slides %}
 
       <div class="carousel-item {{ active_class }}">
-        <img class="d-block w-100" src="{{ site.baseurl }}{{ slide.image.url }}" alt="{{ slide.image.alt }}">
-        <div class="carousel-caption d-md-block">
-          <img class="wow fadeIn" data-wow-delay=".3s" href="{{ slide.logo }}" />
+        <img class="carousel-item-bg" class="d-block w-100" src="{{ site.baseurl }}{{ slide.image.url }}" alt="{{ slide.image.alt }}">
+        <div class="carousel-caption">
+          <img class="wow fadeIn logo" data-wow-delay=".3s" src="{{ site.baseurl }}{{ slide.logo }}" />
           <h1 class="wow fadeInDown heading" data-wow-delay=".4s">{{ slide.title }}</h1>
           <p class="fadeInUp wow" data-wow-delay=".6s">{{ slide.subtitle }}</p>
           <p class="fadeInUp wow" data-wow-delay=".6s">{{ slide.subtitle2 }}</p>
-          {% if slide.button1 %}
-          {% assign button_type = 'border' %}
-          {% if slide.button1.isPrimary %}
-          {% assign button_type = 'common'%}
-          {% endif %}
-          <a href="{{ slide.button1.url }}" target="_blank" class="fadeInLeft wow btn btn-{{ button_type }} btn-lg"
-            data-wow-delay=".6s">{{ slide.button1.text }}</a>
-          {% endif %}
-
-          {% if slide.button2 %}
-          {% assign button_type = 'border' %}
-          {% if slide.button2.isPrimary %}
-          {% assign button_type = 'common'%}
-          {% endif %}
-          <a href="{{ site.url }}{{ site.baseurl }}{{ slide.button2.url }}" class="fadeInRight wow btn btn-{{ button_type }} btn-lg"
-            data-wow-delay=".6s">{{ slide.button2.text }}</a>
-          {% endif %}
+          
+          {% include button.html button=slide.button1 %}
+          {% include button.html button=slide.button2 %}
         </div>
       </div>
 
