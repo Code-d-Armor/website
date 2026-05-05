@@ -1,12 +1,10 @@
 logo_url: "/assets/img/devfest-logo-violet.svg"
 
 menu:
-  - title: "Programme"
-    url: '#programme'
-  - title: "Speakers"
-    url: '#speakers'
+  - title: "Devenir speaker"
+    url: '#devenir-speaker'
   - title: "Partenaires"
-    url: '#partenaires'
+    url: '/sponsors'
   - title: "Infos pratiques"
     url: '#infos'
   - title: "FAQ"
