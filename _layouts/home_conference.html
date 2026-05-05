@@ -22,6 +22,10 @@
 {% include speakers.html params=page.Speakers %}
 {% endif %}
 
+{% if page.DevenirSpeaker %}
+{% include devenir-speaker.html %}
+{% endif %}
+
 {% if page.Register %}
 {% include tickets.html params=page.Register %}
 {% endif %}
