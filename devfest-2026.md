@@ -2,13 +2,13 @@
 layout: home_conference
 permalink: /
 
-title: "DevFest - 02 Octobre 2026 - Perros-Guirec"
+title: "DevFest Perros-Guirec - 02 Octobre 2026"
 thumbnail_url: /assets/img/social-card/LinkedIn-event-superdev.webp
 
 Hero:
   eyebrow: "Édition 2026 · Palais des Congrès, Perros-Guirec"
   title: "Coder moins,<br>penser plus."
-  subtitle: "Quand l'IA change les règles du jeu : un <span style='color:#A668C8'>DevFest</span> pour les dev·euse·s qui bâtissent la tech de demain."
+  subtitle: "Quand l'IA change les règles du jeu : un <span style='color:#A668C8'>DevFest</span> pour les développeur·euse·s qui bâtissent la tech de demain."
   keyart: assets/img/devfest-2026-hero.png
   date_day: "02"
   date_month: "Octobre"
@@ -26,9 +26,9 @@ Carrousel_Slides:
       alt: "DevFest Perros-Guirec 2026"
 
 Strip:
-  - num: "7"
+  - num: "10"
     label: "Conférences"
-  - num: "7"
+  - num: "10"
     label: "Speakers"
   - num: "1"
     label: "Journée"
@@ -71,7 +71,7 @@ About:
   card:
     edition: "05"
     participants: "200+"
-    subtitle: "7 conférences · 2 quickies · 1 journée"
+    subtitle: "10 conférences · 2 quickies · 1 journée"
 
 #Agenda:
 #  eyebrow: "Programme · 2 octobre 2026"
@@ -224,12 +224,14 @@ About:
 #      initials: "JM"
 #      gradient: "linear-gradient(135deg,#602392,#633DB7)"
 
+DevenirSpeaker:
+  active: yes
+
 Register:
   title: 🎟️ Billetterie
   subtitle: "Tarifs & informations"
   description: "Places limitées. Réservez tôt !"
   buy_url: https://www.billetweb.fr/devfest-perros-guirec-2026
-  note: "Tarif groupe (5+) disponible — contactez-nous à <a href='mailto:contact@codedarmor.fr'>contact@codedarmor.fr</a>"
   tickets:
 #    - label: "Étudiant·e"
 #      price: "19"
@@ -245,7 +247,7 @@ Register:
       price: "40"
 #      until: "Jusqu'au 30 juin 2026"
       featured: true
-      cta: "Profiter de l'offre"
+      cta: "Acheter votre billet"
       url: https://www.billetweb.fr/devfest-perros-guirec-2026
       features:
         - Accès à toutes les conférences
@@ -314,20 +316,16 @@ Lieu:
       link: "https://maps.google.com/?q=Palais+des+Congres+Perros-Guirec"
       link_text: "Voir sur Google Maps →"
     - title: "🗓️ Horaires"
-      content: "<strong>Vendredi 2 octobre 2026</strong><br>Accueil dès 8h30<br>Sessions 9h → 17h30<br>Afterwork 18h → 20h"
+      content: "<strong>Vendredi 2 octobre 2026</strong><br>Accueil dès 8h30<br>Sessions 9h → 17h30"
     - title: "🚗 Accès"
-      content: "Parking gratuit sur place.<br>Gare SNCF : Lannion (22km).<br>Aéroport : Brest (90km)."
+      content: "Parking gratuit sur place.<br>Gare SNCF : Lannion (22km)."
 
 FAQ:
   questions:
-    - q: "Comment proposer un talk ou un codelab ?"
+    - q: "Comment proposer un talk ?"
       a: "Le Call for Papers (CFP) ouvre en janvier 2026. Toutes les infos disponibles <a href='https://conference-hall.io/devfest-perros-guirec-2026'>ici</a>"
     - q: "Les sessions sont-elles enregistrées ?"
       a: "La majorité des conférences sont filmées et publiées sur YouTube après l'événement. Quelques speakers choisissent de ne pas être enregistré·es — c'est leur droit. Le lien vers la chaîne sera partagé post-événement."
-    - q: "L'événement est-il accessible aux personnes à mobilité réduite ?"
-      a: "Oui, le Palais des Congrès est entièrement accessible. Si vous avez des besoins spécifiques, contactez-nous en amont pour que nous puissions nous préparer au mieux."
-    - q: "Y a-t-il un code de conduite ?"
-      a: "Absolument. DevFest Perros-Guirec adhère au Code de conduite GDG. Tout comportement irrespecteux peut entraîner une exclusion de l'événement. L'inclusion et la bienveillance ne sont pas négociables."
 
 LastYearMovie:
   title: "Souvenirs"
