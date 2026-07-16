@@ -23,11 +23,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # Keep this repo's own workflow files authoritative: conference has its
-          # own unrelated workflows (e.g. its notify-website.yml), and pushing
-          # workflow-file changes requires a permission the default token doesn't
-          # have. See .gitattributes for the merge=ours scoping.
-          git config merge.ours.driver true
 
       - name: Fetch conference master
         run: git fetch https://github.com/Code-d-Armor/conference.git master:conference-master
@@ -38,7 +33,20 @@ jobs:
             echo "Already up to date, nothing to merge."
             exit 0
           fi
+
+          PRE_MERGE=$(git rev-parse HEAD)
           git merge --no-edit conference-master
+
+          # This repo's own .github/workflows/ always wins: conference has its
+          # own unrelated workflows (e.g. notify-website.yml) that don't belong
+          # here, and pushing workflow-file changes needs a permission scope
+          # the default token doesn't have.
+          git rm -r --cached --ignore-unmatch .github/workflows > /dev/null
+          git checkout "$PRE_MERGE" -- .github/workflows
+          git add .github/workflows
+          if ! git diff --cached --quiet -- .github/workflows; then
+            git commit --amend --no-edit
+          fi
 
       - name: Push
         run: git push origin HEAD:master
