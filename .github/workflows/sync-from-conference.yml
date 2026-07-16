@@ -23,6 +23,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Keep this repo's own workflow files authoritative: conference has its
+          # own unrelated workflows (e.g. its notify-website.yml), and pushing
+          # workflow-file changes requires a permission the default token doesn't
+          # have. See .gitattributes for the merge=ours scoping.
+          git config merge.ours.driver true
 
       - name: Fetch conference master
         run: git fetch https://github.com/Code-d-Armor/conference.git master:conference-master
