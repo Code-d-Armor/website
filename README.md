@@ -71,4 +71,3 @@ Lancer le serveur de développement local :
 bundle exec jekyll serve --trace
 ```
 
-<!-- sync test 2026-07-16T07:19:06Z -->
