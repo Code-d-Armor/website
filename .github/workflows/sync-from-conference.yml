@@ -1,0 +1,39 @@
+name: Sync from conference
+
+on:
+  # Fired by Code-d-Armor/conference's "Notify website of updates" workflow
+  # whenever its master branch is updated.
+  repository_dispatch:
+    types: [conference-updated]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout website
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Fetch conference master
+        run: git fetch https://github.com/Code-d-Armor/conference.git master:conference-master
+
+      - name: Merge conference/master into master
+        run: |
+          if git merge-base --is-ancestor conference-master HEAD; then
+            echo "Already up to date, nothing to merge."
+            exit 0
+          fi
+          git merge --no-edit conference-master
+
+      - name: Push
+        run: git push origin HEAD:master
