@@ -235,7 +235,7 @@ Speakers:
   - name: Alexandra Zakharova
     id: alexandra_zakharova
     organization: Microsoft
-    photo_url: assets/2026/photos_speakers/alexandra_zakharova.webp
+    photo_url: assets/2026/photos_speakers/alexandra_zakharova_photo.jpg
     initials: AZ
     tag: Keynote
     gradient: linear-gradient(135deg,#2E217A,#602392)
@@ -246,7 +246,7 @@ Speakers:
   - name: David Tavoularis
     id: david_tavoularis
     organization: Mycom
-    photo_url: assets/2026/photos_speakers/david_tavoularis.webp
+    photo_url: assets/2026/photos_speakers/david_tavoularis_photo.png
     initials: DT
     gradient: linear-gradient(135deg,#2E217A,#633DB7)
     bio: Ingénieur diplômé de l'École Centrale Paris (promo 2000), David Tavoularis est depuis plus de 25 ans chez Mycom, éditeur international de solutions cloud d'assurance réseau, d'automatisation et d'analytics pour les grands opérateurs télécom. Il pilote les équipes de développement, QA et cybersécurité applicative (SCA, SAST), avec une maîtrise complète du cycle de vie logiciel, de la conception à la production. Parallèlement, il s'investit activement dans l'écosystème des ingénieurs lyonnais, notamment au sein de CentraleSupélec Alumni Lyon et de la Maison des Ingénieurs et Scientifiques de Lyon.
@@ -256,7 +256,7 @@ Speakers:
   - name: Guillaume Lebourgeois
     id: guillaume_lebourgeois
     organization: Pictaderm
-    photo_url: assets/2026/photos_speakers/guillaume_lebourgeois.webp
+    photo_url: assets/2026/photos_speakers/guillaume_lebourgeois_photo.jpg
     initials: GL
     gradient: linear-gradient(135deg,#602392,#FF2E83)
     bio: Guillaume Lebourgeois est CTO de Pictaderm, plateforme de téléexpertise dermatologique. Ingénieur Data/ML depuis 2010 (Twenga, Botify, Clustaar, Zefir), il a passé plus de quinze ans à construire et scaler des briques NLP en production bien avant l'arrivée des LLM grand public. Il met aujourd’hui cette expérience au service de l’intégration raisonnée de l’IA dans des produits aux contraintes métier et réglementaires fortes.
@@ -266,14 +266,14 @@ Speakers:
   - name: Gaëtan Eleouet
     id: gaetan_eleouet
     organization: ''
-    photo_url: assets/2026/photos_speakers/ga_tan_eleouet.webp
+    photo_url: assets/2026/photos_speakers/gaetan_eleouet_photo.jpg
     initials: GE
     gradient: linear-gradient(135deg,#161F6E,#15768F)
     bio: 'Dans mes jeunes années être geek n''était pas un métier et pourtant je suis aujourd''hui développeur depuis 15 ans. Animé par des convictions fortes sur l''impact des développeurs sur le monde, je transmets et j''enseigne dans le cadre d’atelier de code et en vacation en école d’ingénieur. Au-delà de mon métier, c''est aussi une passion : je code pour le plaisir dans des projets personnels et lors de compétition de programmation.'
   - name: Camille Toulouse
     id: camille_toulouse
     organization: OCTO Technology
-    photo_url: assets/2026/photos_speakers/camille_toulouse.webp
+    photo_url: assets/2026/photos_speakers/camille_toulouse_photo.jpg
     initials: CT
     gradient: linear-gradient(135deg,#602392,#A668C8)
     bio: D’abord étudiante en cinéma dont le cursus se termine par un diplôme d’assistante-réalisateur, puis cast-member sur la Maison des Poupées pour se reconvertir en développeuse fullstack chez OCTO Technology. C’est ce parcours atypique d’environ 15 ans qui fait que j’analyse de manière différente les changements dans notre métier.
@@ -283,21 +283,21 @@ Speakers:
   - name: Vincent Barreaud
     id: vincent_barreaud
     organization: ENSSAT
-    photo_url: assets/2026/photos_speakers/vincent_barreaud.webp
+    photo_url: assets/2026/photos_speakers/vincent_barreaud_photo.jpg
     initials: VB
     gradient: linear-gradient(135deg,#161F6E,#2E217A)
     bio: Vincent BARREAUD Enseignant Chercheur en Informatique à l'ENSSAT (école d'ingénieur). Enseigne le développement Web. Travaux de recherche utilisant l'IA.
   - name: Pierre Alain
     id: pierre_alain
     organization: IUT Lannion
-    photo_url: assets/2026/photos_speakers/pierre_alain.webp
+    photo_url: assets/2026/photos_speakers/pierre_alain_photo.jpg
     initials: PA
     gradient: linear-gradient(135deg,#161F6E,#602392)
     bio: Pierre Alain est maître de conférences en informatique à l'IUT de Lannion (Université de Rennes), département Réseaux & Télécoms, et membre de l'équipe Sotern/IRISA. Ses recherches portent sur la sécurité des réseaux basée sur les intentions (intent-based networking) et la réaction rapide aux attaques. Il enseigne la cybersécurité dans le parcours Cyber du BUT R&T (audit de sécurité, réponse à incident, pentest, scénarios de type CTF) et co-encadre plusieurs thèses dans ce domaine.
   - name: Clément Juste
     id: clement_juste
     organization: Shodo
-    photo_url: assets/2026/photos_speakers/cl_ment_juste.webp
+    photo_url: assets/2026/photos_speakers/clement_juste_photo.jpeg
     initials: CJ
     gradient: linear-gradient(135deg,#FF2E83,#A668C8)
     bio: Développeur Java depuis une grosse dizaine d'années, je me suis spécialisé dans l'ingestion de données, le traitement Big Data et la recherche textuelle. J'adore chercher (et trouver) la source d'un bug.
@@ -307,7 +307,7 @@ Speakers:
   - name: Tugdual Grall
     id: tugdual_grall
     organization: GitHub
-    photo_url: assets/2026/photos_speakers/tugdual_grall.webp
+    photo_url: assets/2026/photos_speakers/tugdual_grall_photo.jpg
     initials: TG
     gradient: linear-gradient(135deg,#15768F,#2E217A)
     bio: Tugdual Grall, est Copilot Specialist/AI GTM chez GitHub, où il accompagne les développeurs dans leur utilisation de GitHub et des pratiques DevOps/DevSecOps. Avant de travailler chez GitHub, "Tug", était, DevRel chez Redis, Directeur du Product Management chez Red Hat, Technical Evangelist chez MapR, MongoDB et Couchbase. Tug a également travaillé comme CTO chez eXo Platform, et comme Product Manager et Développeur sur la platform JavaEE d'Oracle. Tugdual est également co-fondateur du Nantes JUG (Java Users Group) qui réunit tous les mois depuis 2008 les développeurs et architectes de la région nantaise.
@@ -319,7 +319,7 @@ Speakers:
   - name: Vincent Hardy
     id: vincent_hardy
     organization: ''
-    photo_url: assets/2026/photos_speakers/vincent_hardy.webp
+    photo_url: assets/2026/photos_speakers/vincent_hardy_photo.jpg
     initials: VH
     tag: Keynote
     gradient: linear-gradient(135deg,#2E217A,#A668C8)
