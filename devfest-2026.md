@@ -14,7 +14,7 @@ Hero:
 Carrousel_Slides:
 - title: DevFest Perros-Guirec 2026
   subtitle: 'Coder moins, penser plus : quand l''IA change les règles du jeu'
-  subtitle2: 2 octobre 2026 - 9h00 - Perros-Guirec
+  subtitle2: 2 octobre 2026 - 8h30 → 17h45 - Perros-Guirec
   image:
     url: /assets/img/slider/devfest_2026_2.jpg
     alt: DevFest Perros-Guirec 2026
@@ -35,7 +35,7 @@ Details:
     linkToMap: https://www.google.com/maps/dir//1+Rue+du+Mar%C3%A9chal+Foch,+22700+Perros-Guirec/
   when:
     date: 2 octobre 2026
-    time: accueil à 8h30, début à 9h00
+    time: accueil à 8h30, début à 9h00, fin à 17h45
   who:
     attendees: Ouvert à toutes et tous
     limit: dans la limite des places disponibles
@@ -344,7 +344,7 @@ Lieu:
     link: https://maps.google.com/?q=Palais+des+Congres+Perros-Guirec
     link_text: Voir sur Google Maps →
   - title: 🗓️ Horaires
-    content: <strong>Vendredi 2 octobre 2026</strong><br>Accueil dès 8h30<br>Sessions 9h → 18h
+    content: <strong>Vendredi 2 octobre 2026</strong><br>Accueil dès 8h30<br>Sessions 9h → 17h45
   - title: 🚗 Accès
     content: 'Parking gratuit sur place.<br>Gare SNCF : Lannion (22km).'
 FAQ:
