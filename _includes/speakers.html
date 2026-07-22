@@ -24,6 +24,41 @@
           <span class="speaker-card__tag">{{ speaker.tag }}</span>
           {% endif %}
         </div>
+        {% if speaker.bio or speaker.social_links %}
+        <div class="speaker-card__body">
+          {% if speaker.bio %}
+          <div class="speaker-card__bio">{{ speaker.bio }}</div>
+          {% endif %}
+          {% if speaker.social_links %}
+          <div class="speaker-card__socials">
+            {% for link in speaker.social_links %}
+            <a href="{{ link.url }}" target="_blank" rel="noopener" class="speaker-card__social" aria-label="{{ link.type }}">
+              <i class="fa-brands fa-{{ link.type }}"></i>
+            </a>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+        {% endif %}
+
+        {% if speaker.bio %}
+        <div class="speaker-card__panel" aria-hidden="true">
+          <div class="speaker-card__panel-inner">
+            <p class="speaker-card__panel-name">{{ speaker.name }}</p>
+            <p class="speaker-card__panel-co">{{ speaker.organization }}</p>
+            <div class="speaker-card__panel-bio">{{ speaker.bio }}</div>
+            {% if speaker.social_links %}
+            <div class="speaker-card__panel-socials">
+              {% for link in speaker.social_links %}
+              <a href="{{ link.url }}" target="_blank" rel="noopener" class="speaker-card__panel-social" aria-label="{{ link.type }}">
+                <i class="fa-brands fa-{{ link.type }}"></i>
+              </a>
+              {% endfor %}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+        {% endif %}
       </div>
       {% endfor %}
     </div>

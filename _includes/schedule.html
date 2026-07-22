@@ -35,9 +35,53 @@
             </div>
             <h3 class="session__title">{{ session.title }}</h3>
             <div class="session__spk">
-              {% if session.speaker %}<strong>{{ session.speaker }}</strong>{% endif %}
-              {% if session.company %} <span>· {{ session.company }}</span>{% endif %}
+              {% if session.speaker %}
+                {% assign speaker_names = session.speaker | split: ' & ' %}
+                {% for speaker_name in speaker_names %}
+                  {% assign trimmed_name = speaker_name | strip %}
+                  {% assign matched = false %}
+                  {% for spk in page.Speakers.list %}
+                    {% if matched == false and spk.name == trimmed_name %}
+                      {% assign matched = true %}
+                      <span class="session__spk-name session__spk-name--has-panel">
+                        {{ trimmed_name }}
+                        <span class="session__spk-panel" aria-hidden="true">
+                          <span class="session__spk-panel-inner">
+                            {% if spk.photo_url %}
+                            <img class="session__spk-panel-photo" src="{{site.baseurl}}/{{ spk.photo_url }}" alt="{{ spk.name }}">
+                            {% endif %}
+                            <span class="session__spk-panel-info">
+                              <span class="session__spk-panel-name">{{ spk.name }}</span>
+                              <span class="session__spk-panel-co">{{ spk.organization }}</span>
+                            </span>
+                            <span class="session__spk-panel-bio">{{ spk.bio }}</span>
+                            {% if spk.social_links %}
+                            <span class="session__spk-panel-socials">
+                              {% for link in spk.social_links %}
+                              <a href="{{ link.url }}" target="_blank" rel="noopener" class="session__spk-panel-social" aria-label="{{ link.type }}">
+                                <i class="fa-brands fa-{{ link.type }}"></i>
+                              </a>
+                              {% endfor %}
+                            </span>
+                            {% endif %}
+                          </span>
+                        </span>
+                      </span>
+                    {% endif %}
+                  {% endfor %}
+                  {% if matched == false %}
+                    <span class="session__spk-name">{{ trimmed_name }}</span>
+                  {% endif %}
+                  {% unless forloop.last %}<span class="session__spk-sep"> & </span>{% endunless %}
+                {% endfor %}
+              {% endif %}
+              {% if session.company %} <span class="session__spk-co">· {{ session.company }}</span>{% endif %}
             </div>
+            {% if session.description %}
+            <div class="session__desc">
+              <p>{{ session.description }}</p>
+            </div>
+            {% endif %}
           </div>
         </div>
         {% endfor %}

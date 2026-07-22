@@ -38,3 +38,11 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # Archive tool - builds and archives site versions
 gem "archive", path: "gems/archive"
+
+gem "csv", "~> 3.3"
+
+gem "base64", "~> 0.3.0"
+
+gem "logger", "~> 1.7"
+
+gem "bigdecimal", "~> 4.1"
