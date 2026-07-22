@@ -38,6 +38,11 @@
               {% if session.speaker %}<strong>{{ session.speaker }}</strong>{% endif %}
               {% if session.company %} <span>· {{ session.company }}</span>{% endif %}
             </div>
+            {% if session.description %}
+            <div class="session__desc">
+              <p>{{ session.description }}</p>
+            </div>
+            {% endif %}
           </div>
         </div>
         {% endfor %}

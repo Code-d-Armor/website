@@ -30,3 +30,30 @@
   background: rgba(0,0,0,.45); color: #fff;
   padding: 3px 9px; border-radius: var(--r-pill); letter-spacing: .08em;
 }
+.speaker-card__body {
+  padding: 16px 14px 18px;
+  display: flex; flex-direction: column; gap: 12px;
+}
+.speaker-card__bio {
+  font-size: 13px; line-height: 1.55;
+  color: var(--fg-2);
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.speaker-card__socials {
+  display: flex; gap: 10px;
+}
+.speaker-card__social {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 32px; height: 32px;
+  border-radius: var(--r-pill);
+  background: var(--surface-1); color: var(--fg-3);
+  transition: background .2s, color .2s, transform .2s;
+}
+.speaker-card__social:hover {
+  background: var(--primary); color: #fff;
+  transform: translateY(-2px);
+}
+.speaker-card__social i { font-size: 14px; }
