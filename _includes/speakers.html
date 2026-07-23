@@ -15,13 +15,13 @@
           {% if speaker.photo_url %}
           <img class="speaker-card__photo" src="{{site.baseurl}}/{{ speaker.photo_url }}" alt="{{ speaker.name }}">
           {% endif %}
-          <div class="speaker-card__info">
-            <p class="speaker-card__name">{{ speaker.name }}</p>
-            <p class="speaker-card__co">{{ speaker.organization }}</p>
-          </div>
           {% if speaker.tag %}
           <span class="speaker-card__tag">{{ speaker.tag }}</span>
           {% endif %}
+        </div>
+        <div class="speaker-card__info">
+          <p class="speaker-card__name">{{ speaker.name }}</p>
+          <p class="speaker-card__co">{{ speaker.organization }}</p>
         </div>
         {% if speaker.bio or speaker.social_links %}
         <div class="speaker-card__body">

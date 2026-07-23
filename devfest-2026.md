@@ -290,7 +290,7 @@ Speakers:
   - name: Pierre Alain
     id: pierre_alain
     organization: IUT Lannion
-    photo_url: assets/2026/photos_speakers/pierre_alain_photo.jpg
+    photo_url: assets/2026/photos_speakers/pierre_alain_photo.png
     initials: PA
     gradient: linear-gradient(135deg,#161F6E,#602392)
     bio: Pierre Alain est maître de conférences en informatique à l'IUT de Lannion (Université de Rennes), département Réseaux & Télécoms, et membre de l'équipe Sotern/IRISA. Ses recherches portent sur la sécurité des réseaux basée sur les intentions (intent-based networking) et la réaction rapide aux attaques. Il enseigne la cybersécurité dans le parcours Cyber du BUT R&T (audit de sécurité, réponse à incident, pentest, scénarios de type CTF) et co-encadre plusieurs thèses dans ce domaine.
