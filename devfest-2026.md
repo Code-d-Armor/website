@@ -7,7 +7,7 @@ Hero:
   eyebrow: Édition 2026 · Palais des Congrès, Perros-Guirec
   title: Coder moins,<br>penser plus.
   subtitle: 'Quand l''IA change les règles du jeu : un <span style=''color:#A668C8''>DevFest</span> pour les développeur·euse·s qui bâtissent la tech de demain.'
-  keyart: assets/img/devfest-2026-hero.png
+  keyart: assets/img/devfest-2026-hero.webp
   date_day: '02'
   date_month: Octobre
   date_year: '2026'
@@ -290,7 +290,7 @@ Speakers:
   - name: Pierre Alain
     id: pierre_alain
     organization: IUT Lannion
-    photo_url: assets/2026/photos_speakers/pierre_alain_photo.png
+    photo_url: assets/2026/photos_speakers/pierre_alain_photo.jpg
     initials: PA
     gradient: linear-gradient(135deg,#161F6E,#602392)
     bio: Pierre Alain est maître de conférences en informatique à l'IUT de Lannion (Université de Rennes), département Réseaux & Télécoms, et membre de l'équipe Sotern/IRISA. Ses recherches portent sur la sécurité des réseaux basée sur les intentions (intent-based networking) et la réaction rapide aux attaques. Il enseigne la cybersécurité dans le parcours Cyber du BUT R&T (audit de sécurité, réponse à incident, pentest, scénarios de type CTF) et co-encadre plusieurs thèses dans ce domaine.
