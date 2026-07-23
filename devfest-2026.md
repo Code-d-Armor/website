@@ -2,7 +2,7 @@
 layout: home_conference
 permalink: /
 title: DevFest Perros-Guirec - 02 Octobre 2026
-thumbnail_url: /assets/img/social-card/LinkedIn-event-superdev.webp
+thumbnail_url: /assets/2026/img/social-card/social-card.png
 Hero:
   eyebrow: Édition 2026 · Palais des Congrès, Perros-Guirec
   title: Coder moins,<br>penser plus.
