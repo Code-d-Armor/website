@@ -3,7 +3,7 @@ layout: home_conference
 permalink: /devfest-2025
 
 title: "DevFest - 03 Octobre 2025 - Perros-Guirec"
-thumbnail_url: /assets/img/social-card/LinkedIn-event-superdev.webp
+thumbnail_url: /assets/2026/img/social-card/social-card.png
 
 Carrousel_Slides:
   - logo: /assets/img/slider/2025-superdev-siteweb-center-homepage@2x.webp
