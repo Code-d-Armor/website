@@ -323,6 +323,10 @@ Speakers:
     initials: VH
     tag: Keynote
     gradient: linear-gradient(135deg,#2E217A,#A668C8)
+    bio: Vincent Hardy est artiste numérique, ingénieur et entrepreneur. Après plus de trente ans à concevoir des produits et des plateformes chez Adobe et Meta, où il a notamment contribué aux standards Web tels que SVG, à la création d'Adobe XD, dirigé les équipes de Spark AR et mené le développement des lunettes connectées Ray-Ban Stories, il se consacre aujourd'hui à la création d'œuvres numériques interactives au sein de son studio Art et Code. Diplômé de Télécom Paris et passionné par la rencontre entre technologie et création, il explore les possibilités offertes par l'intelligence artificielle, l'informatique graphique et les systèmes interactifs pour concevoir des expériences artistiques qui invitent le public à interagir avec l'œuvre.
+    social_links:
+    - type: linkedin
+      url: https://www.linkedin.com/in/vincenthardy/
 Register:
   title: 🎟️ Billetterie
   subtitle: Tarifs & informations
