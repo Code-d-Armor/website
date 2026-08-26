@@ -11,6 +11,14 @@ on:
   push:
     branches: ["master"]
 
+  # Runs after "Sync from conference" completes. That workflow pushes to
+  # master using the default GITHUB_TOKEN, and GitHub Actions doesn't let
+  # GITHUB_TOKEN-authored pushes trigger other workflows, so the push
+  # trigger above alone wouldn't fire here.
+  workflow_run:
+    workflows: ["Sync from conference"]
+    types: [completed]
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -30,9 +38,15 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # On workflow_run, checkout defaults to the commit that triggered
+          # the sync run (pre-merge), not the merge commit it pushed.
+          # Pin to master explicitly so the just-synced content is built.
+          ref: master
       - name: Setup Ruby
         # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
         uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
