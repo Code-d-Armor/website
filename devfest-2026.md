@@ -5,7 +5,7 @@ title: DevFest Perros-Guirec - 02 Octobre 2026
 thumbnail_url: /assets/2026/img/social-card/social-card.png
 Hero:
   eyebrow: Édition 2026 · Palais des Congrès, Perros-Guirec
-  title: Coder moins,<br>penser plus.
+  title: Coder moins,<br>penser plus
   subtitle: 'Quand l''IA change les règles du jeu : un <span style=''color:#A668C8''>DevFest</span> pour les développeur·euse·s qui bâtissent la tech de demain.'
   keyart: assets/img/devfest-2026-hero.webp
   date_day: '02'
