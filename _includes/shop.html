@@ -1,37 +1,22 @@
-<section id="shop" class="section-padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="section-title-header text-center">
-                    <h2 class="section-title wow fadeInUp" data-wow-delay="0.2s">{{ include.params.title }}</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="text-center">
-                    <p class="" data-wow-delay="0.2s">{{ include.params.description }}</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="text-center mt-4">
-                    {% include button.html button=include.params.button %}
-                </div>
-            </div>
-        </div>
-
-        <div class="row justify-content-center mt-4">
-            {% for photo in include.params.photos %}
-            <div class="col-sm-12 col-lg-3 col-md-4 col-6 mb-4">
-                <div class="gallery-box">
-                    <div class="img-thumb">
-                        <img class="img-fluid" src="{{ photo.url }}" alt="{{ photo.alt }}" loading="lazy">
-                    </div>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
+<!-- Boutique -->
+<section class="band" id="shop">
+  <div class="inner">
+    <div class="section-head section-head--center reveal">
+      <span class="eyebrow">{{ include.params.eyebrow | default: "Nouveauté" }}</span>
+      <h2 class="section-title">{{ include.params.title }}</h2>
+      <p class="section-intro">{{ include.params.description }}</p>
     </div>
+    <div class="shop-grid grid-3 reveal">
+      {% for photo in include.params.photos %}
+      <div class="shop-item">
+        <img src="{{ site.baseurl }}/{{ photo.url }}" alt="{{ photo.alt }}" loading="lazy" decoding="async">
+      </div>
+      {% endfor %}
+    </div>
+    {% if include.params.button %}
+    <div style="text-align:center;" class="reveal">
+      <a href="{{ include.params.button.url }}" class="btn btn-primary" target="{{ include.params.button.target | default: '_blank' }}" rel="noopener">{{ include.params.button.text }}</a>
+    </div>
+    {% endif %}
+  </div>
 </section>

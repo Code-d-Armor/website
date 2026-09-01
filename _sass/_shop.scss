@@ -1,0 +1,7 @@
+.shop-grid { margin-bottom: 40px; }
+.shop-item {
+  border-radius: var(--r-lg); overflow: hidden; box-shadow: var(--sh-card);
+  aspect-ratio: 4/3;
+}
+.shop-item img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .3s var(--ease); }
+.shop-item:hover img { transform: scale(1.05); }
