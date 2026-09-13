@@ -11,12 +11,14 @@
     <div class="reveal">
       {% for tier in include.params.tiers %}
       <div class="sponsor-tier">
-        <div class="sponsor-tier__name" style="color:{{ tier.color | default: 'var(--primary)' }};">{{ tier.name }}</div>
+        {% if tier.name %}
+        <div class="sponsor-tier__name">{{ tier.name }}</div>
+        {% endif %}
         <div class="sponsor-tier__logos">
           {% for sponsor in tier.sponsors %}
-          <div class="sponsor-slot" style="width:{{ tier.slot_width | default: '144px' }};height:{{ tier.slot_height | default: '54px' }};{% if tier.font_size %}font-size:{{ tier.font_size }};{% endif %}">
+          <div class="sponsor-logo">
             {% if sponsor.logo %}
-            <img src="{{site.baseurl}}/{{ sponsor.logo }}" alt="{{ sponsor.name }}">
+            <img src="{{site.baseurl}}/{{ sponsor.logo }}" alt="{{ sponsor.name }}" loading="lazy">
             {% else %}
             {{ sponsor.name }}
             {% endif %}
