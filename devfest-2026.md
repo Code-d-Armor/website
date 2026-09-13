@@ -341,6 +341,26 @@ Register:
     features:
     - Accès à toutes les conférences
     - Déjeuner inclus
+Sponsoring:
+  title: Ils nous font confiance
+  acknowlegment: Merci à celles et ceux qui soutiennent le DevFest Perros-Guirec 2026. 🙏
+  contact_url: /sponsors
+  tiers:
+  - sponsors:
+    - name: Eco-compteur
+      logo: assets/img/logos_sponsors/logo_eco-compteur.webp
+    - name: Orange Business
+      logo: assets/img/logos_sponsors/logo_orange-business.webp
+    - name: Campus des Métiers et des Qualifications d'Excellence
+      logo: assets/img/logos_sponsors/logo_campus-excellence.webp
+    - name: Lannion Trégor Communauté
+      logo: assets/img/logos_sponsors/logo_ltc.webp
+    - name: Anticipa
+      logo: assets/img/logos_sponsors/logo_anticipa.webp
+    - name: Ville de Perros-Guirec
+      logo: assets/img/logos_sponsors/logo_perros.webp
+    - name: French Tech Brest Ouest
+      logo: assets/img/logos_sponsors/logo_ftbo.webp
 Lieu:
   cards:
   - title: 📍 Lieu
