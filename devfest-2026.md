@@ -370,13 +370,13 @@ Lieu:
   - title: 🗓️ Horaires
     content: <strong>Vendredi 2 octobre 2026</strong><br>Accueil dès 8h30<br>Sessions 9h → 17h45
   - title: 🚗 Accès
-    content: 'Parking gratuit sur place.<br>Gare SNCF : Lannion (22km).<br>🚗 Pensez au covoiturage : <a href="https://togetzer.com/covoiturage-evenement/f9bw4u" target="_blank" rel="noopener">conducteurs et passagers</a>.'
+    content: 'Parking gratuit sur place.<br>Gare SNCF : Lannion (22km).<br>🚗 Pensez au covoiturage : <a href="https://togetzer.com/covoiturage-evenement/cm7axe" target="_blank" rel="noopener">conducteurs et passagers</a>.'
 FAQ:
   questions:
   - q: Le programme est-il disponible ?
     a: Oui, le programme du 2 octobre 2026 est désormais complet. Rendez-vous sur cette page pour découvrir les speakers et les sessions.
   - q: Comment accéder au DevFest ?
-    a: L'événement se tient au Palais des Congrès de Perros-Guirec, avec un parking gratuit sur place. La gare SNCF la plus proche est Lannion (22 km). Pensez au covoiturage via <a href="https://togetzer.com/covoiturage-evenement/f9bw4u" target="_blank" rel="noopener">Togetzer pour conducteurs et passagers</a>.
+    a: L'événement se tient au Palais des Congrès de Perros-Guirec, avec un parking gratuit sur place. La gare SNCF la plus proche est Lannion (22 km). Pensez au covoiturage via <a href="https://togetzer.com/covoiturage-evenement/cm7axe" target="_blank" rel="noopener">Togetzer pour conducteurs et passagers</a>.
   - q: Comment acheter son billet ?
     a: Les billets sont disponibles sur <a href="https://www.billetweb.fr/devfest-perros-guirec-2026" target="_blank" rel="noopener">notre page Billetweb</a>. Les places sont limitées, réservez vite !
   - q: Le déjeuner est-il inclus ?
