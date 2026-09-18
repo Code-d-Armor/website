@@ -38,7 +38,6 @@ Details:
     time: accueil à 8h30, début à 9h00, fin à 17h45
   who:
     attendees: Ouvert à toutes et tous
-    limit: dans la limite des places disponibles
   cocktail:
     whatOffered: Déjeuner inclus
     callToAction: pour se rencontrer et échanger tous ensemble !
@@ -66,7 +65,7 @@ Agenda:
     sessions:
     - time: '8:30'
       duration: Accueil
-      title: Ouverture des portes — Accueil des participants, billets et t-shirts
+      title: Ouverture des portes — Accueil des participants et remise des t-shirts
       chips:
       - type: pause
         label: Accueil
@@ -327,20 +326,6 @@ Speakers:
     social_links:
     - type: linkedin
       url: https://www.linkedin.com/in/vincenthardy/
-Register:
-  title: 🎟️ Billetterie
-  subtitle: Tarifs & informations
-  description: Places limitées. Réservez tôt !
-  buy_url: https://www.billetweb.fr/devfest-perros-guirec-2026
-  tickets:
-  - label: Plein tarif
-    price: '40'
-    featured: true
-    cta: Acheter votre billet
-    url: https://www.billetweb.fr/devfest-perros-guirec-2026
-    features:
-    - Accès à toutes les conférences
-    - Déjeuner inclus
 Sponsoring:
   title: Ils nous font confiance
   acknowlegment: Merci à celles et ceux qui soutiennent le DevFest Perros-Guirec 2026. 🙏
@@ -377,10 +362,8 @@ FAQ:
     a: Oui, le programme du 2 octobre 2026 est désormais complet. Rendez-vous sur cette page pour découvrir les speakers et les sessions.
   - q: Comment accéder au DevFest ?
     a: L'événement se tient au Palais des Congrès de Perros-Guirec, avec un parking gratuit sur place. La gare SNCF la plus proche est Lannion (22 km). Pensez au covoiturage via <a href="https://togetzer.com/covoiturage-evenement/cm7axe" target="_blank" rel="noopener">Togetzer pour conducteurs et passagers</a>.
-  - q: Comment acheter son billet ?
-    a: Les billets sont disponibles sur <a href="https://www.billetweb.fr/devfest-perros-guirec-2026" target="_blank" rel="noopener">notre page Billetweb</a>. Les places sont limitées, réservez vite !
   - q: Le déjeuner est-il inclus ?
-    a: Oui, le déjeuner est inclus dans le billet. Des options végétariennes et végétales seront proposées.
+    a: Oui, le déjeuner est inclus. Des options végétariennes et végétales seront proposées.
   - q: Le lieu est-il accessible ?
     a: Le Palais des Congrès de Perros-Guirec est accessible aux personnes à mobilité réduite. Contactez-nous pour tout besoin spécifique.
   - q: Les sessions sont-elles enregistrées ?
@@ -391,7 +374,7 @@ LastYearMovie:
   youtube_embed_url: https://www.youtube.com/embed/8WLXD1TigUE?si=v8uQq2YluSpqfqnv&amp;controls=0
 Newsletter:
   title: Ne ratez rien du DevFest 2026.
-  description: Ventes de billets, programme confirmé — tout dans votre boîte mail, sans spam.
+  description: Programme, coulisses et actualités — tout dans votre boîte mail, sans spam.
   cta: S'inscrire à la newsletter
   ctaLinkedIn: Suivre la page LinkedIn
 Shop:
