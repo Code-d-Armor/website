@@ -128,7 +128,7 @@ Agenda:
         label: Talk
   - id: midi
     label: Déjeuner
-    range: 12h35 – 14h05
+    range: 12h35 – 14h00
     sessions:
     - time: '12:35'
       duration: Pause
@@ -138,9 +138,9 @@ Agenda:
         label: Pause déjeuner
   - id: aprem
     label: Après-midi
-    range: 14h05 – 17h45
+    range: 14h00 – 17h45
     sessions:
-    - time: '14:05'
+    - time: '14:00'
       duration: Quickie · 15min
       title: Comment mes 6 années d'études littéraires/cinématographiques me permettent de prompter plus efficacement qu'un ingénieur ?
       speaker: Camille Toulouse
@@ -151,7 +151,7 @@ Agenda:
       chips:
       - type: quicky
         label: Quickie
-    - time: '14:20'
+    - time: '14:15'
       duration: Quickie · 15min
       title: Comment (et pourquoi) enseigner le développement en IUT et école d'ingénieur à l'ère des LLMs ?
       speaker: Vincent Barreaud & Pierre Alain
@@ -162,13 +162,13 @@ Agenda:
       chips:
       - type: quicky
         label: Quickie
-    - time: '14:35'
+    - time: '14:30'
       duration: Q&R · 10min
       title: Q&R quickies
       chips:
       - type: pause
         label: Q&R
-    - time: '14:45'
+    - time: '14:40'
       duration: Talk · 45min
       title: 'Sobriété Agentique : Comment coder avec l''IA sans vider son portefeuille (ni vider la planète) ?'
       speaker: Clément Juste
@@ -179,19 +179,19 @@ Agenda:
       chips:
       - type: talk
         label: Talk
-    - time: '15:30'
+    - time: '15:25'
       duration: Pause · 20min
       title: Pause
       chips:
       - type: pause
         label: Pause
-    - time: '15:50'
+    - time: '15:45'
       duration: Présentation · 10min
       title: Présentation Asso Locale
       chips:
       - type: pause
         label: Présentation
-    - time: '16:00'
+    - time: '15:55'
       duration: Talk · 45min
       title: 'De l''autocomplete à l''Autopilot : Comment l''IA a transformé ma vie de développeur'
       speaker: Tugdual Grall
@@ -202,8 +202,8 @@ Agenda:
       chips:
       - type: talk
         label: Talk
-    - time: '16:45'
-      duration: Keynote · 45min
+    - time: '16:40'
+      duration: Keynote · 50min
       title: 'Coder moins, encadrer plus : le nouveau métier de développeur ?'
       speaker: Vincent Hardy
       company: ''
