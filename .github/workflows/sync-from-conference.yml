@@ -35,7 +35,29 @@ jobs:
           fi
 
           PRE_MERGE=$(git rev-parse HEAD)
-          git merge --no-edit conference-master
+
+          # Merge, but tolerate conflicts: workflow files are resolved in favour
+          # of this repo below, so a conflict there must not abort the run.
+          git merge --no-edit conference-master || true
+
+          if [ -f .git/MERGE_HEAD ]; then
+            if git ls-files -u -- .github/workflows | grep -q .; then
+              echo "Conflit dans .github/workflows : on garde la version de ce dépôt."
+              rm -rf .github/workflows
+              git checkout "$PRE_MERGE" -- .github/workflows
+              git add -A .github/workflows
+            fi
+
+            # Anything else conflicting is a real conflict: stop here.
+            if git ls-files -u | grep -q .; then
+              echo "::error::Conflit hors .github/workflows, merge abandonné."
+              git ls-files -u
+              git merge --abort || true
+              exit 1
+            fi
+
+            git commit --no-edit
+          fi
 
           # This repo's own .github/workflows/ always wins: conference has its
           # own unrelated workflows (e.g. notify-website.yml) that don't belong
