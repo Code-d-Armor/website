@@ -24,7 +24,7 @@ Hero:
   keyart_alt: "Le public d'une édition précédente du DevFest"
   subtitle: >-
     Du dev au super dev : 25 ans de métier face aux agents.
-    45 minutes de talk, puis un échange ouvert et des pizzas.
+    Conférence à 18h15, partage d'expériences à 19h00, apéro pizzas à 19h30.
 
 Register:
   eyebrow: "Inscription"
@@ -41,22 +41,22 @@ Edito:
   body: |
     <p>Ils ont appris le métier quand il fallait tout écrire : la doc, les forums, les livres, puis Stack Overflow. Ils connaissent la valeur d'une ligne qu'on a comprise, et le prix d'une nuit passée sur un bug. Vingt ans plus tard, une partie du code de leur équipe est produite par des agents en quelques secondes, et la journée de travail ne ressemble plus tout à fait à celle qu'ils ont apprise.</p>
     <p>La question n'est plus « comment l'écrire », mais « comment savoir que c'est juste ». Qu'est-ce qu'on confie à un agent, qu'est-ce qu'on garde sous la main, où pose-t-on les garde-fous ? Comment repère-t-on une solution qui part de travers avant qu'elle ne coûte trois semaines de dette ? Les gains sont réels — un environnement monté en deux minutes, un prototype en quelques jours quand il fallait des mois — mais ils se paient d'un travail nouveau : relire, arbitrer, assumer du code qu'on n'a pas tapé.</p>
-    <p>C'est ce basculement que raconte Fabien Canu, développeur depuis 2000 et fondateur de Koality, le 1er décembre à la Maison des Entreprises de Lannion. 45 minutes de talk, puis un échange ouvert et des pizzas pour confronter les pratiques de chacun. Une soirée co-organisée avec Anticipa, dans le cadre du programme Boost'IA.</p>
+    <p>C'est ce basculement que raconte Fabien Canu, développeur depuis 2000 et fondateur de Koality, le 1er décembre à la Maison des Entreprises de Lannion. 45 minutes de conférence, puis un partage d'expériences avec la salle et un apéro pizzas. Une soirée co-organisée avec Anticipa, dans le cadre du programme Boost'IA.</p>
 
 Agenda:
   eyebrow: "Une soirée, un talk"
   title: Programme
-  description: "45 minutes de talk, puis un échange ouvert et des pizzas."
+  description: "45 minutes de conférence, puis un partage d'expériences avec la salle et un apéro pizzas."
   schedule:
-    - slot_begin_time: "18h30"
-      duration: "30 min"
+    - slot_begin_time: "18h00"
+      duration: "15 min"
       slot_type: break
       chip_label: Accueil
       chip_type: pause
       title: Accueil et networking
       description: Arrivée des participant·es, café et discussions informelles.
       speakers: []
-    - slot_begin_time: "19h00"
+    - slot_begin_time: "18h15"
       duration: "45 min"
       slot_type: talk
       title: "Du dev au super dev : 25 ans de métier face aux agents"
@@ -71,13 +71,23 @@ Agenda:
         et ce qu'il vaut mieux ne jamais lâcher.
       speakers:
         - id: fabien_canu
-    - slot_begin_time: "19h45"
-      chip_label: Échange
-      chip_type: pause
+    - slot_begin_time: "19h00"
+      duration: "30 min"
+      slot_type: break
+      chip_label: Partage
+      chip_type: quicky
+      title: Partage d'expériences dans la salle
+      description: >
+        Un temps d'échange ouvert avec la salle : vos pratiques, vos ratés, vos garde-fous.
+        On confronte les expériences, sans ordre du jour.
+      speakers: []
+    - slot_begin_time: "19h30"
       duration: ""
       slot_type: break
-      title: Échange ouvert, pizzas et networking
-      description: Questions, retours d'expérience et pizzas — on continue la discussion sans ordre du jour.
+      chip_label: Apéro
+      chip_type: pause
+      title: Apéro pizzas et networking
+      description: Pizzas, boissons et discussions pour prolonger la soirée.
       speakers: []
 
 Speakers:
@@ -111,12 +121,12 @@ Details:
     linkToMap: https://www.google.com/maps/search/4+Rue+Louis+de+Broglie+22300+Lannion
   when:
     date: 1er décembre 2026
-    time: à partir de 18h30
+    time: à partir de 18h00
 
 Lieu:
   cards:
     - title: "Maison des Entreprises"
-      content: "Espace Corinne Erhel, 4 rue Louis de Broglie, 22300 Lannion. Accueil à 18h30, talk à 19h00, échange et pizzas à 19h45."
+      content: "Espace Corinne Erhel, 4 rue Louis de Broglie, 22300 Lannion. Accueil à 18h00, conférence à 18h15, partage d'expériences à 19h00, apéro pizzas à 19h30."
       link: "https://www.google.com/maps/search/4+Rue+Louis+de+Broglie+22300+Lannion"
       link_text: "Itinéraire →"
     - title: "Comment venir"
