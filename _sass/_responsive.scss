@@ -5,6 +5,8 @@
   .hero__date { display: none; }
   .hero__keyart { max-width: 280px; margin: 0 auto; }
   .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+  .speaker-spotlight { grid-template-columns: 1fr; gap: 20px; padding: 22px; }
+  .speaker-spotlight__visual { max-width: 200px; }
   .strip { grid-template-columns: repeat(2, 1fr); }
   .site-nav { padding: 10px 16px; }
   .site-nav__links { display: none; }

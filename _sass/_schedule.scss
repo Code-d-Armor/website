@@ -36,6 +36,9 @@
   font-size: 14px;
   display: flex; flex-wrap: wrap; align-items: center; gap: 4px;
 }
+.session__desc { margin-top: 10px; font-size: 14px; line-height: 1.65; color: var(--fg-2); }
+.session__desc p { margin: 0 0 8px; }
+.session__desc p:last-child { margin-bottom: 0; }
 .session__spk-name { color: var(--primary); }
 .session__spk-name--has-panel {
   position: relative;

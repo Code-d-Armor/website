@@ -1,0 +1,192 @@
+---
+---
+
+{% include header.html %}
+{% include nav.html %}
+
+<!-- Hero -->
+<section class="hero" id="accueil" aria-label="Section principale">
+  <div class="hero__digits" aria-hidden="true">
+    9 4 7 3 2 1 8 5 6 9 4 7 3 2 6 5 8 1 9 4 7 2 3 6 5 8 4 7 1 9 3 2 6 8 5 4 9 7 2 1 3 6 8 5 4 9 7 3 2 1 6 8 5 4 7 9 3 2 6 1 4 7 2 3 6 5 8 1 9 4 7 2 3 6 5 8 4 7 1 9 3 2 6 8 5 4 9 7 2 1 3 6 8 5 4 9 7 3 2 1 6 8 5 4 7 9 3 2 6 1 9 4 7 3 2 1 8 5 6 9 4 7 3 2 6 5 8 1 9 4 7 2 3 6 5 8 4
+  </div>
+  <div class="hero__inner" style="grid-template-columns:160px 1fr{% if page.Hero.keyart %} 340px{% endif %};">
+    <div class="hero__date" aria-label="Date de l'événement">
+      <div class="hero__date-day">{{ page.Hero.date_day }}</div>
+      <div class="hero__date-month">{{ page.Hero.date_month }}</div>
+      <div class="hero__date-year">{{ page.Hero.date_year }}</div>
+    </div>
+    <div class="hero__copy">
+      <span class="eyebrow" style="color:#FF2E83;">{{ page.Hero.eyebrow }}</span>
+      <h1 class="hero__h">{{ page.Hero.title }}</h1>
+      <p class="hero__sub">{{ page.Hero.subtitle }}</p>
+      <div class="btn-row">
+        {% if page.Register %}<a href="{{ page.Register.button.url }}" class="btn btn-magenta" target="_blank" rel="noopener">{{ page.Register.button.text | default: "S'inscrire" }}</a>{% endif %}
+        {% if page.Agenda %}<a href="#programme" class="btn btn-outline">Voir le programme</a>{% endif %}
+        {% if page.Lieu %}<a href="#infos" class="btn btn-outline">Infos pratiques</a>{% endif %}
+      </div>
+    </div>
+    {% if page.Hero.keyart %}
+    <img src="{{site.baseurl}}/{{ page.Hero.keyart }}" alt="{{ page.Hero.keyart_alt | default: page.title }}" class="hero__keyart">
+    {% endif %}
+  </div>
+</section>
+
+<!-- Co-organisateurs -->
+{% if page.CoOrganisateurs %}
+<section class="coorg-band" aria-label="Co-organisateurs">
+  <div class="inner">
+    <div class="coorg">
+      <div class="coorg__text">
+        <span class="eyebrow">{{ page.CoOrganisateurs.eyebrow | default: "Co-organisé" }}</span>
+        <p>{{ page.CoOrganisateurs.text }}</p>
+      </div>
+      <div class="coorg__logos">
+        {% for logo in page.CoOrganisateurs.logos %}
+        {% if logo.link %}<a href="{{ logo.link }}" target="_blank" rel="noopener" class="coorg__logo coorg__logo--{{ logo.tone | default: 'white' }}" aria-label="{{ logo.name }}">{% else %}<div class="coorg__logo coorg__logo--{{ logo.tone | default: 'white' }}">{% endif %}
+          <img src="{{site.baseurl}}{{ logo.image }}" alt="{{ logo.name }}" loading="lazy">
+        {% if logo.link %}</a>{% else %}</div>{% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- Edito -->
+{% if page.Edito %}
+<section class="band" id="edito">
+  <div class="inner">
+    <div class="section-head reveal">
+      <span class="eyebrow">{{ page.Edito.eyebrow }}</span>
+      <h2 class="section-title">{{ page.Edito.title }}</h2>
+    </div>
+    <div class="grid-2" style="align-items:start;">
+      <blockquote class="pullquote reveal">{{ page.Edito.quote }}</blockquote>
+      <div class="editorial-body">
+        {{ page.Edito.body }}
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- Programme -->
+{% if page.Agenda %}
+<section class="band band--grey" id="programme">
+  <div class="inner">
+    <div class="section-head reveal">
+      <span class="eyebrow">{{ page.Agenda.eyebrow | default: "Programme" }}</span>
+      <h2 class="section-title">{{ page.Agenda.title | default: "Programme de la soirée" }}</h2>
+      {% if page.Agenda.description %}
+      <p class="section-intro">{{ page.Agenda.description }}</p>
+      {% endif %}
+    </div>
+    <div class="sessions">
+      {% for slot in page.Agenda.schedule %}
+      <div class="session{% if slot.slot_type == 'talk' %} session--hl{% endif %}">
+        <div class="session__time">
+          <div class="session__hh">{{ slot.slot_begin_time }}</div>
+          <div class="session__dur">{{ slot.duration }}</div>
+        </div>
+        <div class="session__body">
+          <div class="session__chips">
+            {% if slot.chip_label %}
+            <span class="chip chip--{{ slot.chip_type | default: 'talk' }}">{{ slot.chip_label }}</span>
+            {% elsif slot.slot_type == 'talk' %}
+            <span class="chip chip--talk">Talk</span>
+            {% else %}
+            <span class="chip chip--pause">Pause</span>
+            {% endif %}
+          </div>
+          <h3 class="session__title">{{ slot.title }}</h3>
+          {% if slot.speakers and slot.speakers.size > 0 %}
+          <div class="session__spk">
+            {% for spk in slot.speakers %}
+              {% assign speaker_obj = page.Speakers.list | where: 'id', spk.id | first %}
+              <span class="session__spk-name">{{ speaker_obj.name }}</span>
+              {% if speaker_obj.organization %}<span class="session__spk-co">· {{ speaker_obj.organization }}</span>{% endif %}
+            {% endfor %}
+          </div>
+          {% endif %}
+          {% if slot.description %}
+          <div class="session__desc">
+            <p>{{ slot.description }}</p>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- Inscription -->
+{% if page.Register %}
+<section class="band band--grey" id="inscription">
+  <div class="inner">
+    <div class="section-head section-head--center reveal" style="margin-bottom:24px;">
+      <span class="eyebrow">{{ page.Register.eyebrow | default: "Inscription" }}</span>
+      <h2 class="section-title">{{ page.Register.title }}</h2>
+      <p class="section-intro" style="margin-bottom:0;">{{ page.Register.text }}</p>
+    </div>
+    <div style="text-align:center;" class="reveal">
+      <a href="{{ page.Register.button.url }}" class="btn btn-primary" target="_blank" rel="noopener">{{ page.Register.button.text | default: "S'inscrire" }}</a>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- Speakers -->
+{% if page.Speakers %}
+<section class="band" id="speakers">
+  <div class="inner">
+    <div class="section-head reveal">
+      <span class="eyebrow">{{ page.Speakers.eyebrow | default: "Le speaker" }}</span>
+      <h2 class="section-title">{{ page.Speakers.title | default: "Nos intervenant·es" }}</h2>
+    </div>
+    {% for spk in page.Speakers.list %}
+    <div class="speaker-spotlight reveal">
+      <div class="speaker-spotlight__visual">
+        {% if spk.photo_url %}
+        <img class="speaker-spotlight__photo" src="{{site.baseurl}}/{{ spk.photo_url }}" alt="{{ spk.name }}">
+        {% else %}
+        <span class="speaker-spotlight__initials">{{ spk.name | split: ' ' | first | slice: 0 }}{{ spk.name | split: ' ' | last | slice: 0 }}</span>
+        {% endif %}
+      </div>
+      <div class="speaker-spotlight__body">
+        <p class="speaker-spotlight__name">{{ spk.name }}</p>
+        <p class="speaker-spotlight__co">{{ spk.organization }}</p>
+        <div class="speaker-spotlight__bio">{{ spk.bio }}</div>
+        {% if spk.social_links %}
+        <div class="speaker-spotlight__socials">
+          {% for link in spk.social_links %}
+          <a href="{{ link.url }}" target="_blank" rel="noopener" aria-label="{{ link.type }}">
+            <i class="fa-brands fa-{{ link.type }}"></i>
+          </a>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<!-- Infos pratiques -->
+{% if page.Lieu %}
+{% include lieu.html %}
+{% endif %}
+
+<!-- Boutique -->
+{% if page.Shop %}
+{% include shop.html params=page.Shop %}
+{% endif %}
+
+<!-- Newsletter -->
+{% if page.Newsletter %}
+{% include newsletter.html params=page.Newsletter %}
+{% endif %}
+
+{% include footer.html %}

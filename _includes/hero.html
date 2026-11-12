@@ -15,6 +15,7 @@
       <h1 class="hero__h">{{ page.Hero.title | default: "Coder moins,<br>penser plus." }}</h1>
       <p class="hero__sub">{{ page.Hero.subtitle | default: slide.subtitle }}</p>
       <div class="btn-row">
+        <span class="btn btn-disabled" title="L'événement est complet" aria-disabled="true">Acheter un billet</span>
         {% if page.Agenda %}
         <a href="#programme" class="btn btn-outline">Voir le programme</a>
         {% endif %}

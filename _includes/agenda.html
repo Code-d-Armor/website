@@ -50,8 +50,10 @@
               {% assign speakerObj = page.Speakers.list | where: 'id', speaker.id | first %}
               <div class="d-flex align-items-center mr-5">
                 <a href="#{{ speakerObj.id }}">
+                  {% if speakerObj.photo_url %}
                   <img class="speaker-photo rounded-circle mr-2" style="width: 50px;"
                     src="{{ site.baseurl }}{{ speakerObj.photo_url }}" alt="{{ speakerObj.name }}">
+                  {% endif %}
                 </a>
                 <a href="#{{ speakerObj.id }}">
                   <p class="speaker-name">{{ speakerObj.name }}</p>

@@ -22,3 +22,17 @@
   font-family: var(--font-d); font-weight: 500; font-size: 13px;
   color: var(--fg-3); letter-spacing: .06em; text-transform: uppercase;
 }
+
+// Co-organisateurs (page soirée)
+.coorg-band { background: #fff; border-bottom: 1px solid var(--rule); }
+.coorg { display: flex; align-items: center; justify-content: space-between; gap: 32px; flex-wrap: wrap; padding: 26px 0; }
+.coorg__text .eyebrow { margin-bottom: 4px; }
+.coorg__text p { font-size: 14px; line-height: 1.6; color: var(--fg-2); margin: 0; max-width: 560px; }
+.coorg__logos { display: flex; align-items: center; gap: 14px; }
+.coorg__logo {
+  display: flex; align-items: center; justify-content: center;
+  height: 64px; padding: 8px 16px; border-radius: var(--r-sm);
+  background: #fff; box-shadow: var(--sh-sm); text-decoration: none;
+}
+.coorg__logo--cream { background: #F3F0E9; }
+.coorg__logo img { height: 44px; width: auto; display: block; }

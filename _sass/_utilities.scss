@@ -22,6 +22,10 @@
 .section-head--center { text-align: center; }
 .section-head--center .section-intro { margin-left: auto; margin-right: auto; }
 
+// Corps éditorial (page soirée)
+.editorial-body p { font-size: 16px; line-height: 1.75; color: var(--fg-2); margin: 0 0 16px; }
+.editorial-body p:last-child { margin-bottom: 0; }
+
 // Buttons
 .btn {
   display: inline-flex; align-items: center; gap: 8px;
@@ -39,6 +43,8 @@
 .btn-outline:hover { background: rgba(255,255,255,.18); }
 .btn-contrast { background: #fff; color: var(--primary); border-color: var(--primary); }
 .btn-contrast:hover { background: var(--primary); color: #fff; }
+.btn-disabled { background: #6b6b7a; color: #d9d9e0; border-color: #6b6b7a; cursor: not-allowed; opacity: .65; box-shadow: none; }
+.btn-disabled:hover { background: #6b6b7a; }
 .btn-row { display: flex; flex-wrap: wrap; gap: 12px; }
 
 // Chips
@@ -56,3 +62,13 @@
 // Scroll animations
 .reveal { opacity: 0; transform: translateY(24px); transition: opacity .6s var(--ease), transform .6s var(--ease); }
 .reveal.visible { opacity: 1; transform: none; }
+
+// Citation (édito)
+.pullquote {
+  margin: 0; padding: 4px 0 4px 24px;
+  border-left: 4px solid var(--magenta);
+  font-family: var(--font-h); font-weight: 700; font-size: 26px; line-height: 1.35;
+  color: var(--violet-800);
+}
+.pullquote::before { content: "«\A0"; }
+.pullquote::after { content: "\A0»"; }

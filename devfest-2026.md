@@ -1,6 +1,6 @@
 ---
 layout: home_conference
-permalink: /
+permalink: /devfest-2026/
 title: DevFest Perros-Guirec - 02 Octobre 2026
 thumbnail_url: /assets/2026/img/social-card/social-card.png
 Hero:
@@ -14,7 +14,7 @@ Hero:
 Carrousel_Slides:
 - title: DevFest Perros-Guirec 2026
   subtitle: 'Coder moins, penser plus : quand l''IA change les règles du jeu'
-  subtitle2: 2 octobre 2026 - 8h30 → 17h45 - Perros-Guirec
+  subtitle2: 2 octobre 2026 - 8h30 → 17h35 - Perros-Guirec
   image:
     url: /assets/img/slider/devfest_2026_2.jpg
     alt: DevFest Perros-Guirec 2026
@@ -35,7 +35,7 @@ Details:
     linkToMap: https://www.google.com/maps/dir//1+Rue+du+Mar%C3%A9chal+Foch,+22700+Perros-Guirec/
   when:
     date: 2 octobre 2026
-    time: accueil à 8h30, début à 9h00, fin à 17h45
+    time: accueil à 8h30, début à 9h00, fin à 17h35
   who:
     attendees: Ouvert à toutes et tous
   cocktail:
@@ -51,7 +51,7 @@ About:
   association_url: https://codedarmor.fr
   archives_url: /archives
   card:
-    edition: '05'
+    edition: '06'
     participants: 200+
     subtitle: 10 conférences · 2 quickies · 1 journée
 Agenda:
@@ -138,7 +138,7 @@ Agenda:
         label: Pause déjeuner
   - id: aprem
     label: Après-midi
-    range: 14h00 – 17h45
+    range: 14h00 – 17h35
     sessions:
     - time: '14:00'
       duration: Quickie · 15min
@@ -186,12 +186,6 @@ Agenda:
       - type: pause
         label: Pause
     - time: '15:45'
-      duration: Présentation · 10min
-      title: Présentation Asso Locale
-      chips:
-      - type: pause
-        label: Présentation
-    - time: '15:55'
       duration: Talk · 45min
       title: 'De l''autocomplete à l''Autopilot : Comment l''IA a transformé ma vie de développeur'
       speaker: Tugdual Grall
@@ -202,7 +196,7 @@ Agenda:
       chips:
       - type: talk
         label: Talk
-    - time: '16:40'
+    - time: '16:30'
       duration: Keynote · 50min
       title: 'Coder moins, encadrer plus : le nouveau métier de développeur ?'
       speaker: Vincent Hardy
@@ -214,13 +208,13 @@ Agenda:
       chips:
       - type: keynote
         label: Keynote
-    - time: '17:30'
+    - time: '17:20'
       duration: Conclusion · 15min
       title: Conclusion
       chips:
       - type: pause
         label: Conclusion
-    - time: '17:45'
+    - time: '17:35'
       duration: Fin
       title: Fin de l'événement
       chips:
@@ -338,8 +332,6 @@ Sponsoring:
       logo: assets/img/logos_sponsors/logo_orange-business.webp
     - name: Campus des Métiers et des Qualifications d'Excellence
       logo: assets/img/logos_sponsors/logo_campus-excellence.webp
-    - name: Lannion Trégor Communauté
-      logo: assets/img/logos_sponsors/logo_ltc.webp
     - name: Anticipa
       logo: assets/img/logos_sponsors/logo_anticipa.webp
     - name: Ville de Perros-Guirec
@@ -353,7 +345,7 @@ Lieu:
     link: https://maps.google.com/?q=Palais+des+Congres+Perros-Guirec
     link_text: Voir sur Google Maps →
   - title: 🗓️ Horaires
-    content: <strong>Vendredi 2 octobre 2026</strong><br>Accueil dès 8h30<br>Sessions 9h → 17h45
+    content: <strong>Vendredi 2 octobre 2026</strong><br>Accueil dès 8h30<br>Sessions 9h → 17h35
   - title: 🚗 Accès
     content: 'Parking gratuit sur place.<br>Gare SNCF : Lannion (22km).<br>🚗 Pensez au covoiturage : <a href="https://togetzer.com/covoiturage-evenement/cm7axe" target="_blank" rel="noopener">conducteurs et passagers</a>.'
 FAQ:

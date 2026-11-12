@@ -1,7 +1,11 @@
 <!-- Navigation -->
 <nav class="site-nav" id="main-nav" role="navigation" aria-label="Navigation principale">
-  <a href="{{site.baseurl}}/" class="site-nav__logo" aria-label="DevFest Perros-Guirec">
+  <a href="{{site.baseurl}}/" class="site-nav__logo" aria-label="{{ page.title | default: 'Accueil' }}">
+    {% if page.nav_logo %}
+    <img src="{{site.baseurl}}{{ page.nav_logo }}" alt="{{ page.title }}">
+    {% else %}
     <img src="{{site.baseurl}}/assets/img/devfest-logo-violet.svg" alt="DevFest Perros-Guirec">
+    {% endif %}
   </a>
   <div class="site-nav__links" id="nav-links">
     {% assign home = site.pages | where: "permalink", "/" | first %}
