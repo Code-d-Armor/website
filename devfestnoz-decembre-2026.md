@@ -7,7 +7,7 @@ title: "DevFestNoz - 1er Décembre 2026 - Lannion"
 description: >-
   Une soirée Code d'Armor à Lannion : Fabien Canu raconte vingt-cinq ans de métier
   face aux agents — ce qu'il délègue, ce qu'il vérifie, ce qu'il ne lâche plus.
-thumbnail_url: /archives/2024/devfestnoz/assets/img/social-card/social-card-devfestnoz-2023.webp
+thumbnail_url: https://devfest.codedarmor.fr/assets/2026/devfestnoz/social-card-devfestnoz-2026.png
 
 nav_logo: "/assets/img/logo_devfestnoz_dark.webp"
 footer_logo_url: "/assets/img/logo_devfestnoz_light.webp"
