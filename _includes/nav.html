@@ -28,10 +28,6 @@
     <a href="{{site.baseurl}}/archives">Archives</a>
   </div>
   <div style="display:flex;gap:12px;align-items:center;">
-    {% assign home = site.pages | where: "permalink", "/" | first %}
-    {% if home.Register %}
-    <a class="site-nav__cta" href="{{ home.Register.button.url }}" target="_blank" rel="noopener">S'inscrire</a>
-    {% endif %}
     <button class="site-nav__burger" id="burger-btn" aria-label="Menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
