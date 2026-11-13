@@ -24,7 +24,7 @@ Hero:
   keyart_alt: "Le public d'une édition précédente du DevFest"
   subtitle: >-
     Du dev au super dev : 25 ans de métier face aux agents.
-    Conférence à 18h15, partage d'expériences à 19h00, apéro pizzas à 19h30.
+    Conférence à 18h30, partage d'expériences à 19h15, apéro pizzas à 19h45.
 
 Register:
   eyebrow: "Inscription"
@@ -49,14 +49,14 @@ Agenda:
   description: "45 minutes de conférence, puis un partage d'expériences avec la salle et un apéro pizzas."
   schedule:
     - slot_begin_time: "18h00"
-      duration: "15 min"
+      duration: "30 min"
       slot_type: break
       chip_label: Accueil
       chip_type: pause
       title: Accueil et networking
       description: Arrivée des participant·es, café et discussions informelles.
       speakers: []
-    - slot_begin_time: "18h15"
+    - slot_begin_time: "18h30"
       duration: "45 min"
       slot_type: talk
       title: "Du dev au super dev : 25 ans de métier face aux agents"
@@ -71,7 +71,7 @@ Agenda:
         et ce qu'il vaut mieux ne jamais lâcher.
       speakers:
         - id: fabien_canu
-    - slot_begin_time: "19h00"
+    - slot_begin_time: "19h15"
       duration: "30 min"
       slot_type: break
       chip_label: Partage
@@ -81,7 +81,7 @@ Agenda:
         Un temps d'échange ouvert avec la salle : vos pratiques, vos ratés, vos garde-fous.
         On confronte les expériences, sans ordre du jour.
       speakers: []
-    - slot_begin_time: "19h30"
+    - slot_begin_time: "19h45"
       duration: ""
       slot_type: break
       chip_label: Apéro
@@ -126,7 +126,7 @@ Details:
 Lieu:
   cards:
     - title: "Maison des Entreprises"
-      content: "Espace Corinne Erhel, 4 rue Louis de Broglie, 22300 Lannion. Accueil à 18h00, conférence à 18h15, partage d'expériences à 19h00, apéro pizzas à 19h30."
+      content: "Espace Corinne Erhel, 4 rue Louis de Broglie, 22300 Lannion. Accueil à 18h00, conférence à 18h30, partage d'expériences à 19h15, apéro pizzas à 19h45."
       link: "https://www.google.com/maps/search/4+Rue+Louis+de+Broglie+22300+Lannion"
       link_text: "Itinéraire →"
     - title: "Comment venir"
