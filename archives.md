@@ -1,6 +1,6 @@
 ---
 layout: archives
-permalink: /archives
+permalink: /archives/
 
 #metadata
 title: "Archives des années précédentes"

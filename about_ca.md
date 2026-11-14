@@ -1,6 +1,6 @@
 ---
 layout: about
-permalink: /a-propos
+permalink: /a-propos/
 
 #metadata
 title: "À propos de Code D'Armor"

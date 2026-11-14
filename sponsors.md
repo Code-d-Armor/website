@@ -1,6 +1,6 @@
 ---
 layout: sponsors
-permalink: /sponsors
+permalink: /sponsors/
 
 title: Nous soutenir
 header_image: /assets/img/logos_sponsors/illustration_sponsor.webp
